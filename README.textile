@@ -1,0 +1,28 @@
+h1. Open Source Days conference
+
+Open Source Days is the biggest free-admitance Open Source conference in Europe.
+"This source code of the conference web page":http://opensourcedays.mikstura.it
+
+h1. Technical
+
+h2. Ruby on Rails
+
+This application requires:
+
+* Ruby version 2.0.0
+* Rails version 4.0.2
+
+Learn more about "Installing Rails":http://railsapps.github.io/installing-rails.html.
+
+h2. Development
+
+* Template Engine: Haml
+* Front-end Framework: Twitter Bootstrap 3.0 (Sass)
+
+h2. Credits
+
+"Mikstura.IT Foundation":http://mikstura.it
+
+h2. License
+
+MIT
