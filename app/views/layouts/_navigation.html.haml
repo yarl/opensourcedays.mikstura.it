@@ -7,6 +7,12 @@
         %span.icon-bar
         %span.icon-bar
         %span.icon-bar
-      = link_to 'Home', root_path, class: 'navbar-brand'
+      = link_to '#home', class: 'navbar-brand' do
+        = image_tag('layout/dwo-logo-small.png')
     .collapse.navbar-collapse
-      %ul.nav.navbar-nav
+      %ul.nav.navbar-nav.pull-right
+        - %w(venue speakers sponsors agenda).each do |section|
+          %li= link_to t(section), "##{section}"
+        = link_to "#get_a_ticket" do
+          %button.btn.btn-danger.btn-xs
+            = t(:get_a_ticket).upcase

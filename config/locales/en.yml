@@ -23,3 +23,34 @@ en:
   title: Open Source Days '14 Conference, March 28-30th - Bielsko-Biała, Poland
   meta:
     description: Open Source Days is the biggest free-admitance Open Source conference in Europe.
+  conference_date: 28 - 30 March, 2014
+  get_a_ticket: Get a Ticket
+  venue: Venue
+  sections:
+    home:
+      brief_summary_of_previous_edition: A brief summary of the previous edition.
+    speakers:
+      became_speaker_link: http://bit.ly/DWO_2014_C4P_EN
+      became_speaker_alt: Submit your talk
+    sponsors:
+      became_sponsor: Became a sponsor
+      sponsorship_booklet_path: "/booklets/sponsorship_booklet.pdf"
+    agenda:
+      registrations: REGISTRATIONS
+      hello_and_welcome: Hello & Welcome
+      break: BREAK
+      lunch_break: LUNCH BREAK
+      the_friday: Friday
+      friday:
+        about_the_open_source: The Open Source
+        how_to_become_software_engineer: How to become a software engineer
+        soft_skils_in_it_teams: Soft Skils in IT teams
+        introduction_to_scrum: Introduction to SCRUM
+        discussion_panel: 'Discussion panel: "Carrers in IT"'
+      the_saturday: Saturday
+      saturday:
+        lightning_talks: Ligthning Talks
+      the_sunday: Sunday
+    tickets:
+      will_be_soon: Tickets will be available soon, please follow us on facebook to be up to date :-)
+
