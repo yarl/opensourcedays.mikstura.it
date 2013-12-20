@@ -13,6 +13,7 @@
       %ul.nav.navbar-nav.pull-right
         - %w(venue speakers sponsors agenda).each do |section|
           %li= link_to t(section), "##{section}"
-        = link_to "#get_a_ticket" do
-          %button.btn.btn-danger.btn-xs
-            = t(:get_a_ticket).upcase
+        %li.get-a-ticket
+          = link_to "#get_a_ticket" do
+            %button.btn.btn-danger.btn-xs
+              = t(:get_a_ticket).upcase

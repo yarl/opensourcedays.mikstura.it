@@ -2,6 +2,25 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+// ----- navbar -----
+
+.get-a-ticket a {
+  background: transparent !important;
+}
+
+// ----- body -----
+
+h1, h2, h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
 h1 {
   padding-top: 1em;
   padding-bottom: 2em;
@@ -11,12 +30,16 @@ h2 {
   padding: 0.5em;
 }
 
-.page_section {
-  padding-top: 75px;
+.timer > div {
+  @extend .center;
+  
+  div[id*='textbox_'] {
+    font-weight: 300 !important;
+  }
 }
 
-body {
-  text-align: center;
+.page_section {
+  padding-top: 75px;
 }
 
 img.sponsor_package_header {
@@ -25,10 +48,27 @@ img.sponsor_package_header {
 }
 
 table.agenda {
+  text-align: left;
+  margin-bottom: 72px;
+
   tr.registration {
-    background-color: #b1a40b;
+    background-color: #d9534f;
+    color: white;
+    text-transform: uppercase;
   }
-  tr.break, tr.breakfest, tr.lunch_break {
-    background-color: #0099f7;
+
+  tr.break, tr.breakfast, tr.lunch_break {
+    background-color: #29b6ea;
+    color: white;
+    text-transform: uppercase;
   }
+
+  .table-time {
+    width: 120px;
+  }
+
+}
+
+#get_a_ticket iframe {
+  width: 340px !important;
 }

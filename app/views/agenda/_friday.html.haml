@@ -1,36 +1,38 @@
-%h3= t('sections.agenda.the_friday')
+.row
+  .col-md-6.col-md-offset-3
+    %h3= t('sections.agenda.the_friday')
 
-%table.agenda
-  %tbody
-    %tr.registration
-      %td 15:00 - 16:00
-      %td{colspan: 2}= t('sections.agenda.registrations')
-    %tr
-      %td 16:00 - 16:30
-      %td Dominik Kozaczko
-      %td= t('sections.agenda.hello_and_welcome')
-    %tr
-      %td 16:30 - 16:50
-      %td Kamil Gałuszka
-      %td= t('sections.agenda.friday.about_the_open_source')
-    %tr
-      %td 16:50 - 17:10
-      %td TBA
-      %td= t('sections.agenda.friday.how_to_became_software_engineer')
-    %tr
-      %td 17:10 - 17:30
-      %td Dariusz Wylon
-      %td= t('sections.agenda.friday.soft_skills_in_it_teams')
-    %tr.break
-      %td 17:30 - 18:00
-      %td{colspan: 2}= t('sections.agenda.break')
-    %tr
-      %td 18:00 - 19:00
-      %td Kate Terlecka
-      %td= t('sections.agenda.friday.introduction_to_scrum')
-    %tr.break
-      %td 19:00 - 19:15
-      %td{colspan: 2}= t('sections.agenda.break')
-    %tr
-      %td 19:15 - 20:00
-      %td{colspan: 2}= t('sections.agenda.friday.discussion_panel')
+    %table.agenda.table
+      %tbody
+        %tr.registration
+          %td 15:00 - 16:00
+          %td{colspan: 2}= t('sections.agenda.registrations')
+        %tr
+          %td.table-time 16:00 - 16:30
+          %td.table-speaker Dominik Kozaczko
+          %td.table-topic= t('sections.agenda.hello_and_welcome')
+        %tr
+          %td 16:30 - 16:50
+          %td Kamil Gałuszka
+          %td= t('sections.agenda.friday.about_the_open_source')
+        %tr
+          %td 16:50 - 17:10
+          %td TBA
+          %td= t('sections.agenda.friday.how_to_became_software_engineer')
+        %tr
+          %td 17:10 - 17:30
+          %td Dariusz Wylon
+          %td= t('sections.agenda.friday.soft_skills_in_it_teams')
+        %tr.break
+          %td 17:30 - 18:00
+          %td{colspan: 2}= t('sections.agenda.break')
+        %tr
+          %td 18:00 - 19:00
+          %td Kate Terlecka
+          %td= t('sections.agenda.friday.introduction_to_scrum')
+        %tr.break
+          %td 19:00 - 19:15
+          %td{colspan: 2}= t('sections.agenda.break')
+        %tr
+          %td 19:15 - 20:00
+          %td{colspan: 2}= t('sections.agenda.friday.discussion_panel')
