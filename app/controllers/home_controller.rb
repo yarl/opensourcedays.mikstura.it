@@ -1,6 +1,5 @@
 class HomeController < ApplicationController
   after_action :cache_index
-  caches_page :policy
 
   private
 
