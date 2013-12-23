@@ -24,6 +24,15 @@ bundle
 guard
 ````
 
+h2. Deploy
+
+prepare cachea & deploy
+
+````
+bin/cache_pages
+cap deploy
+````
+
 h2. Credits
 
 "Mikstura.IT Foundation":http://mikstura.it

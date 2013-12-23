@@ -13,5 +13,6 @@ module OpensourcedaysMiksturaIt
   class Application < Rails::Application
     config.time_zone = 'Warsaw'
     config.i18n.default_locale = :en
+    config.action_controller.page_cache_directory = "#{Rails.root.to_s}/public/pages"
   end
 end

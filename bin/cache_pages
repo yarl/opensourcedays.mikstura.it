@@ -1,0 +1,13 @@
+rm -rf public/assets public/pages
+
+bin/rake assets:precompile
+bin/rails server -e production -d
+sleep 10
+
+curl http://localhost:3000?locale=pl
+curl http://localhost:3000?locale=en
+
+kill -QUIT `cat tmp/pids/server.pid`
+
+git add public/assets/* public/pages/*
+git commit -m 'updating cache'
