@@ -1,4 +1,5 @@
 rm -rf public/assets public/pages
+git rm public/assets/* public/pages/*
 
 bin/rake assets:precompile
 bin/rails server -e production -d
