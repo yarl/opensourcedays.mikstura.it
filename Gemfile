@@ -13,6 +13,9 @@ gem 'haml-rails'
 
 gem 'figaro'
 gem 'thin'
+
+gem 'actionpack-page_caching'
+
 group :development do
   gem 'better_errors'
   gem 'guard-bundler'

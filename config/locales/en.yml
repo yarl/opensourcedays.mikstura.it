@@ -29,6 +29,8 @@ en:
   sections:
     home:
       brief_summary_of_previous_edition: A brief summary of the previous edition.
+    venue:
+      click_on_map: (click on map to open big map)
     speakers:
       became_speaker_link: http://bit.ly/DWO_2014_C4P_EN
       became_speaker_alt: Submit your talk
@@ -36,13 +38,14 @@ en:
       became_sponsor: Became a sponsor
       sponsorship_booklet_path: "/booklets/sponsorship_booklet.pdf"
     agenda:
-      registrations: REGISTRATIONS
-      hello_and_welcome: Hello & Welcome
-      break: BREAK
-      breakfast: Breakfast
-      lunch_break: LUNCH BREAK
+      registrations: registrations
+      hello: welcome
+      break: break
+      breakfast: breakfast
+      lunch_break: lunch break
       the_friday: Friday
       friday:
+        hello_and_welcome: welcome & conference opening
         about_the_open_source: The Open Source
         how_to_become_software_engineer: How to become a software engineer
         soft_skils_in_it_teams: Soft Skils in IT teams
@@ -54,4 +57,3 @@ en:
       the_sunday: Sunday
     tickets:
       will_be_soon: Tickets will be available soon, please follow us on facebook to be up to date :-)
-

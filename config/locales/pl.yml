@@ -1,0 +1,62 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+pl:
+  title: Dni Wolnego Oprogramowania '14, 28 - 30 Marca - Bielsko-Biała
+  meta:
+    description:  Dni Wolnego Oprogramowania ‘14 to największa bezpłatna konferencja Open Source w Europie.
+  conference_date: 28 - 30 Marca, 2014
+  get_a_ticket: ZDOBĄDŹ BILET
+  venue: Miejsce
+  speakers: Prelegenci
+  sponsors: Sponsorzy
+  agenda: Agenda
+  sections:
+    home:
+      brief_summary_of_previous_edition: Posumowanie poprzedniej edycji.
+    venue:
+      click_on_map: (kliknij na mapę aby zobaczyć większą)
+    speakers:
+      became_speaker_link: http://bit.ly/DWO_2014_C4P
+      became_speaker_alt: Zgłoś swoją prezentacje
+    sponsors:
+      became_sponsor: Zostań Sponsorem
+      sponsorship_booklet_path: "/booklets/broszura_dla_sponsorow.pdf"
+    agenda:
+      registrations: rejestracja
+      break: przerwa
+      hello: przywitanie
+      breakfast: śniadanie
+      lunch_break: przerwa obiadowa
+      the_friday: Piątek
+      friday:
+        hello_and_welcome: przywitanie oraz otwarcie konferencji
+        about_the_open_source: The Open Source
+        how_to_become_software_engineer: How to become a software engineer
+        soft_skils_in_it_teams: Soft Skils in IT teams
+        introduction_to_scrum: Wprowadzenie do metodologii SCRUM
+        discussion_panel: 'Panel Dyskusyjny: "Kariera w IT"'
+      the_saturday: Sobota
+      saturday:
+        lightning_talks: Ligthning Talks
+      the_sunday: Niedziela
+    tickets:
+      will_be_soon: Bilety będą dostępne niedługo, obserwuj nas na facebook'u aby być na bieżaco :-)

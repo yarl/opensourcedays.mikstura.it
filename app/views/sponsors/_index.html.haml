@@ -1,4 +1,4 @@
 = link_to t('sections.sponsors.sponsorship_booklet_path') do
-  = image_tag('sponsors/sponsorship_booklet_pingue.png')
+  = image_tag("sponsors/sponsorship_booklet_#{I18n.locale}.png")
 - %w(ruby gold silver bronze).each do |package|
   = render "sponsors/#{package}"
