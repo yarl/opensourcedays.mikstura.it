@@ -7,6 +7,7 @@ sleep 10
 
 curl http://localhost:3000?locale=pl
 curl http://localhost:3000?locale=en
+curl http://localhost:3000/policy
 
 kill -QUIT `cat tmp/pids/server.pid`
 
