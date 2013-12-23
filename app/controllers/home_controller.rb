@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
-  after_action :cache_index
+  after_action :cache_index, only: [:index]
 
   private
 
