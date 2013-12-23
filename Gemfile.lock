@@ -35,6 +35,10 @@ GEM
     bootstrap-sass (3.0.3.0)
       sass (~> 3.2)
     builder (3.1.4)
+    capistrano (3.0.1)
+      i18n
+      rake (>= 10.0.0)
+      sshkit (>= 0.0.23)
     celluloid (0.15.2)
       timers (~> 1.1.0)
     coderay (1.1.0)
@@ -101,6 +105,9 @@ GEM
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.8.2)
+    net-scp (1.1.2)
+      net-ssh (>= 2.6.5)
+    net-ssh (2.7.0)
     polyglot (0.3.3)
     pry (0.9.12.4)
       coderay (~> 1.0)
@@ -148,6 +155,12 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (~> 2.8)
+    sshkit (1.3.0)
+      net-scp (>= 1.1.2)
+      net-ssh
+      term-ansicolor
+    term-ansicolor (1.2.2)
+      tins (~> 0.8)
     thin (1.6.1)
       daemons (>= 1.0.9)
       eventmachine (>= 1.0.0)
@@ -157,6 +170,7 @@ GEM
       atomic
     tilt (1.4.1)
     timers (1.1.0)
+    tins (0.13.1)
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
@@ -174,6 +188,7 @@ DEPENDENCIES
   actionpack-page_caching
   better_errors
   bootstrap-sass (>= 3.0.0.0)
+  capistrano
   coffee-rails (~> 4.0.0)
   figaro
   guard-bundler

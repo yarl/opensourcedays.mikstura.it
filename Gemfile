@@ -27,4 +27,5 @@ group :development do
   gem 'rb-fsevent', require: false
   gem 'rb-inotify', require: false
   gem 'rack-livereload'
+  gem 'capistrano'
 end
