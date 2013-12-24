@@ -31,7 +31,7 @@ pl:
   agenda: Agenda
   sections:
     home:
-      brief_summary_of_previous_edition: Posumowanie poprzedniej edycji.
+      brief_summary_of_previous_edition: Podsumowanie poprzedniej edycji.
     venue:
       click_on_map: (kliknij na mapę aby zobaczyć większą)
     speakers:
