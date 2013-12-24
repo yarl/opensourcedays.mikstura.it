@@ -36,7 +36,7 @@ en:
       became_speaker_alt: Submit your talk
     sponsors:
       became_sponsor: Became a sponsor
-      sponsorship_booklet_path: "/booklets/sponsorship_booklet.pdf"
+      sponsorship_booklet_path: http://bit.ly/OpenSourceDaysSponsorshipBooklet
     agenda:
       registrations: registrations
       hello: welcome

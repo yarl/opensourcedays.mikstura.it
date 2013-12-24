@@ -39,7 +39,7 @@ pl:
       became_speaker_alt: Zgłoś swoją prezentacje
     sponsors:
       became_sponsor: Zostań Sponsorem
-      sponsorship_booklet_path: "/booklets/broszura_dla_sponsorow.pdf"
+      sponsorship_booklet_path: "http://bit.ly/DniWolnegoOprogramowaniaBroszuraDlaSponsorow"
     agenda:
       registrations: rejestracja
       break: przerwa
