@@ -43,15 +43,15 @@ pl:
     agenda:
       registrations: rejestracja
       break: przerwa
-      hello: przywitanie
+      hello: powitanie
       breakfast: śniadanie
       lunch_break: przerwa obiadowa
       the_friday: Piątek
       friday:
-        hello_and_welcome: przywitanie oraz otwarcie konferencji
-        about_the_open_source: The Open Source
-        how_to_become_software_engineer: How to become a software engineer
-        soft_skils_in_it_teams: Soft Skils in IT teams
+        hello_and_welcome: Powitanie oraz otwarcie konferencji
+        about_the_open_source: Wprowadzenie do świata free & open source software
+        how_to_become_software_engineer: Jak zostać programistą
+        soft_skils_in_it_teams: Umiejętności miękkie w zespołach
         introduction_to_scrum: Wprowadzenie do metodologii SCRUM
         discussion_panel: 'Panel Dyskusyjny: "Kariera w IT"'
       the_saturday: Sobota
