@@ -1,18 +1,7 @@
 %ul#mainnav.nav
-  %li
-    %a{:href => "#about"} About
-  %li
-    %a{:href => "#speakers"} Speakers
-  %li
-    %a{:href => "#schedule"} Schedule
-  %li
-    %a{:href => "#workshops"} Workshops
-  %li
-    %a{:href => "#venue"} Venue
-  %li
-    %a{:href => "#sponsors"} Sponsors
+  - %w(about speakers schedule workshops venue sponsors contact).each do |section|
+    %li
+      = link_to t(section, scope: [:section]), anchor: section
   -#%li
   -#  %a{:href => "#news"} News
-  %li
-    %a{:href => "#contact"} Contact
   %li= i18n_switch

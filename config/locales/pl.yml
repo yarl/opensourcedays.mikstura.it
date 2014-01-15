@@ -4,6 +4,16 @@ pl:
     description:  Dni Wolnego Oprogramowania ‘14 to jedna z największych bezpłatnych konferencji Open Source w Europie.
     keywords: open source, conference, workshops, community
     author: Fundacja Mikstura.IT
+  section:
+    about: O DWO
+    speakers: Prelegenci
+    schedule: Agenda
+    workshops: Warsztaty
+    venue: Miejsce
+    sponsors: Sponsorzy
+    news: Niusy
+    contact: Kontakt
+
 
 
 
