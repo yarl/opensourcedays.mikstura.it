@@ -13,10 +13,19 @@ pl:
     sponsors: Sponsorzy
     news: Niusy
     contact: Kontakt
-
-
-
-
+  intro:
+    about_dwo:
+      conference_name: DWO 2014
+      month: Marca
+      ticket: Zarejestruj się
+    became_speaker:
+      call_4_action: Zostań Prelegentem
+      note: 20 min. prezentacja / 90 min. warsztat
+      text_on_link: Zgłoś się
+    became_sponsor:
+      call_4_action: Zostań Sponsorem
+      note: możesz pomóc społeczności Open Source
+      text_on_link: Chcę się zaangażować
 
 
   conference_date: 28 - 30 Marca, 2014

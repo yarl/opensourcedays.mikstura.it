@@ -287,9 +287,9 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 	line-height: 20px;
 	padding: 0px;
 }
-/*.top-bar .logo span:hover {*/
-	/*background-position: 0 -40px;*/
-/*}*/
+.top-bar .logo span:hover {
+	background-position: 0 -40px;
+}
 .top-bar nav {
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;

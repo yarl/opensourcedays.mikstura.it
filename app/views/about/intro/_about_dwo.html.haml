@@ -1,0 +1,9 @@
+%h1= t(:conference_name, scope: i18n_scope)
+%h3.info
+  %span.days 28&ndash;30
+  %span.month
+    %b= t(:month, scope: i18n_scope)
+  %span.year 2013
+  %span.location Bielsko-Biała
+= link_to "", class: "btn btn-large", data: { target: "#modal-register", toggle: "modal"} do
+  = t(:ticket, scope: i18n_scope)
