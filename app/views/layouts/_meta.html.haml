@@ -1,18 +1,17 @@
-%meta{:charset => "utf-8"}/
-%title Eventify
+%meta{charset: "utf-8"}/
 
-%meta{:content => "", :name => "description"}/
-%meta{:content => "", :name => "keywords"}/
-%meta{:content => "", :name => "author"}/
+%meta{content: t('meta.description'), name: "description"}
+%meta{content: t('meta.keywords'), name: "keywords"}
+%meta{content: t('meta.author'), name: "author"}
 
-%meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
-= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true
+%meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}
+= stylesheet_link_tag "application", media: "all", data: {turbolinks: {track: true}}
 / HTML5 shim, for IE6-8 support of HTML5 elements
 /[if lt IE 9]
-%script{src:"http://html5shim.googlecode.com/svn/trunk/html5.js"}
+%script{src: "http//html5shim.googlecode.com/svn/trunk/html5.js"}
 
-%link{:href => "/assets/layout/touch/iphone.png", :rel => "apple-touch-icon"}/
-%link{:href => "/assets/layout/touch/ipad.png", :rel => "apple-touch-icon", :sizes => "76x76"}/
-%link{:href => "/assets/layout/touch/iphone-retina.png", :rel => "apple-touch-icon", :sizes => "120x120"}/
-%link{:href => "/assets/layout/touch/ipad-retina.png", :rel => "apple-touch-icon", :sizes => "152x152"}/
-%link{:href => "/assets/layout/favicon.ico", :rel => "shortcut icon"}/
+%link{href: "/assets/layout/touch/iphone.png", rel: "apple-touch-icon"}
+%link{href: "/assets/layout/touch/ipad.png", rel: "apple-touch-icon", sizes: "76x76"}
+%link{href: "/assets/layout/touch/iphone-retina.png", rel: "apple-touch-icon", sizes: "120x120"}
+%link{href: "/assets/layout/touch/ipad-retina.png", rel: "apple-touch-icon", sizes: "152x152"}
+%link{href: "/assets/layout/favicon.ico", rel: "shortcut icon"}
