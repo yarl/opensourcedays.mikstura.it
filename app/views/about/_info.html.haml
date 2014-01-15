@@ -1,34 +1,21 @@
 .span12
   .module-header.about-header
-    %h4 About
-  / end module-header
+    %h4= t('section.about')
+- i18n_scope = [:about, :info]
 .span12.hero-unit.text-center
-  %h1 Three Days of Inspiration!
+  %h1= t(:header, scope: i18n_scope)
   %h3
-    %time{:datetime => "2014-09-23"} 23
+    %time{:datetime => "2014-03-28"} 28
     \-
-    %time{:datetime => "2014-09-25"} 25
-    September 2014, New York
-  %h4
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus iaculis porta.
-    %br/
-    Vivamus mattis tempus aliquet.
-    Donec non mauris a neque vulputate.
-/ end hero-unit
+    %time{:datetime => "2014-03-30"} 30
+    = t(:month, scope: i18n_scope)
+    2014, Bielsko-Biała
+  -# some qutations here would be nice :-)
 .span12
   .divider-space
-.span4.text-center
-  .icon-wrap.large.color1
-    %i.iconf-lightbulb
-  %h3 The Vision
-  %p Donec risus augue, ultricies quis ornare ac, malesuada non augue. Ut venenatis tempus semper. Curabitur rhoncus, nulla sed rhoncus sollicitudin, dolor quam vehicula odio.
-.span4.text-center
-  .icon-wrap.large.color2
-    %i.iconf-world
-  %h3 Meetings
-  %p Donec risus augue, ultricies quis ornare ac, malesuada non augue. Ut venenatis tempus semper. Curabitur rhoncus, nulla sed rhoncus sollicitudin, dolor quam vehicula odio.
-.span4.text-center
-  .icon-wrap.large.color3
-    %i.iconf-beaker
-  %h3 Workshops
-  %p Donec risus augue, ultricies quis ornare ac, malesuada non augue. Ut venenatis tempus semper. Curabitur rhoncus, nulla sed rhoncus sollicitudin, dolor quam vehicula odio.
+- {idea: 'lightbulb', community: 'world', workshop: 'beaker'}.each_with_index do |(key_factor, icon), index|
+  .span4.text-center
+    %div{class: "icon-wrap large color#{index+1}"}
+      %i{class: "iconf-#{icon}"}
+    %h3= t("#{key_factor}.header", scope: i18n_scope)
+    %p= t("#{key_factor}.message", scope: i18n_scope)

@@ -31,7 +31,18 @@ pl:
       modal:
         title: Zarejestruj się
         close: Zamknij
-
+    info:
+      header: Dni Wolnego Oprogramowania
+      month: Marca
+      idea:
+        header: Idea
+        message: Open Source to szeroki temat - uważamy iż każdy winien go znać, być na bierząco z tym co się w nim dzieje.
+      community:
+        header: Społeczność
+        message: Skorzystanie z cyklu prelekcji umożliwi poszerzenie horyzontów oraz poznania interesujących ludzi.
+      workshop:
+        header: Warsztaty
+        message: Uczestnictwo w warsztatach pozwoli nobyć nowych umiejętności - technicznych jak również miękkich.
 
   conference_date: 28 - 30 Marca, 2014
   get_a_ticket: ZDOBĄDŹ BILET
