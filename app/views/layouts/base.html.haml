@@ -1,26 +1,7 @@
 !!!
 %html{:lang => "en"}
   %head
-    / Basic Page Needs
-    %meta{:charset => "utf-8"}/
-    %title Eventify
-    / Metas
-    %meta{:content => "", :name => "description"}/
-    %meta{:content => "", :name => "keywords"}/
-    %meta{:content => "", :name => "author"}/
-    / Mobile Specific Metas
-    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
-    / Stylesheets
-    = stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true
-    / HTML5 shim, for IE6-8 support of HTML5 elements
-    /[if lt IE 9]
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    / Favicon and touch icons
-    %link{:href => "/assets/layout/touch/iphone.png", :rel => "apple-touch-icon"}/
-    %link{:href => "/assets/layout/touch/ipad.png", :rel => "apple-touch-icon", :sizes => "76x76"}/
-    %link{:href => "/assets/layout/touch/iphone-retina.png", :rel => "apple-touch-icon", :sizes => "120x120"}/
-    %link{:href => "/assets/layout/touch/ipad-retina.png", :rel => "apple-touch-icon", :sizes => "152x152"}/
-    %link{:href => "/assets/layout/favicon.ico", :rel => "shortcut icon"}/
+    = render partial: 'layouts/meta'
   %body
     %header#topbar.top-bar
       .container
