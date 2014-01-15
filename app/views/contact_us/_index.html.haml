@@ -1,36 +1,8 @@
-.span12
-  .module-header.contact-header
-    %h4 Contact
-/ end span12
-.span12.hero-unit.text-center.white
-  %h2 Get in touch
-  %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus iaculis porta. Vivamus mattis tempus aliquet.
-/ end hero-unit
-#ErrorMsgs.span12
-/ end ErrorMsgs
-%form#contactform{:action => "contact.php", :method => "post", :name => "contactform"}
-  .control-group.span4
-    %label.control-label{:for => "contact_name"} Name:
-    .controls
-      %input#contact_name.input-block-level{:class => "validate[required]", :name => "contact_name", :required => "", :type => "text"}/
-  .control-group.span4
-    %label.control-label{:for => "contact_email"} Email:
-    .controls
-      %input#contact_email.input-block-level{:class => "validate[required,custom[email]]", :name => "contact_email", :required => "", :type => "email"}/
-  .control-group.span4
-    %label.control-label{:for => "contact_subject"} Subject:
-    .controls
-      %input#contact_subject.input-block-level{:class => "validate[required]", :name => "contact_subject", :type => "text"}/
-  .control-group.span12
-    %label.control-label{:for => "contact_message"} Message:
-    .controls
-      %textarea#contact_message.input-block-level{:class => "validate[required]", :cols => "30", :name => "contact_message", :rows => "6"}
-  .control-group.span12
-    .controls
-      %button#submit.btn.btn-primary.pull-right{:name => "submit", :type => "submit"} Send Message
+=# render partial: 'contact_us/contact_form'
 .span12.text-center
-  .subheader
-    %h4 Contact info
+  .module-header.contact-header
+    %h4
+      Contact info
   /
 .span12.text-center
   %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales tincidunt sodales. Nam tellus velit, hendrerit ac venenatis adipiscing, sollicitudin vitae orci. Vestibulum mollis pharetra metus sit amet convallis.
