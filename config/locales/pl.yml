@@ -27,10 +27,6 @@ pl:
       note: możesz pomóc społeczności Open Source
       text_on_link: Chcę się zaangażować
   about:
-    register:
-      modal:
-        title: Zarejestruj się
-        close: Zamknij
     info:
       header: Dni Wolnego Oprogramowania
       month: Marca
@@ -43,6 +39,13 @@ pl:
       workshop:
         header: Warsztaty
         message: Uczestnictwo w warsztatach pozwoli nobyć nowych umiejętności - technicznych jak również miękkich.
+    register:
+      modal:
+        title: Zarejestruj się
+        close: Zamknij
+      tickets_available: Bilety są już dostępne :-)
+      admitance_free: (uczestnictwo w konferencji jest bezpłatne)
+      register_now: Zarejestruj się już teraz!
 
   conference_date: 28 - 30 Marca, 2014
   get_a_ticket: ZDOBĄDŹ BILET

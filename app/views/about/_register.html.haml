@@ -1,4 +1,6 @@
 #countdown
 .span12.white.register-box.text-center
-  %h2.register-title Tickets Available Today From $76
-  %a#register-button.btn.btn-large.btn-primary{"data-target" => "#modal-register", "data-toggle" => "modal"} Register Now
+  %h2.register-title= t('about.register.tickets_available')
+  %p= t('about.register.admitance_free')
+  %a#register-button.btn.btn-large.btn-primary{"data-target" => "#modal-register", "data-toggle" => "modal"}
+    = t('about.register.register_now')
