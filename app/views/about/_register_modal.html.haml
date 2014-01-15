@@ -1,30 +1,12 @@
+- i18n_scope = [:about, :register, :modal]
 #modal-register.modal.hide.fade
   .modal-header
     %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", :type => "button"} &times;
-    %h3 Buy Tickets
+    %h3= t(:title, scope: i18n_scope)
   .modal-body
-    %ul.price-table
-      %li.price-item.clearfix.item
-        .price-header
-          %span.title Standard
-          %span.price $113
-        / end price-header
-        .price-content
-          %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales tincidunt sodales. Nam tellus velit, hendrerit ac venenatis adipiscing, sollicitudin vitae orci. Vestibulum mollis pharetra metus sit amet convallis.
-          %input.btn{:type => "button", :value => "Order Now"}/
-        / end price-content
-      / end price-item
-      %li.price-item.clearfix.item
-        .price-header
-          %span.title Student
-          %span.price $76
-        / end price-header
-        .price-content
-          %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales tincidunt sodales. Nam tellus velit, hendrerit ac venenatis adipiscing, sollicitudin vitae orci. Vestibulum mollis pharetra metus sit amet convallis.
-          %input.btn{:type => "button", :value => "Order Now"}/
-        / end price-content
-      / end price-item
-  / end modal-body
+    %iframe{src:"http://www.eventbrite.com",
+    vspace:0, hspace:0, marginheight:5, marginwidth:5, allowtransparency: true, frameborder:0, height:214,
+    scrolling: "auto", width: "100%"}
   .modal-footer
-    %a.btn{"data-dismiss" => "modal"} Close
-/ top-bar, intro &amp; modal end here
+    %a.btn{data: {dismiss: "modal"}}
+      = t(:close, scope: i18n_scope)

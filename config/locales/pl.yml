@@ -26,6 +26,11 @@ pl:
       call_4_action: Zostań Sponsorem
       note: możesz pomóc społeczności Open Source
       text_on_link: Chcę się zaangażować
+  about:
+    register:
+      modal:
+        title: Zarejestruj się
+        close: Zamknij
 
 
   conference_date: 28 - 30 Marca, 2014
