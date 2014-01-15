@@ -1,0 +1,51 @@
+    jak~zacząć Open~Source nauka programowanie nauczanie
+    społeczność  swobodny~dostęp Khan~Academy edx.org coursera.org współtworzenie~zbiorów~danych
+    umiejętności~miękkie efektywna~komunikacja praca~zespołowa
+    doskonalenie~rzemiosła~programistycznego architektura domain~driven~design Vim Eclipse RubyMine FireBug automatyczne~testy yeoman grunt guard GitHub Travis~CI Code~Climate
+    metodologie SCRUM Kanban zespoły~rozproszone
+    projektowanie programowanie gry~komputerowe
+    studium~przypadku wolne~oprogramowanie szkoły technika organizacje~pozarządowe
+    Nagios Zabix
+    otwarty~sprzęt Arduino Beagle~Board Raspeberry~Pi Artoo.io WikiSpeed
+    systemy~operacyjne Firefox~OS Ubuntu~OS Sailfish~OS Jolla Tizen
+    analiza~danych wizualizacja~danych R Processing Orange
+    programowanie~funkcyjne niemutowalne~typy~danych Clojure Datomic
+    aplikacje~klienckie Ember.js Angular.js CoffeeScript SASS Compass HTML5
+    prywatne~chmury~obliczeniowe Open~Shift Eucalyptus Cloud~Foundry Docker
+    UX UI IT projektowanie~interfejsów architektura~informacji Open~Source
+    wolna~kultura Wikipedia OpenStreetMap Jamendo
+
+    Open~Source Open~Source Open~Source Open~Source Open~Source
+    domain~driven~design
+    automatyczne~testy automatyczne~testy automatyczne~testy
+    GitHub GitHub
+    Travis~CI Travis~CI
+    Code~Climate Code~Climate
+    Clojure Clojure Clojure
+    Ember.js Ember.js Ember.js Ember.js
+    CoffeeScript
+
+    Docker Docker Docker Docker Docker
+    Open~Shift Open~Shift
+
+    architektura~informacji
+
+    UX UX UX
+
+    umiejętności~miękkie umiejętności~miękkie umiejętności~miękkie umiejętności~miękkie
+    efektywna~komunikacja
+    praca~zespołowa
+    SCRUM SCRUM SCRUM SCRUM
+    Kanban Kanban
+
+    Arduino
+    Raspeberry~Pi Raspeberry~Pi Raspeberry~Pi
+
+    Firefox~OS Firefox~OS Firefox~OS
+    Sailfish~OS Sailfish~OS
+    Ubuntu~OS
+    Tizen Tizen
+
+    edx.org
+    wolna~kultura
+    OpenStreetMap

@@ -490,6 +490,17 @@ footer img {
 	margin: auto auto 50px;
 	width: 100%;
 }
+
+.divider-space-big {
+    border: none;
+    clear: both;
+    font-size: 0;
+    height: 0px;
+    line-height: 0;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    width: 100%;
+}
 .divider-white {
 	border-top: 3px solid #FFFFFF;
 	clear: both;

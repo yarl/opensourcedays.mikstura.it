@@ -1,173 +1,38 @@
 .span12
   .module-header.speakers-header
-    %h4 Speakers
-  / end module-header
+    %h4= t('section.speakers')
 .span12.hero-unit.text-center.white
-  %h2 Learn From These Great Folks
-  %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus iaculis porta. Vivamus mattis tempus aliquet.
-/ end hero-unit
+  %h2= t('speakers.learn_them')
+  %p
+    = t('speakers.learn_them_description.one')
+    %br
+    = t('speakers.learn_them_description.two')
+  = image_tag('speakers/topics_clouds/horizontal_one.png')
+  .divider-space-big
+    = link_to t('speakers.register_as_speaker_url'), class: "btn btn-large", target: :blank do
+      = t('speakers.submit_your_talk')
+
+.span12.hero-unit.text-center.white
+  %h2= t('speakers.learn_from')
+  %p= t('speakers.learn_from_description')
 .span12
   .divider-space
 .span12
   .carouselslider.speakers-carousel.item-4
-    .span10.offset1
+    .span10.offset2
       %ul
-        %li
-          / carousel item
-          .item
-            .photo-wrap.hover_colour
-              %img{:alt => " ", :src => "/assets/6269713/photos/face01.jpg"}/
-            .text-wrap.white
-              %h3 John Doe
-              %h5 Designer at Cottage
-              %hr.divider-short.center/
-              %p.description Proin bibendum ipsum eget nulla molestie, vitae ultricies nulla.
-            .social
-              %a.icon-wrap.small.facebook{:href => "#", :target => "_blank", :title => "Facebook"}
-                %i.iconf-facebook
-              %a.icon-wrap.small.twitter{:href => "#", :target => "_blank", :title => "Twitter"}
-                %i.iconf-twitter
-              %a.icon-wrap.small.google{:href => "#", :target => "_blank", :title => "Google+"}
-                %i.iconf-gplus
-              %a.icon-wrap.small.linkedin{:href => "#", :target => "_blank", :title => "Linkedin"}
-                %i.iconf-linkedin
-          / end carousel item
-        %li
-          / carousel item
-          .item
-            .photo-wrap
-              %img{:alt => " ", :src => "/assets/6269713/photos/face02.jpg"}/
-            .text-wrap.white
-              %h3 John Doe
-              %h5 Designer at Cottage
-              %hr.divider-short.center/
-              %p.description Proin bibendum ipsum eget nulla molestie, vitae ultricies nulla.
-            .social
-              %a.icon-wrap.small.facebook{:href => "#", :target => "_blank", :title => "Facebook"}
-                %i.iconf-facebook
-              %a.icon-wrap.small.twitter{:href => "#", :target => "_blank", :title => "Twitter"}
-                %i.iconf-twitter
-              %a.icon-wrap.small.google{:href => "#", :target => "_blank", :title => "Google+"}
-                %i.iconf-gplus
-              %a.icon-wrap.small.linkedin{:href => "#", :target => "_blank", :title => "Linkedin"}
-                %i.iconf-linkedin
-          / end carousel item
-        %li
-          / carousel item
-          .item
-            .photo-wrap
-              %img{:alt => " ", :src => "/assets/6269713/photos/face03.jpg"}/
-            .text-wrap.white
-              %h3 John Doe
-              %h5 Designer at Cottage
-              %hr.divider-short.center/
-              %p.description Proin bibendum ipsum eget nulla molestie, vitae ultricies nulla.
-            .social
-              %a.icon-wrap.small.facebook{:href => "#", :target => "_blank", :title => "Facebook"}
-                %i.iconf-facebook
-              %a.icon-wrap.small.twitter{:href => "#", :target => "_blank", :title => "Twitter"}
-                %i.iconf-twitter
-              %a.icon-wrap.small.google{:href => "#", :target => "_blank", :title => "Google+"}
-                %i.iconf-gplus
-              %a.icon-wrap.small.linkedin{:href => "#", :target => "_blank", :title => "Linkedin"}
-                %i.iconf-linkedin
-          / end carousel item
-        %li
-          / carousel item
-          .item
-            .photo-wrap
-              %img{:alt => " ", :src => "/assets/6269713/photos/face04.jpg"}/
-            .text-wrap.white
-              %h3 John Doe
-              %h5 Designer at Cottage
-              %hr.divider-short.center/
-              %p.description Proin bibendum ipsum eget nulla molestie, vitae ultricies nulla.
-            .social
-              %a.icon-wrap.small.facebook{:href => "#", :target => "_blank", :title => "Facebook"}
-                %i.iconf-facebook
-              %a.icon-wrap.small.twitter{:href => "#", :target => "_blank", :title => "Twitter"}
-                %i.iconf-twitter
-              %a.icon-wrap.small.google{:href => "#", :target => "_blank", :title => "Google+"}
-                %i.iconf-gplus
-              %a.icon-wrap.small.linkedin{:href => "#", :target => "_blank", :title => "Linkedin"}
-                %i.iconf-linkedin
-          / end carousel item
-        %li
-          / carousel item
-          .item
-            .photo-wrap
-              %img{:alt => " ", :src => "/assets/6269713/photos/face05.jpg"}/
-            .text-wrap.white
-              %h3 John Doe
-              %h5 Designer at Cottage
-              %hr.divider-short.center/
-              %p.description Proin bibendum ipsum eget nulla molestie, vitae ultricies nulla.
-            .social
-              %a.icon-wrap.small.facebook{:href => "#", :target => "_blank", :title => "Facebook"}
-                %i.iconf-facebook
-              %a.icon-wrap.small.twitter{:href => "#", :target => "_blank", :title => "Twitter"}
-                %i.iconf-twitter
-              %a.icon-wrap.small.google{:href => "#", :target => "_blank", :title => "Google+"}
-                %i.iconf-gplus
-              %a.icon-wrap.small.linkedin{:href => "#", :target => "_blank", :title => "Linkedin"}
-                %i.iconf-linkedin
-          / end carousel item
-        %li
-          / carousel item
-          .item
-            .photo-wrap
-              %img{:alt => " ", :src => "/assets/6269713/photos/face06.jpg"}/
-            .text-wrap.white
-              %h3 John Doe
-              %h5 Designer at Cottage
-              %hr.divider-short.center/
-              %p.description Proin bibendum ipsum eget nulla molestie, vitae ultricies nulla.
-            .social
-              %a.icon-wrap.small.facebook{:href => "#", :target => "_blank", :title => "Facebook"}
-                %i.iconf-facebook
-              %a.icon-wrap.small.twitter{:href => "#", :target => "_blank", :title => "Twitter"}
-                %i.iconf-twitter
-              %a.icon-wrap.small.google{:href => "#", :target => "_blank", :title => "Google+"}
-                %i.iconf-gplus
-              %a.icon-wrap.small.linkedin{:href => "#", :target => "_blank", :title => "Linkedin"}
-                %i.iconf-linkedin
-          / end carousel item
-        %li
-          / carousel item
-          .item
-            .photo-wrap
-              %img{:alt => " ", :src => "/assets/6269713/photos/face07.jpg"}/
-            .text-wrap.white
-              %h3 John Doe
-              %h5 Designer at Cottage
-              %hr.divider-short.center/
-              %p.description Proin bibendum ipsum eget nulla molestie, vitae ultricies nulla.
-            .social
-              %a.icon-wrap.small.facebook{:href => "#", :target => "_blank", :title => "Facebook"}
-                %i.iconf-facebook
-              %a.icon-wrap.small.twitter{:href => "#", :target => "_blank", :title => "Twitter"}
-                %i.iconf-twitter
-              %a.icon-wrap.small.google{:href => "#", :target => "_blank", :title => "Google+"}
-                %i.iconf-gplus
-              %a.icon-wrap.small.linkedin{:href => "#", :target => "_blank", :title => "Linkedin"}
-                %i.iconf-linkedin
-          / end carousel item
-        %li
-          / carousel item
-          .item
-            .photo-wrap
-              %img{:alt => " ", :src => "/assets/6269713/photos/face08.jpg"}/
-            .text-wrap.white
-              %h3 John Doe
-              %h5 Designer at Cottage
-              %hr.divider-short.center/
-              %p.description Proin bibendum ipsum eget nulla molestie, vitae ultricies nulla.
-            .social
-              %a.icon-wrap.small.facebook{:href => "#", :target => "_blank", :title => "Facebook"}
-                %i.iconf-facebook
-              %a.icon-wrap.small.twitter{:href => "#", :target => "_blank", :title => "Twitter"}
-                %i.iconf-twitter
-              %a.icon-wrap.small.google{:href => "#", :target => "_blank", :title => "Google+"}
-                %i.iconf-gplus
-              %a.icon-wrap.small.linkedin{:href => "#", :target => "_blank", :title => "Linkedin"}
-                %i.iconf-linkedin
+        - @speakers.each do |speaker|
+          %li
+            .item
+              .photo-wrap.hover_colour
+                %img{:alt => speaker.name, :src => "/assets/speakers/#{speaker.picture}"}
+              .text-wrap.white
+                %h3= speaker.name
+                %h5= speaker.title
+                %hr.divider-short.center/
+                %p.description= speaker.description
+              .social
+                - speaker.social.each do |(name, url)|
+                  = link_to url, title: name.to_s.humanize, target: :blank, class: "icon-wrap small #{name}" do
+                    %i{class: "iconf-#{name}"}
+

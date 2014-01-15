@@ -46,41 +46,51 @@ pl:
       tickets_available: Bilety są już dostępne :-)
       admitance_free: (uczestnictwo w konferencji jest bezpłatne)
       register_now: Zarejestruj się już teraz!
+  speakers:
+    learn_from: Skorzystaj z Wiedzy Tych Wspaniałych Ludzi
+    leran_from_description: ' '
+    learn_them: Podziel się Swoją Wiedzą
+    learn_them_description:
+      one: 'Dni Wolnego Oprogramowania mają bardzo szeroką tematykę - jesteśmy otwarci na wiele tematów.'
+      two: 'W tym roku w szczególności interesują nas wystąpienia poświęcone następującym zagadnieniom:'
+    register_as_speaker_url: http://bit.ly/DWO_2014_C4P
+    submit_your_talk: Zgłoś Swoją Prezentację
 
-  conference_date: 28 - 30 Marca, 2014
-  get_a_ticket: ZDOBĄDŹ BILET
-  venue: Miejsce
-  speakers: Prelegenci
-  sponsors: Sponsorzy
-  agenda: Agenda
-  sections:
-    home:
-      brief_summary_of_previous_edition: Podsumowanie poprzedniej edycji.
-    venue:
-      click_on_map: (kliknij na mapę aby zobaczyć większą)
-    speakers:
-      became_speaker_link: http://bit.ly/DWO_2014_C4P
-      became_speaker_alt: Zgłoś swoją prezentacje
-    sponsors:
-      became_sponsor: Zostań Sponsorem
-      sponsorship_booklet_path: "http://bit.ly/DniWolnegoOprogramowaniaBroszuraDlaSponsorow"
-    agenda:
-      registrations: rejestracja
-      break: przerwa
-      hello: powitanie
-      breakfast: śniadanie
-      lunch_break: przerwa obiadowa
-      the_friday: Piątek
-      friday:
-        hello_and_welcome: Powitanie oraz otwarcie konferencji
-        about_the_open_source: Wprowadzenie do świata free & open source software
-        how_to_become_software_engineer: Jak zostać programistą
-        soft_skils_in_it_teams: Umiejętności miękkie w zespołach
-        introduction_to_scrum: Wprowadzenie do metodologii SCRUM
-        discussion_panel: 'Panel Dyskusyjny: "Kariera w IT"'
-      the_saturday: Sobota
-      saturday:
-        lightning_talks: Ligthning Talks
-      the_sunday: Niedziela
-    tickets:
-      will_be_soon: Bilety będą dostępne niedługo, obserwuj nas na facebook'u aby być na bieżaco :-)
+
+#  conference_date: 28 - 30 Marca, 2014
+#  get_a_ticket: ZDOBĄDŹ BILET
+#  venue: Miejsce
+#  speakers: Prelegenci
+#  sponsors: Sponsorzy
+#  agenda: Agenda
+#  sections:
+#    home:
+#      brief_summary_of_previous_edition: Podsumowanie poprzedniej edycji.
+#    venue:
+#      click_on_map: (kliknij na mapę aby zobaczyć większą)
+#    speakers:
+#      became_speaker_link: http://bit.ly/DWO_2014_C4P
+#      became_speaker_alt: Zgłoś swoją prezentacje
+#    sponsors:
+#      became_sponsor: Zostań Sponsorem
+#      sponsorship_booklet_path: "http://bit.ly/DniWolnegoOprogramowaniaBroszuraDlaSponsorow"
+#    agenda:
+#      registrations: rejestracja
+#      break: przerwa
+#      hello: powitanie
+#      breakfast: śniadanie
+#      lunch_break: przerwa obiadowa
+#      the_friday: Piątek
+#      friday:
+#        hello_and_welcome: Powitanie oraz otwarcie konferencji
+#        about_the_open_source: Wprowadzenie do świata free & open source software
+#        how_to_become_software_engineer: Jak zostać programistą
+#        soft_skils_in_it_teams: Umiejętności miękkie w zespołach
+#        introduction_to_scrum: Wprowadzenie do metodologii SCRUM
+#        discussion_panel: 'Panel Dyskusyjny: "Kariera w IT"'
+#      the_saturday: Sobota
+#      saturday:
+#        lightning_talks: Ligthning Talks
+#      the_sunday: Niedziela
+#    tickets:
+#      will_be_soon: Bilety będą dostępne niedługo, obserwuj nas na facebook'u aby być na bieżaco :-)
