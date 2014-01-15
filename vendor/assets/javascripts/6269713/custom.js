@@ -204,7 +204,7 @@ $(document).ready(function () {
 		}]
 	});
 	var image = {
-		url: 'images/marker.png', // Define the map marker file here
+		url: '/assets/6269713/marker.png', // Define the map marker file here
 		// This marker is 51 pixels wide by 63 pixels tall.
 		size: new google.maps.Size(51, 63),
 		// The origin for this image is 0,0.
