@@ -1,0 +1,578 @@
+.span12
+  .module-header.schedule-header
+    %h4 Schedule
+  / end module-header
+/ end span12
+.span12
+  / Tabs
+  %ul#schedule-tabs.nav.nav-pills.tab-fillspace
+    %li.active
+      %a{"data-toggle" => "tab", :href => "#dayone"}
+        September 23
+        %sup rd
+    %li
+      %a{"data-toggle" => "tab", :href => "#daytwo"}
+        September 24
+        %sup th
+    %li
+      %a{"data-toggle" => "tab", :href => "#daythree"}
+        September 25
+        %sup th
+  / end tabs
+/ end span12
+.tab-content
+  #dayone.tab-pane.wo-tab-pane.fade.in.active
+    / DAY ONE
+    .span4
+      %h2 First Day
+      %p
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ipsum eget nulla molestie, vitae ultricies nulla dapibus. Nulla vel faucibus erat, sed malesuada purus. Quisque varius metus et erat pulvinar luctus. Fusce neque arcu, viverra
+        vel dui vitae, commodo vulputate orci. Cras et ipsum placerat, semper tortor a, venenatis enim. Morbi a vehicula nibh, ac bibendum nulla. Praesent tincidunt neque eget lectus mattis ullamcorper.
+      .schedule-download
+        %a.btn{:href => "#"}
+          %i.iconf-acrobat
+        %p Full Schedule
+    / end span4
+    .span8
+      / TIMELINE
+      %section.timeline.toggle-shortcode.toggles
+        / EVENT 1
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-wine
+          .time-box
+            %time 08:00
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3
+                  Pre-Party
+                  %span Sponsored by Nesyan
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 1
+        / EVENT 2
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-ok
+          .time-box
+            %time 10:00
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3 Registration
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 2
+        / EVENT 3
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-microphone
+          .time-box
+            %time 10:50
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3 Opening Keynote
+                %h4
+                  John Doe
+                  %span Dévan Studio
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 3
+        / EVENT 4
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-coffee
+          .time-box
+            %time 11:40
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3
+                  Break
+                  %span Sponsored by Sphere Labs
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 4
+        / EVENT 5
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-dialogue-box
+          .time-box
+            %time 12:00
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3 Talk: Practical Solutions
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 5
+        / EVENT 6
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-sun
+          .time-box
+            %time 13:00
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3
+                  Lunch
+                  %span Sponsored by Gravity
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 6
+        / EVENT 7
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-microphone
+          .time-box
+            %time 14:10
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3 The Future of Web
+                %h4 John Doe
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 7
+        / EVENT 8
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-microphone
+          .time-box
+            %time 15:00
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3 Responsive Template Design
+                %h4 John Doe
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 8
+        / EVENT 9
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-videocam
+          .time-box
+            %time 15:50
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3 Project Presentation: Micromoney Payments
+                %h4
+                  John Doe
+                  %span Micromoney
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 9
+        / EVENT 10
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-pencil2
+          .time-box
+            %time 16:40
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3 Training Sessions
+                %h4
+                  John Doe
+                  %span Developers Camp
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 10
+        / ADD AN EVENT HERE
+    / end span8
+    /
+  #daytwo.tab-pane.wo-tab-pane.fade
+    / DAY TWO
+    .span4
+      %h2 Second Day
+      %p
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ipsum eget nulla molestie, vitae ultricies nulla dapibus. Nulla vel faucibus erat, sed malesuada purus. Quisque varius metus et erat pulvinar luctus. Fusce neque arcu, viverra
+        vel dui vitae, commodo vulputate orci. Cras et ipsum placerat, semper tortor a, venenatis enim. Morbi a vehicula nibh, ac bibendum nulla. Praesent tincidunt neque eget lectus mattis ullamcorper.
+      .schedule-download
+        %a.btn{:href => "#"}
+          %i.iconf-acrobat
+        %p Full Schedule
+    / end span4
+    .span8
+      / TIMELINE
+      %section.timeline.toggle-shortcode.toggles
+        / EVENT 1
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-microphone
+          .time-box
+            %time 08:00
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3 Typography
+                %h4
+                  John Doe
+                  %span Design Association
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 1
+        / EVENT 2
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-microphone
+          .time-box
+            %time 09:20
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3 Web Fonts
+                %h4
+                  Jane Roe
+                  %span Turbo Fonts
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 2
+        / EVENT 3
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-microphone
+          .time-box
+            %time 10:20
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3 One-Page Websites
+                %h4 Richard Miles
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 3
+        / EVENT 4
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-coffee
+          .time-box
+            %time 11:30
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3
+                  Break
+                  %span Sponsored by Sphere Labs
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 4
+        / EVENT 5
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-videocam
+          .time-box
+            %time 12:00
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3 Project Presentation: Facepage App
+                %h4
+                  John Stiles
+                  %span Facepage
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 5
+        / EVENT 6
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-sun
+          .time-box
+            %time 13:00
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3
+                  Lunch
+                  %span Sponsored by Gravity
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 6
+        / EVENT 7
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-microphone
+          .time-box
+            %time 14:10
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3 Mobile Platforms
+                %h4 John Doe
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 7
+        / EVENT 8
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-videocam
+          .time-box
+            %time 15:30
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3 Project Presentation: Handsome Fonts Website
+                %h4
+                  John Smith
+                  %span GBVFD Design Firm
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 8
+        / EVENT 9
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-pencil2
+          .time-box
+            %time 16:40
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3 Training Sessions: jQuery
+                %h4
+                  Carla Coe
+                  %span Developers Camp
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 10
+        / ADD AN EVENT HERE
+    / end span8
+    /
+  #daythree.tab-pane.wo-tab-pane.fade
+    / DAY THREE
+    .span4
+      %h2 Third Day
+      %p
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ipsum eget nulla molestie, vitae ultricies nulla dapibus. Nulla vel faucibus erat, sed malesuada purus. Quisque varius metus et erat pulvinar luctus. Fusce neque arcu, viverra
+        vel dui vitae, commodo vulputate orci. Cras et ipsum placerat, semper tortor a, venenatis enim. Morbi a vehicula nibh, ac bibendum nulla. Praesent tincidunt neque eget lectus mattis ullamcorper.
+      .schedule-download
+        %a.btn{:href => "#"}
+          %i.iconf-acrobat
+        %p Full Schedule
+    / end span4
+    .span8
+      / TIMELINE
+      %section.timeline.toggle-shortcode.toggles
+        / EVENT 1
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-microphone
+          .time-box
+            %time 08:00
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3 HTML5
+                %h4 Paula Poe
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 1
+        / EVENT 2
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-dialogue-box
+          .time-box
+            %time 09:00
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3 Q&amp;A with Quintin Qoe
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 2
+        / EVENT 3
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-coffee
+          .time-box
+            %time 11:30
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3
+                  Break
+                  %span Sponsored by Sphere Labs
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 3
+        / EVENT 4
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-videocam
+          .time-box
+            %time 12:00
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3 Project Presentation: Web Audio
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 4
+        / EVENT 5
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-sun
+          .time-box
+            %time 13:30
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3
+                  Lunch
+                  %span Sponsored by Gravity
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 5
+        / EVENT 6
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-microphone
+          .time-box
+            %time 14:40
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3 Vector Illustrations
+                %h4 Marta Moe
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 6
+        / EVENT 7
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-microphone
+          .time-box
+            %time 15:30
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3 Closing Remarks
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.
+        / end EVENT 7
+        / EVENT 8
+        %article.event
+          .timeline-icon
+            .timeline-icon-container
+              %i.iconf-wine
+          .time-box
+            %time 16:50
+          .timeline-content
+            .event-content
+              .toggle-item-title.event-title{"data-count" => "1"}
+                %h3
+                  After-Party
+                  %span Sponsored by Dévan
+              .toggle-item-body{:style => "display: none;"}
+                %p
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio. Cum sociis natoquesel usts et magnis dis parturient montes, nascetur ridiculust mus. Donec vel neque ligula, sed cust metus. Vivamus porta velit at metus convallis porta.
+                  Etiam eget nunc ante. Nullam sit amet act nisis egestr sapien. Aliquam nec aliquam libero. Vestibulum consectetur sodales adipiscing. Vestibulum mi neque, vehicula id hendrerit tincidunt, aliquam nec elitas quisque pellentesque varius urna.
+                  Vivamus lectus quam, condimentum vitae tincidunt vel, congue id odio.

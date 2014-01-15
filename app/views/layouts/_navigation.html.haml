@@ -1,20 +1,18 @@
--# navigation styled for Bootstrap 3.0
-%nav.navbar.navbar-default.navbar-fixed-top
-  .container
-    .navbar-header
-      %button.navbar-toggle{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", :type => "button"}
-        %span.sr-only Toggle navigation
-        %span.icon-bar
-        %span.icon-bar
-        %span.icon-bar
-      = link_to '#home', class: 'navbar-brand' do
-        = image_tag("layout/logo_#{I18n.locale}.png")
-    .collapse.navbar-collapse
-      %ul.nav.navbar-nav.pull-right
-        - %w(venue speakers sponsors agenda).each do |section|
-          %li= link_to t(section), "##{section}"
-        %li.get-a-ticket
-          = link_to "#get_a_ticket" do
-            %button.btn.btn-danger.btn-xs
-              = t(:get_a_ticket).upcase
-        %li= i18n_switch
+%ul#mainnav.nav
+  %li
+    %a{:href => "#about"} About
+  %li
+    %a{:href => "#speakers"} Speakers
+  %li
+    %a{:href => "#schedule"} Schedule
+  %li
+    %a{:href => "#workshops"} Workshops
+  %li
+    %a{:href => "#venue"} Venue
+  %li
+    %a{:href => "#sponsors"} Sponsors
+  -#%li
+  -#  %a{:href => "#news"} News
+  %li
+    %a{:href => "#contact"} Contact
+  %li= i18n_switch

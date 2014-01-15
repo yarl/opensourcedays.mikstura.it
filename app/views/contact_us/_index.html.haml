@@ -1,0 +1,71 @@
+.span12
+  .module-header.contact-header
+    %h4 Contact
+/ end span12
+.span12.hero-unit.text-center.white
+  %h2 Get in touch
+  %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus iaculis porta. Vivamus mattis tempus aliquet.
+/ end hero-unit
+#ErrorMsgs.span12
+/ end ErrorMsgs
+%form#contactform{:action => "contact.php", :method => "post", :name => "contactform"}
+  .control-group.span4
+    %label.control-label{:for => "contact_name"} Name:
+    .controls
+      %input#contact_name.input-block-level{:class => "validate[required]", :name => "contact_name", :required => "", :type => "text"}/
+  .control-group.span4
+    %label.control-label{:for => "contact_email"} Email:
+    .controls
+      %input#contact_email.input-block-level{:class => "validate[required,custom[email]]", :name => "contact_email", :required => "", :type => "email"}/
+  .control-group.span4
+    %label.control-label{:for => "contact_subject"} Subject:
+    .controls
+      %input#contact_subject.input-block-level{:class => "validate[required]", :name => "contact_subject", :type => "text"}/
+  .control-group.span12
+    %label.control-label{:for => "contact_message"} Message:
+    .controls
+      %textarea#contact_message.input-block-level{:class => "validate[required]", :cols => "30", :name => "contact_message", :rows => "6"}
+  .control-group.span12
+    .controls
+      %button#submit.btn.btn-primary.pull-right{:name => "submit", :type => "submit"} Send Message
+.span12.text-center
+  .subheader
+    %h4 Contact info
+  /
+.span12.text-center
+  %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales tincidunt sodales. Nam tellus velit, hendrerit ac venenatis adipiscing, sollicitudin vitae orci. Vestibulum mollis pharetra metus sit amet convallis.
+.span4.text-center
+  %p
+    %i.iconf-mobile
+    Inqueries: +1 234 567 89 00
+.span4.text-center
+  %p
+    %i.iconf-money
+    Prices and Media: +1 234 567 89 00
+.span4.text-center
+  %p
+    %i.iconf-mail
+    Email:
+    %a{:href => "info@eventify2014.com"} info@eventify2014.com
+.span12.text-center
+  .social
+    %a.icon-wrap.small.facebook{:href => "#", :target => "_blank", :title => "Facebook"}
+      %i.iconf-facebook
+    %a.icon-wrap.small.twitter{:href => "#", :target => "_blank", :title => "Twitter"}
+      %i.iconf-twitter
+    %a.icon-wrap.small.google{:href => "#", :target => "_blank", :title => "Google+"}
+      %i.iconf-gplus
+    %a.icon-wrap.small.linkedin{:href => "#", :target => "_blank", :title => "Linkedin"}
+      %i.iconf-linkedin
+    %a.icon-wrap.small.rss{:href => "#", :target => "_blank", :title => "RSS"}
+      %i.iconf-rss
+    %a.icon-wrap.small.vimeo{:href => "#", :target => "_blank", :title => "Vimeo"}
+      %i.iconf-vimeo
+    %a.icon-wrap.small.flickr{:href => "#", :target => "_blank", :title => "Flickr"}
+      %i.iconf-flickr
+    %a.icon-wrap.small.lanyrd{:href => "#", :target => "_blank", :title => "Lanyrd"}
+      %i.iconf-lanyrd
+    %a.icon-wrap.small.eventbrite{:href => "#", :target => "_blank", :title => "Eventbrite"}
+      %i.iconf-eventbrite
+    %a.icon-wrap.small.eventful{:href => "#", :target => "_blank", :title => "Eventful"}
+      %i.iconf-eventful
