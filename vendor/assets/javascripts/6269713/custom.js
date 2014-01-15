@@ -87,17 +87,17 @@ $(document).ready(function () {
 	$('#venue').parallax("50%", 0.02);
 	
 	// Carousel //
-	$(".speakers-carousel").carousel({
-		dispItems: 1,
-		direction: "horizontal",
-		pagination: false,
-		loop: false,
-		autoSlide: false,
-		autoSlideInterval: 5000,
-		delayAutoSlide: 2000,
-		effect: "slide",
-		animSpeed: "slow"
-	});
+//	$(".speakers-carousel").carousel({
+//		dispItems: 1,
+//		direction: "horizontal",
+//		pagination: false,
+//		loop: false,
+//		autoSlide: false,
+//		autoSlideInterval: 5000,
+//		delayAutoSlide: 2000,
+//		effect: "slide",
+//		animSpeed: "slow"
+//	});
 	
 	// Toggle //
 	$('.toggle-item-title').click(function () {
