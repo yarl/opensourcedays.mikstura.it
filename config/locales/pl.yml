@@ -74,6 +74,9 @@ pl:
       header: Sobota, 29 Mar
     daythree:
       header: Niedziela, 30 Mar
+  venue:
+    take_place: Konferencja odbędzie się na uczelni
+    ath: Akademia Techniczno-Humanistyczna w Bielsku-Białej
 
 
 
