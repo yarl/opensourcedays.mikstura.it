@@ -1,11 +1,7 @@
 .span12.text-center
-  %img{:alt => "Eventify", :src => "/assets/6269713/logo-footer.png"}/
+  %img{:alt => "DWO '14'", :src => "/assets/layout/dwo_logo_white.png"}/
   .copyright
-    © 2013
-    = succeed "," do
-      %a{:href => "http://www.alialamshahi.com"} Ali Alamshahi
-    All rights reserved. Eventify is organised by
-    %a{:href => "#"} Lorem ipsum
-    %br/
-    Purchase this template @ Themeforest
-  %a{:href => "http://validator.w3.org/check?verbose=1&amp;uri=http%3A%2F%2Falialamshahi.com%2Fthemes%2Feventify%2F"} Valid HTML5
+    = t('footer.is_organised_by')
+    %a{:href => "http://mikstura.it"}= t('footer.mikstura_it')
+    %br
+    2007-2014

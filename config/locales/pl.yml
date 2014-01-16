@@ -77,9 +77,9 @@ pl:
   venue:
     take_place: Konferencja odbędzie się na uczelni
     ath: Akademia Techniczno-Humanistyczna w Bielsku-Białej
-
-
-
+  footer:
+    is_organised_by: Konferencja Dni Wolnego Oprogramowania 2014 jest organizowana przez
+    mikstura_it: Fundacja Mikstura.IT
 
 #  conference_date: 28 - 30 Marca, 2014
 #  get_a_ticket: ZDOBĄDŹ BILET
