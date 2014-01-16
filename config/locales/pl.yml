@@ -48,7 +48,7 @@ pl:
       register_now: Zarejestruj się już teraz!
   speakers:
     learn_from: Skorzystaj z Wiedzy Tych Wspaniałych Ludzi
-    leran_from_description: ' '
+    learn_from_description: ' '
     learn_them: Podziel się Swoją Wiedzą
     learn_them_description:
       one: 'Dni Wolnego Oprogramowania mają bardzo szeroką tematykę - jesteśmy otwarci na wiele tematów.'
