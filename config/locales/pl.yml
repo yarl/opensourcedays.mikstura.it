@@ -55,6 +55,27 @@ pl:
       two: 'W tym roku w szczególności interesują nas wystąpienia poświęcone następującym zagadnieniom:'
     register_as_speaker_url: http://bit.ly/DWO_2014_C4P
     submit_your_talk: Zgłoś Swoją Prezentację
+  schedule:
+    registration:
+      header: rejestracja
+      description: ' '
+    break:
+      header: przerwa
+      description: ' '
+    breakfest:
+      header: śniadanie
+      description: ' '
+    welcome:
+      header: powitanie
+      description: ' '
+    dayone:
+      header: Piątek, 28 Mar
+    daytwo:
+      header: Sobota, 29 Mar
+    daythree:
+      header: Niedziela, 30 Mar
+
+
 
 
 #  conference_date: 28 - 30 Marca, 2014
