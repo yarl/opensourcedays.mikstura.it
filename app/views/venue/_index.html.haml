@@ -4,69 +4,20 @@
 .span12.hero-unit.text-center.white
   %h4= t('venue.take_place')
   %h2= t('venue.ath')
-  %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus iaculis porta. Vivamus mattis tempus aliquet.
-/ end hero-unit
-.span12.text-center
-  %p
-    Aenean eget ullamcorper nisi. Nullam faucibus purus in porttitor iaculis. Sed tristique est non lorem sollicitudin, non aliquam ligula tincidunt. Curabitur luctus aliquam orci eu semper. Donec nec lorem sapien. Proin aliquam, eros feugiat iaculis
-    tristique, lorem eros aliquet nisl, nec commodo est erat quis augue.
-/ end span12
+  %p= t('venue.ath_address')
 .span12
   .subheader
-    %h4 Getting Here
-/ end span12
-.span4.text-center
-  .icon-wrap.medium.color1
-    %i.iconf-flight
-  %h3 Air Travel
-  %p Donec risus augue, ultricies quis ornare ac, malesuada non augue. Ut venenatis tempus semper. Curabitur rhoncus, nulla sed rhoncus sollicitudin, dolor quam vehicula odio.
-.span4.text-center
-  .icon-wrap.medium.color2
-    %i.iconf-road
-  %h3 By Car
-  %p Donec risus augue, ultricies quis ornare ac, malesuada non augue. Ut venenatis tempus semper. Curabitur rhoncus, nulla sed rhoncus sollicitudin, dolor quam vehicula odio.
-.span4.text-center
-  .icon-wrap.medium.color3
-    %i.iconf-suitcase
-  %h3 Travel Notes
-  %p Donec risus augue, ultricies quis ornare ac, malesuada non augue. Ut venenatis tempus semper. Curabitur rhoncus, nulla sed rhoncus sollicitudin, dolor quam vehicula odio.
-.span12
-  .subheader
-    %h4 Hotels Nearby
-/ end span12
-.span4.text-center
-  %h3 Hotel Babylon
-  %p
-    177A Bleecker St. New York, NY 10019
-    %br/
-    Phone: (212) 234-5670
-  %a{:href => "#", :title => "website"}
-  .icon-wrap.small.color4
-    %i.iconf-monitor
-  %a{:href => "#", :title => "map"}
-  .icon-wrap.small.color4
-    %i.iconf-map-pointer
-.span4.text-center
-  %h3 Hilbert's Hotel
-  %p
-    175 5th Ave. Flatiron District, New York, NY 10010
-    %br/
-    Phone: (212) 426-3050
-  %a{:href => "#", :title => "website"}
-  .icon-wrap.small.color4
-    %i.iconf-monitor
-  %a{:href => "#", :title => "map"}
-  .icon-wrap.small.color4
-    %i.iconf-map-pointer
-.span4.text-center
-  %h3 Hyperion Hotel
-  %p
-    890 5th Ave. New York, NY 10019
-    %br/
-    Phone: (212) 357-4600
-  %a{:href => "#", :title => "website"}
-  .icon-wrap.small.color4
-    %i.iconf-monitor
-  %a{:href => "#", :title => "map"}
-  .icon-wrap.small.color4
-    %i.iconf-map-pointer
+    %h4= t('venue.getting_there.header')
+- %w(users road map).each_with_index do |type, index|
+  - i18n_scope = [:venue, :getting_there, type]
+  .span4.text-center
+    .icon-wrap.medium{class: "color#{index+1}"}
+      %i{class: "iconf-#{type}"}
+    %h3= t(:header, scope: i18n_scope)
+    %p
+      = t(:description, scope: i18n_scope)
+      - if I18n.exists?(i18n_scope + [:external_link])
+        %br
+        = link_to t(:text, scope: i18n_scope + [:external_link]), t(:link, scope: i18n_scope + [:external_link])
+
+

@@ -32,13 +32,13 @@ pl:
       month: Marca
       idea:
         header: Idea
-        message: Open Source to szeroki temat - uważamy iż każdy winien go znać, być na bierząco z tym co się w nim dzieje.
+        message: Ruch Open Source to przede wszystkim nastawienie na innowacyjność, kreatywność i chęć dzielenia się wiedzą. Nie ogranicza się on tylko do kodu źrodłowego aplikacji - ruch ten można spotkać w ekologii, sprzęcie czy też powszechnym dostępie do wiedzy, edukacji.
       community:
         header: Społeczność
-        message: Skorzystanie z cyklu prelekcji umożliwi poszerzenie horyzontów oraz poznania interesujących ludzi.
+        message: Żadna idea nigdy nie odniosłoba sukcesu gdyby nie zaangażowanie zwykłych ludzi - i ty możesz mieć wpływ aby zmieniać świat wokół nas. ‘Uwolnij się’ :-) i dołącz do społeczności Open Source!
       workshop:
         header: Warsztaty
-        message: Uczestnictwo w warsztatach pozwoli nobyć nowych umiejętności - technicznych jak również miękkich.
+        message: W społęczności Open Source jest wiele osób które posiada konkretne umiejętności, a przy tym chętnie się nimi dzielą. Jeszcze więcej jest tych, którzy są skorzy by nabyć konkretnych umiejętności. Warsztaty pozwalają tą sytuację wykorzystać.
     register:
       modal:
         title: Zarejestruj się
@@ -47,7 +47,7 @@ pl:
       admitance_free: (uczestnictwo w konferencji jest bezpłatne)
       register_now: Zarejestruj się już teraz!
   speakers:
-    learn_from: Skorzystaj z Wiedzy Tych Wspaniałych Ludzi
+    learn_from: Skorzystaj z Wiedzy Wspaniałych Ludzi
     learn_from_description: ' '
     learn_them: Podziel się Swoją Wiedzą
     learn_them_description:
@@ -77,6 +77,22 @@ pl:
   venue:
     take_place: Konferencja odbędzie się na uczelni
     ath: Akademia Techniczno-Humanistyczna w Bielsku-Białej
+    ath_address: Bielsko-Biała, ul. Willowa 2 - Budynek L (Sala L128)
+    getting_there:
+      header: dojazd
+      users:
+        header: Na nogach
+        description: "MZK linie nr: 10, 57 - przystanek docelowy Bystrzańska/Willowa oraz linie nr: 12, 24, 24BIS - przystanek docelowy Szeroka/Bystrzańska"
+        external_link:
+          text: Szczegółowa mapka MZK
+          link: http://www.mzk.bielsko.pl/plan.html
+      road:
+        header: Samochodem
+        description: Od ulicy Czołgistów, oraz Willowej znajdują się ogólnodostępne parkingi. Na terenie uczelni (wjazd tylko od ulicy Willowej) również są prakingi płatne (opłata zryczałtowana 2 zł)
+      map:
+        header: Mapa
+        description: "Na poniższej mapie zostały oznaczone ważne punkty, takie jak: miejsce konferencji :-), przystanki autobusowe wraz z linkami do szczegółowych rozkładów jazdy, hotele, hostele, restauracje"
+
   footer:
     is_organised_by: Konferencja Dni Wolnego Oprogramowania 2014 jest organizowana przez
     mikstura_it: Fundacja Mikstura.IT

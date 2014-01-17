@@ -212,6 +212,15 @@ $(document).ready(function () {
 		// The anchor for this image is the base of the flagpole at 26,63.
 		anchor: new google.maps.Point(26, 63)
 	};
+    var busstop = {
+        url: '/assets/venue/map_markers/busstop.png', // Define the map marker file here
+        // This marker is 51 pixels wide by 63 pixels tall.
+        size: new google.maps.Size(32, 37),
+        // The origin for this image is 0,0.
+        origin: new google.maps.Point(0, 0),
+        // The anchor for this image is the base of the flagpole at 26,63.
+        anchor: new google.maps.Point(16, 37)
+    };
 	$('#map_canvas').gmap().bind('init', function () {
 		$('#map_canvas').gmap('addMarker', {
 			'id': 'marker-1',
@@ -223,7 +232,30 @@ $(document).ready(function () {
 				'content': '<h4>DWO \'14</h4><p><strong>ATH sala L128</strong><br>Willowa 2, Bielsko-Biała</p>'
 			}, this);
 		});
+        $('#map_canvas').gmap('addMarker', {
+            'id': 'marker-2',
+            'position': '49.783943,19.067509',
+            'bounds': false,
+            'icon': busstop
+        }).click(function () {
+                $('#map_canvas').gmap('openInfoWindow', {
+                    'content': '<h4>Bystrzańska/Willowa</h4><p><strong><a target="_blank" href="http://www.mzkb-b.internetdsl.pl/p_26_57_m.htm">Bystrzańska Willowa</a></p>'
+                }, this);
+            });
+
+        $('#map_canvas').gmap('addMarker', {
+            'id': 'marker-2',
+            'position': '49.785209,19.057012',
+            'bounds': false,
+            'icon': busstop
+        }).click(function () {
+                $('#map_canvas').gmap('openInfoWindow', {
+                    'content': '<h4>Bystrzańska/Willowa</h4><p><strong><a target="_blank" href="http://www.mzkb-b.internetdsl.pl/p_21_m.htm">Szeroka/Bystrzańska</a></p>'
+                }, this);
+            });
 	});
+
+
 	
 	// end		
 })

@@ -30,17 +30,17 @@ module HomeHelper
 
   def icon_by_type(type)
     class_name = {
-        registration: 'iconf-ok',
+        registration: 'iconf-eventbrite',
         keynote: 'iconf-microphone',
         talk: 'iconf-microphone',
         panel: 'iconf-dialogue-box',
         #breakfest: 'iconf-fast_food',
-        breakfest: 'iconf-coffee',
+        breakfest: 'iconf-cup',
         ligthingtalks: 'iconf-microphone',
         break: 'iconf-coffee',
         #lunch: 'iconf-pizza',
-        lunch: 'iconf-coffee',
-        welcome: 'iconf-sun',
+        lunch: 'iconf-food',
+        welcome: 'iconf-megaphone',
         party: 'iconf-wine'
     }[type]
 
