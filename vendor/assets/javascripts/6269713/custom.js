@@ -183,7 +183,7 @@ $(document).ready(function () {
 	// Google Map //
 	$('#map_canvas').gmap({
 		'center': new google.maps.LatLng(49.783883,19.0581217), // Change this to your desired latitude and longitude
-		'zoom': 17,
+		'zoom': 15,
 		'mapTypeControl': false,
 		'navigationControl': false,
 		'streetViewControl': false,
@@ -239,7 +239,7 @@ $(document).ready(function () {
             'icon': busstop
         }).click(function () {
                 $('#map_canvas').gmap('openInfoWindow', {
-                    'content': '<h4>Bystrzańska/Willowa</h4><p><strong><a target="_blank" href="http://www.mzkb-b.internetdsl.pl/p_26_57_m.htm">Bystrzańska Willowa</a></p>'
+                    'content': '<a target="_blank" href="http://www.mzkb-b.internetdsl.pl/p_26_57_m.htm">Bystrzańska/Willowa</a></p>'
                 }, this);
             });
 
@@ -250,7 +250,7 @@ $(document).ready(function () {
             'icon': busstop
         }).click(function () {
                 $('#map_canvas').gmap('openInfoWindow', {
-                    'content': '<h4>Bystrzańska/Willowa</h4><p><strong><a target="_blank" href="http://www.mzkb-b.internetdsl.pl/p_21_m.htm">Szeroka/Bystrzańska</a></p>'
+                    'content': '<a target="_blank" href="http://www.mzkb-b.internetdsl.pl/p_21_m.htm">Szeroka/Bystrzańska</a></p>'
                 }, this);
             });
 	});
