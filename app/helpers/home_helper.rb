@@ -1,6 +1,6 @@
 module HomeHelper
   def i18n_switch_link
-    {en: '//dwo.mikstura.it', pl: '//opensourcedays.mikstura.it'}[I18n.locale]
+    {en: 'http://dwo.mikstura.it', pl: 'http://opensourcedays.mikstura.it'}[I18n.locale]
   end
 
   def i18n_switch_flag
