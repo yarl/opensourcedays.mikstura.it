@@ -92,6 +92,14 @@ pl:
       map:
         header: Mapa
         description: "Na poniższej mapie zostały oznaczone ważne punkty, takie jak: miejsce konferencji :-), przystanki autobusowe wraz z linkami do szczegółowych rozkładów jazdy, hotele, hostele, restauracje"
+  sponsors:
+    slogan: Sponsorzy mają zaczący wpływ na jakość konferencji
+    slogan: Dzięki nim, Dni Wolnego Oprogramowania są wyjątkowe
+    slogan: Przygarnij pingwinka pod swoje skrzydła :-)
+    join_us: i zostań sponsorem DWO '14
+    link:
+      text: Dowiedz się więcej z broszury dla sponsorów
+      url: "http://bit.ly/DniWolnegoOprogramowaniaBroszuraDlaSponsorow"
 
   footer:
     is_organised_by: Konferencja Dni Wolnego Oprogramowania 2014 jest organizowana przez
@@ -108,12 +116,6 @@ pl:
 #      brief_summary_of_previous_edition: Podsumowanie poprzedniej edycji.
 #    venue:
 #      click_on_map: (kliknij na mapę aby zobaczyć większą)
-#    speakers:
-#      became_speaker_link: http://bit.ly/DWO_2014_C4P
-#      became_speaker_alt: Zgłoś swoją prezentacje
-#    sponsors:
-#      became_sponsor: Zostań Sponsorem
-#      sponsorship_booklet_path: "http://bit.ly/DniWolnegoOprogramowaniaBroszuraDlaSponsorow"
 #    agenda:
 #      registrations: rejestracja
 #      break: przerwa
