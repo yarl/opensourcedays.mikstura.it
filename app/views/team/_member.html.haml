@@ -1,0 +1,14 @@
+%li
+  .item.item-3
+    .photo-wrap.hover_colour
+      %img{:alt => speaker.name, :src => "/assets/speakers/#{speaker.picture}"}
+    .text-wrap.white
+      %h3= speaker.name
+      %h5= speaker.title
+      %hr.divider-short.center/
+      %p.description= speaker.description
+    .social
+      - speaker.social.each do |(name, url)|
+        = link_to url, title: name.to_s.humanize, target: :blank, class: "icon-wrap small #{name}" do
+          %i{class: "iconf-#{name}"}
+

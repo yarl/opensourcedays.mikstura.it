@@ -8,20 +8,8 @@
   .divider-space
 .span12
   .carouselslider.speakers-carousel.item-4
-    .span11.offset1
-      %ul
-        - @team.each do |speaker|
-          %li
-            .item.item-3
-              .photo-wrap.hover_colour
-                %img{:alt => speaker.name, :src => "/assets/speakers/#{speaker.picture}"}
-              .text-wrap.white
-                %h3= speaker.name
-                %h5= speaker.title
-                %hr.divider-short.center/
-                %p.description= speaker.description
-              .social
-                - speaker.social.each do |(name, url)|
-                  = link_to url, title: name.to_s.humanize, target: :blank, class: "icon-wrap small #{name}" do
-                    %i{class: "iconf-#{name}"}
-
+    - @team.each_slice(3) do |slice|
+      .span12
+        %ul.people
+          - slice.each do |speaker|
+            = render partial: 'team/member', locals: {speaker: speaker}
