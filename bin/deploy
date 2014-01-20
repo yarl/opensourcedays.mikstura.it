@@ -1,2 +1,2 @@
 bin/cache_pages
-cap production deploy:cold
+cap production deploy
