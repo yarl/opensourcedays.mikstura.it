@@ -1,5 +1,4 @@
-rm -rf public/assets public/pages
-git rm public/assets/* public/pages/*
+git checkout -b deploy
 
 bin/rake assets:precompile
 bin/rails server -e production -d
@@ -13,3 +12,7 @@ kill -QUIT `cat tmp/pids/server.pid`
 
 git add public/assets/* public/pages/*
 git commit -m 'updating cache'
+
+git push origin deploy:deploy --force
+git checkout master
+git branch -D deploy

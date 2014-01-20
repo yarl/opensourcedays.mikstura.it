@@ -1,5 +1,6 @@
 set :application, 'opensourcedays'
 set :repo_url, 'https://github.com/miksturait/opensourcedays.mikstura.it.git'
+set :branch, 'deploy'
 
 set :deploy_to, '/srv/mikstura.it/opensourcedays'
 

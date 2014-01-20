@@ -1,3 +1,2 @@
 bin/cache_pages
-git push origin
-cap production deploy
+cap production deploy:cold
