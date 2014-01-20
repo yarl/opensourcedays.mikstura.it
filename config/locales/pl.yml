@@ -100,6 +100,10 @@ pl:
     link:
       text: Dowiedz się więcej z broszury dla sponsorów
       url: "http://bit.ly/DniWolnegoOprogramowaniaBroszuraDlaSponsorow"
+  contact_us:
+    hint: W razie pytań bądź wątpliwości, zachęcamy do kontaktu korzystająć z wymienionych poniżej kanałów.
+    follow_us:
+      header: Bądź na bierząco
 
   footer:
     is_organised_by: Konferencja Dni Wolnego Oprogramowania 2014 jest organizowana przez

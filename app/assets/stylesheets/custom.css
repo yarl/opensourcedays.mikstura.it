@@ -5,3 +5,7 @@ article .photo-wrap > img {
     -o-border-radius: 50%;
     border-radius: 50%;
 }
+
+.text-middle {
+    vertical-align: middle;
+}

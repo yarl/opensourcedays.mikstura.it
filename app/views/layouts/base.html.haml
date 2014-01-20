@@ -65,20 +65,25 @@
 
     =# render partial: 'news/blog'
 
-    %section#twitter-feed
-      .container
-        .row
-          = render partial: 'news/twitter'
+    -#%section#twitter-feed
+    -#  .container
+    -#    .row
+    -#      = render partial: 'news/twitter'
 
     %section#contact.white
       .container
         .row
           = render partial: 'contact_us/index'
 
-    %section#newsletter
+    -#%section#newsletter
+    -#  .container
+    -#    .row
+    -#      = render partial: 'news/mailchimp'
+
+    %section#social_media
       .container
         .row
-          = render partial: 'news/mailchimp'
+          = render partial: 'news/social_media_big'
 
     %footer#footer
       .container

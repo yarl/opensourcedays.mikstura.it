@@ -1,43 +1,29 @@
 =# render partial: 'contact_us/contact_form'
 .span12.text-center
   .module-header.contact-header
-    %h4
-      Contact info
-  /
+    %h4= t('section.contact')
 .span12.text-center
-  %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales tincidunt sodales. Nam tellus velit, hendrerit ac venenatis adipiscing, sollicitudin vitae orci. Vestibulum mollis pharetra metus sit amet convallis.
-.span4.text-center
+  %p= t('contact_us.hint')
+.span4.text-center.text-middle
   %p
     %i.iconf-mobile
-    Inqueries: +1 234 567 89 00
+    +48 661 120 232
 .span4.text-center
-  %p
-    %i.iconf-money
-    Prices and Media: +1 234 567 89 00
-.span4.text-center
+  .social
+    %a.icon-wrap.small.facebook{:href => "https://www.facebook.com/MiksturaIT", :target => "_blank", :title => "Facebook"}
+      %i.iconf-facebook
+    %a.icon-wrap.small.twitter{:href => "https://twitter.com/miksturait", :target => "_blank", :title => "Twitter"}
+      %i.iconf-twitter
+    %a.icon-wrap.small.google{:href => "https://google.com/+MiksturaIt_Foundation", :target => "_blank", :title => "Google+"}
+      %i.iconf-gplus
+    %a.icon-wrap.small.youtube{:href => "https://www.youtube.com/user/MiksturaIT", :target => "_blank", :title => "YouTube"}
+      %i.iconf-youtube
+    %a.icon-wrap.small.linkedin{:href => "http://www.linkedin.com/company/mikstura-it-foundation", :target => "_blank", :title => "Linkedin"}
+      %i.iconf-linkedin
+.span4.text-center.text-middle
   %p
     %i.iconf-mail
     Email:
-    %a{:href => "info@eventify2014.com"} info@eventify2014.com
-.span12.text-center
-  .social
-    %a.icon-wrap.small.facebook{:href => "#", :target => "_blank", :title => "Facebook"}
-      %i.iconf-facebook
-    %a.icon-wrap.small.twitter{:href => "#", :target => "_blank", :title => "Twitter"}
-      %i.iconf-twitter
-    %a.icon-wrap.small.google{:href => "#", :target => "_blank", :title => "Google+"}
-      %i.iconf-gplus
-    %a.icon-wrap.small.linkedin{:href => "#", :target => "_blank", :title => "Linkedin"}
-      %i.iconf-linkedin
-    %a.icon-wrap.small.rss{:href => "#", :target => "_blank", :title => "RSS"}
-      %i.iconf-rss
-    %a.icon-wrap.small.vimeo{:href => "#", :target => "_blank", :title => "Vimeo"}
-      %i.iconf-vimeo
-    %a.icon-wrap.small.flickr{:href => "#", :target => "_blank", :title => "Flickr"}
-      %i.iconf-flickr
-    %a.icon-wrap.small.lanyrd{:href => "#", :target => "_blank", :title => "Lanyrd"}
-      %i.iconf-lanyrd
-    %a.icon-wrap.small.eventbrite{:href => "#", :target => "_blank", :title => "Eventbrite"}
-      %i.iconf-eventbrite
-    %a.icon-wrap.small.eventful{:href => "#", :target => "_blank", :title => "Eventful"}
-      %i.iconf-eventful
+    %a{:href => "fundacja@mikstur.it"} fundacja@mikstura.it
+
+

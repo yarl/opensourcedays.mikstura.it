@@ -254,8 +254,4 @@ $(document).ready(function () {
                 }, this);
             });
 	});
-
-
-	
-	// end		
 })
