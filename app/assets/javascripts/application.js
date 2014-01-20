@@ -20,8 +20,8 @@
 //= require 6269713/jquery.localscroll-1.2.7-min.js
 //= require 6269713/jquery.nav.js
 //= require 6269713/jquery.countdown.min.js
-//= require 6269713/jquery.validationengine-en.min.js
-//= require 6269713/jquery.validationengine.min.js
-//= require 6269713/tweetie.min.js
+// require 6269713/jquery.validationengine-en.min.js
+// require 6269713/jquery.validationengine.min.js
+// require 6269713/tweetie.min.js
 //= require 6269713/custom.js
 //= require_tree .

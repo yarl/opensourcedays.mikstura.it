@@ -117,9 +117,9 @@ class HomeController < ApplicationController
                 speaker: 'Michał Czyż',
                 description: ' '},
             {
-                start_at: '17:10', type: :talk, title: 'Umiejętności miękkie w zespołach IT',
+                start_at: '17:10', type: :talk, title: 'Czy można zaprogramować człowieka?',
                 speaker: 'Dariusz Wylon',
-                description: ' '},
+                description: 'Chcesz dowiedzieć się co zrobić, aby osoby w Twoim otoczeniu lepiej rozmiały to co chcesz im przekazać. Chcesz sprawić, aby wypowiadane przez Ciebie  komunikaty były bardziej skuteczne. Co prawda nie powiem jak zaprogramować człowieka aby zrobił to co chcemy, ale chętnie podzielę się z Tobą wiedzą na temat komunikacji międzyludzkiej, która dotychczas dostępna była jedynie na najlepszych szkoleniach.'},
             break_time.merge({
                                  start_at: '17:30'}),
             {
