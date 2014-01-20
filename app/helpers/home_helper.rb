@@ -8,7 +8,7 @@ module HomeHelper
   end
 
   def i18n_switch
-    link_to i18n_switch_link do
+    link_to i18n_switch_link, class: 'external' do
       i18n_switch_flag
     end
   end
