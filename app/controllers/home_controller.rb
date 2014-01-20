@@ -43,17 +43,55 @@ class HomeController < ApplicationController
                  name: 'Dominik Kozaczko', title: 'Wykładowca ATH',
                  description: 'Ojciec założyciel Dni Wolnego Oprogramowania',
                  picture: 'Dominik_Kozaczko.jpg',
-                 social: {twitter: 'https://twitter.com/_DomKo_',
-                          google: 'https://plus.google.com/110911336147638586954/posts',
-                          linkedin: 'http://pl.linkedin.com/pub/dominik-kozaczko/30/6a3/844'}
+                 social: {
+                     twitter: 'https://twitter.com/_DomKo_',
+                     google: 'https://plus.google.com/110911336147638586954/posts',
+                     linkedin: 'http://pl.linkedin.com/pub/dominik-kozaczko/30/6a3/844'}
+             },
+             {
+                 name: 'Eunika Tabak', title: 'Mikstura.IT',
+                 description: 'Prezes fundacji Mikstura.IT oraz tłumacz języka migowego',
+                 picture: 'Eunika_Tabak.jpg',
+                 social: {
+                     linkedin: 'http://pl.linkedin.com/pub/eunika-tabak/69/7b4/508'
+                 }
+             },
+             {
+                 name: 'Dariusz Wylon', title: 'Coach & Trainer',
+                 description: 'Innowacyjny i kreatywny manadżer z 12 letnim doświadczeniem',
+                 picture: 'Dariusz_Wylon.jpg',
+                 social: {
+                     twitter: 'https://twitter.com/corporate_coach',
+                     linkedin: 'http://pl.linkedin.com/in/dariuszwylon'
+                 }
              },
              {
                  name: 'Michał Czyż', title: 'VP @ Mikstura.IT',
-                 description: 'Ojciec założyciel Dni Wolnego Oprogramowania',
+                 description: 'Ruby developer, aktywny uczestnik społecznośći Open Source',
                  picture: 'Michal_Czyz.jpg',
-                 social: {twitter: 'http://bit.ly/twitter_michalczyz',
-                          google: 'http://bit.ly/michalczyz_googleplus',
-                          linkedin: 'http://linkd.in/michalczyz'}
+                 social: {
+                     twitter: 'http://bit.ly/twitter_michalczyz',
+                     google: 'http://bit.ly/michalczyz_googleplus',
+                     linkedin: 'http://linkd.in/michalczyz'
+                 }
+             },
+             {
+                 name: 'Tomasz Gancarczyk', title: 'Wykładowca ATH',
+                 description: 'Opiekun sekcji Systemy operacyjne koła RESET',
+                 picture: 'Tomasz_Gancarczyk.jpg',
+                 social: {
+                     google: 'https://plus.google.com/112446594694346695781/posts',
+                     facebook: 'https://www.facebook.com/tomasz.gancarczyk.bb'
+                 }
+             },
+             {
+                 name: 'Grzegorz Rduch', title: 'Mikstura.IT',
+                 description: 'Przewodniczący rady fundacji Mikstura.IT',
+                 picture: 'Grzegorz_Rduch.jpg',
+                 social: {
+                     google: 'https://plus.google.com/110778338808339960678/posts',
+                     linkedin: 'http://pl.linkedin.com/in/grzegorzrduch'
+                 }
              }
     ].map { |teammate| OpenStruct.new(teammate) }
   end

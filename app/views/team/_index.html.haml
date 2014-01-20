@@ -1,0 +1,26 @@
+.span12
+  .module-header.speakers-header
+    %h4= t('team.header')
+.span12.hero-unit.text-center.white
+  %h2= t('team.people_that_make')
+.span12
+  .divider-space
+.span12
+  .carouselslider.speakers-carousel.item-4
+    .span11.offset1
+      %ul
+        - @team.each do |speaker|
+          %li
+            .item.item-3
+              .photo-wrap.hover_colour
+                %img{:alt => speaker.name, :src => "/assets/speakers/#{speaker.picture}"}
+              .text-wrap.white
+                %h3= speaker.name
+                %h5= speaker.title
+                %hr.divider-short.center/
+                %p.description= speaker.description
+              .social
+                - speaker.social.each do |(name, url)|
+                  = link_to url, title: name.to_s.humanize, target: :blank, class: "icon-wrap small #{name}" do
+                    %i{class: "iconf-#{name}"}
+
