@@ -1,3 +1,4 @@
+git branch -D deploy
 git checkout -b deploy
 
 bin/rake assets:precompile
