@@ -65,8 +65,14 @@ pl:
     breakfest:
       header: śniadanie
       description: ' '
+    lunch:
+      header: przerwa obiadowa
+      description: ''
     welcome:
       header: powitanie
+      description: ' '
+    bye:
+      header: do zobaczenia za rok :-)
       description: ' '
     dayone:
       header: Piątek, 28 Mar
@@ -101,7 +107,7 @@ pl:
       text: Dowiedz się więcej z broszury dla sponsorów
       url: "http://bit.ly/DniWolnegoOprogramowaniaBroszuraDlaSponsorow"
   contact_us:
-    hint: W razie pytań bądź wątpliwości, zachęcamy do kontaktu korzystająć z wymienionych poniżej kanałów.
+    hint: W razie pytań bądź wątpliwości, zachęcamy do kontaktu za pośrednictwem poniżej wymienionych kanałów.
     follow_us:
       header: Bądź na bierząco
   team:

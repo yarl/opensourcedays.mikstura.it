@@ -2,8 +2,8 @@ class HomeController < ApplicationController
   layout 'base'
   #after_action :cache_index, only: [:index]
   def index
-    prepare_speakers
     prepare_team
+    prepare_speakers
     prepare_talks
   end
 
@@ -34,7 +34,8 @@ class HomeController < ApplicationController
             social: {twitter: 'https://twitter.com/kateterlecka',
                      google: 'https://plus.google.com/112917749347345443950/posts',
                      linkedin: 'http://pl.linkedin.com/pub/kate-terlecka/19/738/77a'}
-        }
+        },
+        (@team.find { |member| member.name == 'Dariusz Wylon'})
     ].map { |speaker| OpenStruct.new(speaker) }
   end
 
@@ -58,7 +59,7 @@ class HomeController < ApplicationController
              },
              {
                  name: 'Dariusz Wylon', title: 'Coach & Trainer',
-                 description: 'Innowacyjny i kreatywny manadżer z 12 letnim doświadczeniem',
+                 description: 'Innowacyjny i kreatywny manadżer z 12-to letnim doświadczeniem',
                  picture: 'Dariusz_Wylon.jpg',
                  social: {
                      twitter: 'https://twitter.com/corporate_coach',
@@ -66,8 +67,8 @@ class HomeController < ApplicationController
                  }
              },
              {
-                 name: 'Michał Czyż', title: 'VP @ Mikstura.IT',
-                 description: 'Ruby developer, aktywny uczestnik społecznośći Open Source',
+                 name: 'Michał Czyż', title: 'Ruby Developer',
+                 description: 'Aktywny działacz społecznośći Open Source',
                  picture: 'Michal_Czyz.jpg',
                  social: {
                      twitter: 'http://bit.ly/twitter_michalczyz',
@@ -112,7 +113,7 @@ class HomeController < ApplicationController
              speaker: 'Kamil Gałuszka',
              description: 'Open Source jest czymś co zmieniło i zmienia świat. Chcę pokazać jak Ty drogi uczestniku możesz zaangażować się w świat otwartego kodu budowanego przez społeczność wielu niesamowitych ludzi.'
             }, {
-                start_at: '16:50', type: :talk, title: 'Jak zacząć: programowanie',
+                start_at: '16:50', type: :talk, title: 'A więc chciałbyś zostać Hakerem',
                 speaker: 'Michał Czyż',
                 description: ' '},
             {
@@ -165,9 +166,9 @@ class HomeController < ApplicationController
                 description: 'TBA'
             },
             {
-                start_at: '12:30', type: :lunch, title: 'TBA',
+                start_at: '12:30', type: :lunch, title: t('schedule.lunch.header'),
                 speaker: nil,
-                description: 'TBA'
+                description: t('schedule.lunch.description')
             },
             {
                 start_at: '13:30', type: :talk, title: 'TBA',
@@ -186,7 +187,7 @@ class HomeController < ApplicationController
             },
             break_time.merge(start_at: '14:30'),
             {
-                start_at: '15:00', type: :ligthingtalks, title: 'TBA',
+                start_at: '15:00', type: :ligthingtalks, title: 'Lightning Talks',
                 speaker: nil,
                 description: 'TBA'
             },
@@ -214,7 +215,57 @@ class HomeController < ApplicationController
             },
         ].map { |talk| OpenStruct.new(talk) },
         daythree: [
-
+            {
+                start_at: '08:30', type: :breakfest, title: t('schedule.breakfest.header'),
+                speaker: nil,
+                description: t('schedule.breakfest.description')
+            },
+            {
+                start_at: '09:45', type: :welcome, title: t('schedule.welcome.header'),
+                speaker: 'Eunika Tabak',
+                description: t('schedule.welcome.description')},
+            {
+                start_at: '10:00', type: :talk, title: 'TBA',
+                speaker: nil,
+                description: 'TBA'
+            },
+            {
+                start_at: '10:20', type: :talk, title: 'TBA',
+                speaker: nil,
+                description: 'TBA'
+            },
+            {
+                start_at: '10:40', type: :talk, title: 'TBA',
+                speaker: nil,
+                description: 'TBA'
+            },
+            break_time.merge(start_at: '11:00'),
+            {
+                start_at: '11:30', type: :talk, title: 'TBA',
+                speaker: nil,
+                description: 'TBA'
+            },
+            {
+                start_at: '11:50', type: :talk, title: 'TBA',
+                speaker: nil,
+                description: 'TBA'
+            },
+            {
+                start_at: '12:10', type: :talk, title: 'TBA',
+                speaker: nil,
+                description: 'TBA'
+            },
+            break_time.merge(start_at: '12:30'),
+            {
+                start_at: '13:00', type: :talk, title: 'TBA',
+                speaker: nil,
+                description: 'TBA'
+            },
+            {
+                start_at: '14:00', type: :talk, title: t('schedule.bye.header'),
+                speaker: 'Dariusz Wylon',
+                description: t('schedule.bye.description')
+            }
         ].map { |talk| OpenStruct.new(talk) }
     }
   end
