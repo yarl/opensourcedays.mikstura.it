@@ -1,3 +1,0 @@
-= render "home/index"
-- %w(venue speakers sponsors agenda get_a_ticket).each do |section|
-  = render partial: "#{section}/index", layout: 'section', locals: {section_name: section}

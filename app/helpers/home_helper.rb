@@ -4,7 +4,7 @@ module HomeHelper
   end
 
   def i18n_switch_flag
-    image_tag("layout/flags/#{{en: 'pl', pl: 'gb'}[I18n.locale]}.png", style: "height: 16px")
+    image_tag("/assets/layout/flags/#{{en: 'pl', pl: 'gb'}[I18n.locale]}.png", style: "height: 16px")
   end
 
   def i18n_switch
