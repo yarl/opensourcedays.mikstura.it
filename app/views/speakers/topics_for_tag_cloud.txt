@@ -6,7 +6,7 @@
     projektowanie programowanie gry~komputerowe
     studium~przypadku wolne~oprogramowanie szkoły technika organizacje~pozarządowe
     Nagios Zabix
-    otwarty~sprzęt Arduino Beagle~Board Raspeberry~Pi Artoo.io WikiSpeed
+    otwarty~sprzęt Arduino Beagle~Board Raspberry~Pi Artoo.io WikiSpeed
     systemy~operacyjne Firefox~OS Ubuntu~OS Sailfish~OS Jolla Tizen
     analiza~danych wizualizacja~danych R Processing Orange
     programowanie~funkcyjne niemutowalne~typy~danych Clojure Datomic
@@ -15,7 +15,7 @@
     UX UI IT projektowanie~interfejsów architektura~informacji Open~Source
     wolna~kultura Wikipedia OpenStreetMap Jamendo
 
-    Open~Source Open~Source Open~Source Open~Source Open~Source
+    Open~Source Open~Source Open~Source Open~Source Open~Source Open~Source
     domain~driven~design
     automatyczne~testy automatyczne~testy automatyczne~testy
     GitHub GitHub
@@ -39,7 +39,7 @@
     Kanban Kanban
 
     Arduino
-    Raspeberry~Pi Raspeberry~Pi Raspeberry~Pi
+    Raspberry~Pi Raspberry~Pi Raspberry~Pi
 
     Firefox~OS Firefox~OS Firefox~OS
     Sailfish~OS Sailfish~OS

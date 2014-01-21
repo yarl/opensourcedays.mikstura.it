@@ -51,6 +51,7 @@ pl:
     learn_from: Skorzystaj z Wiedzy Wspaniałych Ludzi
     learn_from_description: ' '
     learn_them: Podziel się Swoją Wiedzą
+    topic_cloud: "Open Source, nauka, programowanie, nauczanie, społeczność, swobodny dostęp, Khan Academy, edx.org, coursera.org, współtworzenie zbiorów danych, umiejętności miękkie, efektywna komunikacja, praca zespołowa, doskonalenie rzemiołsa programistycznego, architektura, domain driven design, Vim, Eclipse, RubyMine, FireBug, automatyczne testy, yeoman, grunt, guard, GitHub, Travis CI, Code Climate, metodologie, SCRUM, Kanban, zespoły rozproszone, projektowanie, gry komputerowe, studium przypadku, wolne oprogramowanie, szkoły, technika, organizacje pozarządowe, Nagios, Zabix, otwarty sprzęt, Arduino, Beagle Board, Raspberry Pi, Artoo.io, WikiSpeed, systemy operacyjne, Firefox OS, Ubuntu OS, Sailfish OS, Jolla, Tizen, analiza danych, wizualizacja danych, R, Processing, Orange, programowanie funkcyjne, niemutowalne typy danych, Clojure, Datomic, aplikacje klienckie, Ember.js, Angular.js, CoffeeScript, SASS, Compass, HTML5, prywatne chmury obliczeniowe, Open Shift, Eucalyptus, Cloud Foundry, Docker, UX, UI, IT, projektowanie interfejsów, architektura informacji, wolna kultura, Wikipedia, OpenStreetMap, Jamendo"
     learn_them_description:
       one: 'Dni Wolnego Oprogramowania mają bardzo szeroką tematykę - jesteśmy otwarci na wiele tematów.'
       two: 'W tym roku w szczególności interesują nas wystąpienia poświęcone następującym zagadnieniom:'
