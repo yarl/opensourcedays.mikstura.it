@@ -184,6 +184,7 @@ $(document).ready(function () {
 	$('#map_canvas').gmap({
 		'center': new google.maps.LatLng(49.783883,19.0581217), // Change this to your desired latitude and longitude
 		'zoom': 15,
+        'scrollwheel': false,
 		'mapTypeControl': false,
 		'navigationControl': false,
 		'streetViewControl': false,
