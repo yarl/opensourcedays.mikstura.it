@@ -55,7 +55,7 @@ en:
     learn_them_description:
       one: 'The Open Source Days cover a wide variety of topics.'
       two: 'In 2014 we would very much like to explore some of the topics listed below. Still we are open for other OS-related ideas.'
-    register_as_speaker_url: http://bit.ly/DWO_2014_C4P
+    register_as_speaker_url: http://bit.ly/DWO_2014_C4P_EN
     submit_your_talk: Submit your presentation / workshop
   schedule:
     registration:
@@ -107,7 +107,7 @@ en:
     join_us: sponsor the Open Source Days ‘14
     link:
       text: Check the Sponsorship Booklet for details
-      url: "http://bit.ly/DniWolnegoOprogramowaniaBroszuraDlaSponsorow"
+      url: "http://bit.ly/OpenSourceDaysSponsorshipBooklet"
   contact_us:
     hint: Should you have any queries, please do not hesitate to contact us using the channels below.
     follow_us:
