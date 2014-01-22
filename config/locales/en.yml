@@ -117,29 +117,65 @@ en:
     people_that_make: The people who help organize the Open Source Days ‘14 event.
   people:
     Kamil_Galuszka:
+      name: Kamil Gałuszka
       title: Python Developer
       description: In his free time, Kamil eagerly engages in the activities of Open Source community.
+      social:
+        twitter: https://twitter.com/galuszkak
+        facebook: https://pl-pl.facebook.com/galuszkak
+        google: https://plus.google.com/115271802415949853553/posts
+        linkedin: http://pl.linkedin.com/pub/kamil-ga%C5%82uszka/4a/914/706
     Eunika_Tabak:
+      name: Eunika Tabak
       title: Mikstura.IT Foundation
       description: President of the Board at Mikstura.IT Foundation and a sign language interpreter.
+      social:
+        linkedin: http://pl.linkedin.com/pub/eunika-tabak/69/7b4/508
     Kate_Terlecka:
+      name: Kate Terlecka
       title: The Scrum Girl
       description: Kate Terlecka - one of the most prominent figures in the Polish Agile community.
+      social:
+        twitter: https://twitter.com/kateterlecka
+        google: https://plus.google.com/112917749347345443950/posts
+        linkedin: http://pl.linkedin.com/pub/kate-terlecka/19/738/77a
     Dariusz_Wylon:
+      name: Dariusz Wylon
       title: Coach & Trainer
       description: Innovative and creative manager with 12 years of professional experience to share.
+      social:
+        twitter: https://twitter.com/corporate_coach
+        linkedin: http://pl.linkedin.com/in/dariuszwylon
     Dominik_Kozaczko:
-      title: Lecturer at  ATH
+      name: Dominik Kozaczko
+      title: Lecturer at ATH
       description: The founding father of the Open Source Days conference.
+      social:
+        twitter: https://twitter.com/_DomKo_
+        google: https://plus.google.com/110911336147638586954/posts
+        linkedin: http://pl.linkedin.com/pub/dominik-kozaczko/30/6a3/844
     Tomasz_Gancarczyk:
+      name: Tomasz Gancarczyk
       title: Lecturer at  ATH
       description: The tutor of the operating systems division at the ATH RESET IT community.
+      social:
+        google: https://plus.google.com/112446594694346695781/posts
+        facebook: https://www.facebook.com/tomasz.gancarczyk.bb
     Grzegorz_Rduch:
+      name: Grzegorz Rduch
       title: Mikstura.IT Foundation
       description: Chairman of the Advisory Board at Mikstura.IT Foundation
+      social:
+        google: https://plus.google.com/110778338808339960678/posts
+        linkedin: http://pl.linkedin.com/in/grzegorzrduch
     Michal_Czyz:
+      name: Michał Czyż
       title: Ruby Developer
-      description: Open Source software and community activist.
+      description: "Open Source software and community activist."
+      social:
+        twitter: http://bit.ly/twitter_michalczyz
+        google: http://bit.ly/michalczyz_googleplus
+        linkedin: http://linkd.in/michalczyz
   footer:
     is_organised_by: The Open Source Days 2014 conference is organized by
     mikstura_it: the Mikstura.IT Foundation

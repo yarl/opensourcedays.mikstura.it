@@ -1,6 +1,7 @@
 class HomeController < ApplicationController
   layout 'base'
   after_action :cache_index, only: [:index]
+
   def index
     prepare_team
     prepare_speakers
@@ -14,87 +15,11 @@ class HomeController < ApplicationController
   end
 
   def prepare_speakers
-    @speakers = [
-        {
-            name: 'Kamil Gałuszka', title: 'Python Developer',
-            #description: 'Kamil is working as Python/JavaScript developer on daily basis. In his free time he is trying to be involved in open source community. In not so free time he happen to be working with very skilled team mates in Solution4Future. Kamil believe that meeting great people can sharpen your skills so he is organizing meetjs meetup in Katowice with friends in Cowbell Labs. You can also meet him on PySilesia which is Silesia Python User Group.',
-            #description: 'Kamil na codzień pracuje jako Python/JavaScript developer. W czasie wolnym angażuję się w działania społeczności Open Sourcy. W nie tak dokońca wolnym czasie, mam przyjemność pracować z bardzo utalentowanymi kolegami w Solution4Future. Kamil jest przekonany iż spotkania z wspaniałymi ludźmi mogą ulepszyć posiadane umiejętności, dlatego też organizuje meetjs meetup w Katowicach wspólnie z kolegami z Cowbell Labs. Można go również spotkać na PySilesia - śląskiej grupie używkowników Python. Ponadto Kamil stara się być aktywny w społecznościach: Mikstura.IT, Dni Wolnego Oprogramowania, Stowarzyszenie użytkowników Pythona.',
-            description: "Kamil w czasie wolnym chętnie angażuje się działania społęczności Open Source",
-            picture: 'Kamil_Galuszka.jpg',
-            social: {twitter: 'https://twitter.com/galuszkak',
-                     facebook: 'https://pl-pl.facebook.com/galuszkak',
-                     google: 'https://plus.google.com/115271802415949853553/posts',
-                     linkedin: 'http://pl.linkedin.com/pub/kamil-ga%C5%82uszka/4a/914/706'}
-        },
-        {
-            name: 'Kate Terlecka', title: 'The Scrum Girl',
-            #description: 'Kate Terlecka to jedna z najlepiej rozpoznawalnych twarzy polskiego Agile. Uczy Scruma i związanych z nim technik od lat, w róznych firmach, na różnych poziomach organizacyjnych i w różnych krajach. Jest związana ze Scrum.org jako oficjalny trener prawie od samego jego powstania. W Polsce działa jako założycielka i ogniwo łączące specjalistów pod parasolem inicjatywy Brass Willow, która łączy ludzi którzy mają coś ciekawego do powiedzenia i potrafią to przekazać. Prywatnie miłośniczka psów wszelakiej maści ze słabością do tych mniejszych, zapalona planszówkowiczka i miłośniczka kuchni bliskiego i dalekiego wschodu.',
-            description: 'Kate Terlecka to jedna z najbardziej rozpoznawanych twarzy polskiego Agile.',
-            picture: 'Kate_Terlecka.jpg',
-            social: {twitter: 'https://twitter.com/kateterlecka',
-                     google: 'https://plus.google.com/112917749347345443950/posts',
-                     linkedin: 'http://pl.linkedin.com/pub/kate-terlecka/19/738/77a'}
-        },
-        (@team.find { |member| member.name == 'Dariusz Wylon'})
-    ].map { |speaker| OpenStruct.new(speaker) }
+    @speakers = %w(Kamil_Galuszka Kate_Terlecka Dariusz_Wylon).map { |spekaer| Person.new(spekaer) }
   end
 
   def prepare_team
-    @team = [{
-                 name: 'Dominik Kozaczko', title: 'Wykładowca ATH',
-                 description: 'Ojciec założyciel Dni Wolnego Oprogramowania',
-                 picture: 'Dominik_Kozaczko.jpg',
-                 social: {
-                     twitter: 'https://twitter.com/_DomKo_',
-                     google: 'https://plus.google.com/110911336147638586954/posts',
-                     linkedin: 'http://pl.linkedin.com/pub/dominik-kozaczko/30/6a3/844'}
-             },
-             {
-                 name: 'Eunika Tabak', title: 'Mikstura.IT',
-                 description: 'Prezes fundacji Mikstura.IT oraz tłumacz języka migowego',
-                 picture: 'Eunika_Tabak.jpg',
-                 social: {
-                     linkedin: 'http://pl.linkedin.com/pub/eunika-tabak/69/7b4/508'
-                 }
-             },
-             {
-                 name: 'Dariusz Wylon', title: 'Coach & Trainer',
-                 description: 'Innowacyjny i kreatywny manadżer z 12-to letnim doświadczeniem',
-                 picture: 'Dariusz_Wylon.jpg',
-                 social: {
-                     twitter: 'https://twitter.com/corporate_coach',
-                     linkedin: 'http://pl.linkedin.com/in/dariuszwylon'
-                 }
-             },
-             {
-                 name: 'Michał Czyż', title: 'Ruby Developer',
-                 description: 'Aktywny działacz społecznośći Open Source',
-                 picture: 'Michal_Czyz.jpg',
-                 social: {
-                     twitter: 'http://bit.ly/twitter_michalczyz',
-                     google: 'http://bit.ly/michalczyz_googleplus',
-                     linkedin: 'http://linkd.in/michalczyz'
-                 }
-             },
-             {
-                 name: 'Tomasz Gancarczyk', title: 'Wykładowca ATH',
-                 description: 'Opiekun sekcji Systemy operacyjne koła RESET',
-                 picture: 'Tomasz_Gancarczyk.jpg',
-                 social: {
-                     google: 'https://plus.google.com/112446594694346695781/posts',
-                     facebook: 'https://www.facebook.com/tomasz.gancarczyk.bb'
-                 }
-             },
-             {
-                 name: 'Grzegorz Rduch', title: 'Mikstura.IT',
-                 description: 'Przewodniczący rady fundacji Mikstura.IT',
-                 picture: 'Grzegorz_Rduch.jpg',
-                 social: {
-                     google: 'https://plus.google.com/110778338808339960678/posts',
-                     linkedin: 'http://pl.linkedin.com/in/grzegorzrduch'
-                 }
-             }
-    ].map { |teammate| OpenStruct.new(teammate) }
+    @team = %w(Dominik_Kozaczko Eunika_Tabak Dariusz_Wylon Michal_Czyz Tomasz_Gancarczyk Grzegorz_Rduch).map { |spekaer| Person.new(spekaer) }
   end
 
   def prepare_talks
