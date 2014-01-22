@@ -32,28 +32,28 @@ pl:
       month: Marca
       idea:
         header: Idea
-        message: Ruch Open Source to przede wszystkim nastawienie na innowacyjność, kreatywność i chęć dzielenia się wiedzą. Nie ogranicza się on tylko do kodu źrodłowego aplikacji - ruch ten można spotkać w ekologii, sprzęcie czy też powszechnym dostępie do wiedzy, edukacji.
+        message: Ruch Open Source to przede wszystkim nastawienie na innowacyjność, kreatywność i chęć dzielenia się wiedzą. Nie ogranicza się on wyłącznie do kodu źródłowego aplikacji - ruch ten wywiera wpływ na  ekologię, sprzęt, powszechny dostęp do wiedzy i edukacji.
       community:
         header: Społeczność
-        message: Żadna idea nigdy nie odniosłoba sukcesu gdyby nie zaangażowanie zwykłych ludzi - i ty możesz mieć wpływ aby zmieniać świat wokół nas. ‘Uwolnij się’ :-) i dołącz do społeczności Open Source!
+        message: Żadna idea nigdy nie odniosła sukcesu bez zaangażowania zwykłych ludzi. Ty również możesz zmieniać świat wokół nas! ‘Uwolnij się’ :-) i dołącz do społeczności Open Source!
       workshop:
         header: Warsztaty
-        message: W społęczności Open Source jest wiele osób które posiada konkretne umiejętności, a przy tym chętnie się nimi dzielą. Jeszcze więcej jest tych, którzy są skorzy by nabyć konkretnych umiejętności. Warsztaty pozwalają tą sytuację wykorzystać.
+        message: W społeczności Open Source jest wiele osób które posiadają konkretne umiejętności, a przy tym chętnie się nimi dzielą. Wielu jest również tych, którzy starają się tego rodzaju umiejętności w sobie wykształcić. Warsztaty pozwalają im się spotkać.
     register:
       modal:
         title: Zarejestruj się
         close: Zamknij
-      tickets_available: Bilety są już dostępne :-)
-      tickets_available: Bilety będą dostępne po 27 stycznia.
+      tickets_available: Bilety są już dostępne :-)
+      tickets_available: Bilety będą dostępne po 27 stycznia.
       admitance_free: (uczestnictwo w konferencji jest bezpłatne)
       register_now: Zarejestruj się już teraz!
   speakers:
     learn_from: Skorzystaj z Wiedzy Wspaniałych Ludzi
     learn_from_description: ' '
-    learn_them: Podziel się Swoją Wiedzą
+    learn_them: Podziel się Swoją Wiedzą
     topic_cloud: "Open Source, nauka, programowanie, nauczanie, społeczność, swobodny dostęp, Khan Academy, edx.org, coursera.org, współtworzenie zbiorów danych, umiejętności miękkie, efektywna komunikacja, praca zespołowa, doskonalenie rzemiołsa programistycznego, architektura, domain driven design, Vim, Eclipse, RubyMine, FireBug, automatyczne testy, yeoman, grunt, guard, GitHub, Travis CI, Code Climate, metodologie, SCRUM, Kanban, zespoły rozproszone, projektowanie, gry komputerowe, studium przypadku, wolne oprogramowanie, szkoły, technika, organizacje pozarządowe, Nagios, Zabix, otwarty sprzęt, Arduino, Beagle Board, Raspberry Pi, Artoo.io, WikiSpeed, systemy operacyjne, Firefox OS, Ubuntu OS, Sailfish OS, Jolla, Tizen, analiza danych, wizualizacja danych, R, Processing, Orange, programowanie funkcyjne, niemutowalne typy danych, Clojure, Datomic, aplikacje klienckie, Ember.js, Angular.js, CoffeeScript, SASS, Compass, HTML5, prywatne chmury obliczeniowe, Open Shift, Eucalyptus, Cloud Foundry, Docker, UX, UI, IT, projektowanie interfejsów, architektura informacji, wolna kultura, Wikipedia, OpenStreetMap, Jamendo"
     learn_them_description:
-      one: 'Dni Wolnego Oprogramowania mają bardzo szeroką tematykę - jesteśmy otwarci na wiele tematów.'
+      one: 'Dni Wolnego Oprogramowania mają bardzo szeroką tematykę - jesteśmy otwarci na wasze propozycje.'
       two: 'W tym roku w szczególności interesują nas wystąpienia poświęcone następującym zagadnieniom:'
     register_as_speaker_url: http://bit.ly/DWO_2014_C4P
     submit_your_talk: Zgłoś Swoją Prezentację
@@ -96,7 +96,7 @@ pl:
           link: http://www.mzk.bielsko.pl/plan.html
       road:
         header: Samochodem
-        description: Od ulicy Czołgistów, oraz Willowej znajdują się ogólnodostępne parkingi. Na terenie uczelni (wjazd tylko od ulicy Willowej) również są prakingi płatne (opłata zryczałtowana 2 zł)
+        description: Od ulicy Czołgistów, oraz Willowej znajdują się ogólnodostępne parkingi. Na terenie uczelni (wjazd tylko od ulicy Willowej) również są prakingi płatne (opłata zryczałtowana 2 zł)
       map:
         header: Mapa
         description: "Na poniższej mapie zostały oznaczone ważne punkty, takie jak: miejsce konferencji :-), przystanki autobusowe wraz z linkami do szczegółowych rozkładów jazdy, hotele, hostele, restauracje"
@@ -115,39 +115,31 @@ pl:
   team:
     header: Zespół DWO '14
     people_that_make: Ludzie którzy pomagają przy DWO '14.
-
+  people:
+    Kamil_Galuszka:
+      title: Python Developer
+      description: Kamil w czasie ...
+    Eunika_Tabak:
+      title:
+      description:
+    Kate_Terlecka:
+      title:
+      description:
+    Dariusz_Wylon:
+      title:
+      description:
+    Dominik_Kozaczko:
+      title:
+      description:
+    Tomasz_Gancarczyk:
+      title:
+      description:
+    Grzegorz_Rduch:
+      title:
+      description:
+    Michal_Czyz:
+      title:
+      description:
   footer:
     is_organised_by: Konferencja Dni Wolnego Oprogramowania 2014 jest organizowana przez
     mikstura_it: Fundacja Mikstura.IT
-
-#  conference_date: 28 - 30 Marca, 2014
-#  get_a_ticket: ZDOBĄDŹ BILET
-#  venue: Miejsce
-#  speakers: Prelegenci
-#  sponsors: Sponsorzy
-#  agenda: Agenda
-#  sections:
-#    home:
-#      brief_summary_of_previous_edition: Podsumowanie poprzedniej edycji.
-#    venue:
-#      click_on_map: (kliknij na mapę aby zobaczyć większą)
-#    agenda:
-#      registrations: rejestracja
-#      break: przerwa
-#      hello: powitanie
-#      breakfast: śniadanie
-#      lunch_break: przerwa obiadowa
-#      the_friday: Piątek
-#      friday:
-#        hello_and_welcome: Powitanie oraz otwarcie konferencji
-#        about_the_open_source: Wprowadzenie do świata free & open source software
-#        how_to_become_software_engineer: Jak zostać programistą
-#        soft_skils_in_it_teams: Umiejętności miękkie w zespołach
-#        introduction_to_scrum: Wprowadzenie do metodologii SCRUM
-#        discussion_panel: 'Panel Dyskusyjny: "Kariera w IT"'
-#      the_saturday: Sobota
-#      saturday:
-#        lightning_talks: Ligthning Talks
-#      the_sunday: Niedziela
-#    tickets:
-#      will_be_soon: Bilety będą dostępne niedługo, obserwuj nas na facebook'u aby być na bieżaco :-)
