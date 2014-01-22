@@ -277,6 +277,7 @@ pl:
     hint: W razie pytań bądź wątpliwości, zachęcamy do kontaktu za pośrednictwem poniżej wymienionych kanałów.
     follow_us:
       header: Bądź na bieżąco
+    email: fundacja@mikstura.it
   team:
     header: Zespół DWO '14
     people_that_make: Ludzie którzy pomagają przy DWO '14.

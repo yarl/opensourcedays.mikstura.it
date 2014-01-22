@@ -277,6 +277,7 @@ en:
     hint: Should you have any queries, please do not hesitate to contact us using the channels below.
     follow_us:
       header: Follow us & stay up to date
+    email: foundation@mikstura.it
   team:
     header: The Open Source Days ‘14 Team
     people_that_make: The people who help organize the Open Source Days ‘14 event.
