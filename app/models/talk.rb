@@ -7,7 +7,7 @@ class Talk < Struct.new(:id, :day)
 
   def description
     info_description ||
-        I18n.t(:descrption, scope: [:schedule, type])
+        I18n.t(:description, scope: [:schedule, type])
   end
 
   # TODO - handle more then one speaker
