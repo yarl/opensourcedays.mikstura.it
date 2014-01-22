@@ -1,0 +1,46 @@
+client~side~applications free~software open~source~software design NGOs
+non-profits effective~communication immutable~data~types programming
+free~culture private~cloud~computing education schools soft~skills operating~systems
+open~hardware dispersed~&~distributed~teams data~analysis software~craftsmanship
+ automated~testing teamwork training~and~learning how~to~start data~visualisation
+ information~architecture programming~games functional~programming case~studies communities
+ open~access interface~design design~and~programming~techniques dataset~co-creation methodologies
+ Open~Source Khan~Academy edx.org coursera.org architecture domain~driven~design Vim Eclipse
+ RubyMine FireBug yeoman grunt guard GitHub Travis~CI Code~Climate SCRUM Kanban Nagios Zabix
+ Arduino Beagle~Board Raspberry~Pi Artoo.io WikiSpeed Firefox~OS Ubuntu~OS Sailfish~OS Jolla
+ Tizen R Processing Orange Clojure Datomic Ember.js Angular.js CoffeeScript SASS Compass HTML5
+ Open~Shift Eucalyptus Cloud~Foundry Docker UX UI IT Wikipedia OpenStreetMap Jamendo
+
+    Open~Source Open~Source Open~Source Open~Source Open~Source Open~Source
+    domain~driven~design
+    automated~testing automated~testing automated~testing
+    GitHub GitHub
+    Travis~CI Travis~CI
+    Code~Climate Code~Climate
+    Clojure Clojure Clojure
+    Ember.js Ember.js Ember.js Ember.js
+    CoffeeScript
+
+    Docker Docker Docker Docker Docker
+    Open~Shift Open~Shift
+
+    information~architecture
+
+    UX UX UX
+
+    soft~skils soft~skils soft~skils soft~skils
+    effective~communication
+    SCRUM SCRUM SCRUM SCRUM
+    Kanban Kanban
+
+    Arduino
+    Raspberry~Pi Raspberry~Pi Raspberry~Pi
+
+    Firefox~OS Firefox~OS Firefox~OS
+    Sailfish~OS Sailfish~OS
+    Ubuntu~OS
+    Tizen Tizen
+
+    edx.org
+    free~culture
+    OpenStreetMap
