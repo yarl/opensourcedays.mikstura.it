@@ -4,7 +4,6 @@
   .span12
     %section.timeline.toggle-shortcode.toggles
       - @talks[day].each do |talk|
-        - speaker = @speakers.find {|speaker| speaker.name == talk.speaker} || @team.find {|team_member| team_member.name == talk.speaker}
         %article.event{class: "#{talk.type}"}
           .timeline-icon
             .timeline-icon-container
@@ -15,14 +14,14 @@
             .event-content
               .toggle-item-title.event-title{"data-count" => "1"}
                 %h3= talk.title
-                %h4= speaker.name if speaker
+                %h4= talk.speaker.name if talk.speaker
               .toggle-item-body{:style => "display: none;"}
-                - if speaker
+                - if talk.speaker
                   %p.span8
                     = talk.description
                   %p.span2.center
                     %center
                       .photo-wrap
-                        %img{:alt => speaker.name, :src => "/assets/speakers/#{speaker.picture}", width: '100px'}
+                        %img{:alt => talk.speaker.name, :src => "/assets/speakers/#{talk.speaker.picture}", width: '100px'}
                 - else
                   %p= talk.description
