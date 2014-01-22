@@ -15,3 +15,7 @@ ul.people {
     margin-right: auto;
     max-width: 900px;
 }
+
+.venue-header > h4 {
+    color: #48A3A6;
+}
