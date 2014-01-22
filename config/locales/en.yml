@@ -49,7 +49,7 @@ en:
       register_now: Register right now!
   speakers:
     learn_from: Benefit from the knowledge of some great people
-    learn_from_description: TBA
+    learn_from_description: ' '
     learn_them: Share your knowledge!
     topic_cloud: "client side applications, free software, open source software, design, NGOs, non-profits, effective communication, immutable data types, programming, free culture, private cloud computing, education, schools, soft skills, operating systems, open hardware, dispersed & distributed teams, data analysis, software craftsmanship, automated testing, teamwork, training and learning, how to start, data visualisation, information architecture, programming games, functional programming, case studies, communities, open access, interface design, design and programming techniques, dataset co-creation, methodologies, Open Source, Khan Academy, edx.org, coursera.org, architecture, domain driven design, Vim, Eclipse, RubyMine, FireBug, yeoman, grunt, guard, GitHub, Travis CI, Code Climate, SCRUM, Kanban, Nagios, Zabix, Arduino, Beagle Board, Raspberry Pi, Artoo.io, WikiSpeed, Firefox OS, Ubuntu OS, Sailfish OS, Jolla, Tizen, R, Processing, Orange, Clojure, Datomic, Ember.js, Angular.js, CoffeeScript, SASS, Compass, HTML5, Open Shift, Eucalyptus, Cloud Foundry, Docker, UX, UI, IT, Wikipedia, OpenStreetMap, Jamendo"
     learn_them_description:
@@ -60,25 +60,25 @@ en:
   schedule:
     registration:
       header: Registration
-      description: TBA
+      description: ' '
     break:
       header: Break
-      description: TBA
+      description: ' '
     breakfest:
       header: Breakfast
-      description: TBA
+      description: ' '
     lunch:
       header: Lunch Break
-      description: TBA
+      description: ' '
     welcome:
       header: Opening
-      description: TBA
+      description: ' '
     bye:
       header: See you next year!
-      description: TBA
+      description: ' '
     see_you_tomorrow:
       header: See you tomorrow!
-      description: TBA
+      description: ' '
     dayone:
       header: Friday, 28 March
       agenda:
