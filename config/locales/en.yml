@@ -83,7 +83,7 @@ en:
     daythree:
       header: Sunday, 30 March
   venue:
-    take_place: Venue
+    take_place: "Conference will take place at University:"
     ath: Akademia Techniczno-Humanistyczna in Bielsko-Biała
     ath_address: Bielsko-Biała, ul. Willowa 2 - Building L (Lecture hall L128)
     getting_there:
