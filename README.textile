@@ -19,18 +19,22 @@ h2. Development
 Ensure that proper version of ruby (2.0.0) and bundler (1.35) is installed.
 After that just run two commands.
 
-```
+````
+
 bundle
 guard
-```
+
+````
 
 h2. Deploy
 
 prepare cachea & deploy
 
-```
+````
+
 bin/deploy
-```
+
+````
 
 h2. Credits
 
