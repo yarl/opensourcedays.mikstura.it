@@ -19,19 +19,18 @@ h2. Development
 Ensure that proper version of ruby (2.0.0) and bundler (1.35) is installed.
 After that just run two commands.
 
-````
+```
 bundle
 guard
-````
+```
 
 h2. Deploy
 
 prepare cachea & deploy
 
-````
-bin/cache_pages
-cap deploy
-````
+```
+bin/deploy
+```
 
 h2. Credits
 
@@ -39,7 +38,5 @@ h2. Credits
 
 h2. License
 
-MIT
-
-except properiatary licence for theme - licence cost $14
+MIT for all except properiatary licence for theme - licence cost $14
 http://themeforest.net/item/eventify-one-page-conference-html5-template/6269713
