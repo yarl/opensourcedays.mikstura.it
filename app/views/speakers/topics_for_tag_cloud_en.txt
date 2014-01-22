@@ -28,7 +28,7 @@ open~hardware dispersed~&~distributed~teams data~analysis software~craftsmanship
 
     UX UX UX
 
-    soft~skils soft~skils soft~skils soft~skils
+    soft~skills soft~skills soft~skills soft~skills
     effective~communication
     SCRUM SCRUM SCRUM SCRUM
     Kanban Kanban
@@ -44,3 +44,12 @@ open~hardware dispersed~&~distributed~teams data~analysis software~craftsmanship
     edx.org
     free~culture
     OpenStreetMap
+
+    colors:
+
+    #EF7247
+
+    #4D5D66
+    #961827
+    #808080
+    #ffffff
