@@ -76,12 +76,177 @@ en:
     bye:
       header: See you next year!
       description: ' '
+    see_you_tomorrow:
+      header: See you tomorrow!
+      description: ' '
     dayone:
       header: Friday, 28 March
+      agenda:
+        15-00:
+          type: registration
+        16-00:
+          type: welcome
+          speaker: Dominik_Kozaczko
+        16-30:
+          type: talk
+          speaker: Kamil_Galuszka
+          title: Wprowadzenie do świata free & Open Source
+          description: Open Source jest czymś co zmieniło i zmienia świat. Chcę pokazać jak Ty drogi uczestniku możesz zaangażować się w świat otwartego kodu budowanego przez społeczność wielu niesamowitych ludzi.
+        16-50:
+          type: talk
+          speaker: Michal_Czyz
+          title: A więc chciałbyś zostać Hakerem
+          description: ' '
+        17-10:
+          type: talk
+          speaker: Dariusz_Wylon
+          title: Czy można zaprogramować człowieka?
+          description: "Chcesz dowiedzieć się co zrobić, aby osoby w Twoim otoczeniu lepiej rozmiały to co chcesz im przekazać. Chcesz sprawić, aby wypowiadane przez Ciebie  komunikaty były bardziej skuteczne. Co prawda nie powiem jak zaprogramować człowieka aby zrobił to co chcemy, ale chętnie podzielę się z Tobą wiedzą na temat komunikacji międzyludzkiej, która dotychczas dostępna była jedynie na najlepszych szkoleniach."
+        17-30:
+          type: break
+        18-00:
+          type: talk
+          speaker: Kate_Terlecka
+          title: Scrum - czyli jak poddać się zmianom i zrobić swoje
+          description: Scrum to ostatnio bardzo mądre słowo. Ale w Polsce spotkałam dopiero 4 firmy, które na prawdę wiedzą o co w tym chodzi. Chcę wam przybliżyć co to jest Scrum i dlaczego jeśli już go wprowadzamy, to zapominamy o jego sercu.
+        19-15:
+          type: panel
+          speaker:
+          title: 'Panel Dyskusyjny: "Kariera IT"'
+          description: ' '
+        20-00:
+          type: see_you_tomorrow
+          speaker: Dominik_Kozaczko
     daytwo:
       header: Saturday, 29 March
+      agenda:
+        08-30:
+          type: breakfest
+        09-45:
+          type: welcome
+          speaker: Dariusz_Wylon
+        10-00:
+          type: keynote
+          speaker:
+          title: TBA
+          description: TBA
+        11-00:
+          type: break
+        11-30:
+          type: talk
+          speaker:
+          title: TBA
+          description: TBA
+        11-50:
+          type: talk
+          speaker:
+          title: TBA
+          description: TBA
+        12-10:
+          type: talk
+          speaker:
+          title: TBA
+          description: TBA
+        12-30:
+          type: lunch
+        13-30:
+          type: talk
+          speaker:
+          title: TBA
+          description: TBA
+        13-50:
+          type: talk
+          speaker:
+          title: TBA
+          description: TBA
+        14-10:
+          type: talk
+          speaker:
+          title: TBA
+          description: TBA
+        14-30:
+          type: break
+        15-00:
+          type: lightningtalks
+          title: Lightning Talks
+          description: TBA
+        16-00:
+          type: break
+        16-30:
+          type: talk
+          speaker:
+          title: TBA
+          description: TBA
+        16-50:
+          type: talk
+          speaker:
+          title: TBA
+          description: TBA
+        17-10:
+          type: talk
+          speaker:
+          title: TBA
+          description: TBA
+        17-30:
+          type: break
+        18-00:
+          type: keynote
+          speaker:
+          title: TBA
+          description: TBA
+        19-00:
+          type: see_you_tomorrow
+          speaker: Dariusz_Wylon
     daythree:
       header: Sunday, 30 March
+      agenda:
+        08-30:
+          type: breakfest
+        09-45:
+          type: welcome
+          speaker: Eunika_Tabak
+        10-00:
+          type: talk
+          speaker:
+          title: TBA
+          description: TBA
+        10-20:
+          type: talk
+          speaker:
+          title: TBA
+          description: TBA
+        10-40:
+          type: talk
+          speaker:
+          title: TBA
+          description: TBA
+        11-00:
+          type: break
+        11-30:
+          type: talk
+          speaker:
+          title: TBA
+          description: TBA
+        11-50:
+          type: talk
+          speaker:
+          title: TBA
+          description: TBA
+        12-10:
+          type: talk
+          speaker:
+          title: TBA
+          description: TBA
+        12-30:
+          type: break
+        13-00:
+          type: keynote
+          speaker:
+          title: TBA
+          description: TBA
+        14-00:
+          type: bye
+          speaker: Dariusz_Wylon
   venue:
     take_place: "Conference will take place at University:"
     ath: Akademia Techniczno-Humanistyczna in Bielsko-Biała

@@ -36,13 +36,15 @@ module HomeHelper
         panel: 'iconf-dialogue-box',
         #breakfest: 'iconf-fast_food',
         breakfest: 'iconf-cup',
-        ligthingtalks: 'iconf-microphone',
+        lightningtalks: 'iconf-microphone',
         break: 'iconf-coffee',
         #lunch: 'iconf-pizza',
         lunch: 'iconf-food',
         welcome: 'iconf-megaphone',
-        party: 'iconf-wine'
-    }[type]
+        party: 'iconf-wine',
+        bye: 'iconf-graduation-cap',
+        see_you_tomorrow: 'iconf-megaphone'
+    }[type.to_sym]
 
     content_tag(:i, nil, class: class_name)
   end
