@@ -40,3 +40,6 @@ h2. Credits
 h2. License
 
 MIT
+
+except properiatary licence for theme - licence cost $14
+http://themeforest.net/item/eventify-one-page-conference-html5-template/6269713
