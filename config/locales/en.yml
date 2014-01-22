@@ -1,59 +1,145 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  title: Open Source Days '14 Conference, March 28-30th - Bielsko-Biała, Poland
+  title: The Open Source Days ‘14, 28th - 30th March - Bielsko-Biała
   meta:
-    description: Open Source Days is the biggest free-admitance Open Source conference in Europe.
-  conference_date: 28 - 30 March, 2014
-  get_a_ticket: Get a Ticket
-  venue: Venue
-  sections:
-    home:
-      brief_summary_of_previous_edition: A brief summary of the previous edition.
-    venue:
-      click_on_map: (click on map to open big map)
-    speakers:
-      became_speaker_link: http://bit.ly/DWO_2014_C4P_EN
-      became_speaker_alt: Submit your talk
-    sponsors:
-      became_sponsor: Became a sponsor
-      sponsorship_booklet_path: http://bit.ly/OpenSourceDaysSponsorshipBooklet
-    agenda:
-      registrations: registrations
-      hello: welcome
-      break: break
-      breakfast: breakfast
-      lunch_break: lunch break
-      the_friday: Friday
-      friday:
-        hello_and_welcome: conference opening
-        about_the_open_source: Introduction to free & open source software
-        how_to_become_software_engineer: How to become a software engineer
-        soft_skils_in_it_teams: Soft skills for teamwork
-        introduction_to_scrum: Introduction to SCRUM
-        discussion_panel: 'Discussion panel: "Careers in IT"'
-      the_saturday: Saturday
-      saturday:
-        lightning_talks: Ligthning Talks
-      the_sunday: Sunday
-    tickets:
-      will_be_soon: Tickets will be available soon, please follow us on facebook to be up to date :-)
+    description:  The Open Source Days conference is one of the biggest free Open Source events in Europe.
+    keywords: open source, conference, workshops, community
+    author: Mikstura.IT Foundation
+  section:
+    about: About DWO
+    speakers: Speakers
+    schedule: Agenda
+    workshops: Workshops
+    venue: Venue
+    sponsors: Sponsors
+    news: News
+    contact: Contact
+  intro:
+    about_dwo:
+      conference_name: The Open Source Days 2014
+      month: March
+      ticket: Register
+    became_speaker:
+      call_4_action: Deliver
+      note: a 20-minute presentation / 90-minute workshop
+      text_on_link: Submit your proposal
+    became_sponsor:
+      call_4_action: Sponsor the event
+      note: Support Open Source community
+      text_on_link: I want to get involved
+  about:
+    info:
+      header: The Open Source Days
+      month: March
+      idea:
+        header: Idea
+        message: Open Source movement is fueled by and fosters innovation, creativity and knowledge sharing. It is not limited to app source code generation and distribution. Open Source impacts ecology, hardware, access to knowledge and education.
+      community:
+        header: Community
+        message: Great ideas do not change the world  by themselves. It is the people who get engaged and stand for a cause that do so! You also are free to change the world around us! Join the Open Source community.
+      workshop:
+        header: Workshops
+        message: There are people in Open Source community who possess and are eager to share a wide range of practical skills. On the other hand, there are those who want to learn. Workshops offer an excellent opportunity for both to meet and interact.
+    register:
+      modal:
+        title: Register
+        close: Close
+      tickets_available: Tickets are still available.
+      tickets_available: Tickets will be available after 27th January 2014.
+      admitance_free: Attendance is free
+      register_now: Register right now!
+  speakers:
+    learn_from: Benefit from the knowledge of some great people
+    learn_from_description: ' '
+    learn_them: Share your knowledge!
+    topic_cloud: "client side applications, free software, open source software, design, NGOs, non-profits, effective communication, immutable data types, programming, free culture, private cloud computing, education, schools, soft skills, operating systems, open hardware, dispersed & distributed teams, data analysis, software craftsmanship, automated testing, teamwork, training and learning, how to start, data visualisation, information architecture, programming games, functional programming, case studies, communities, open access, interface design, design and programming techniques, dataset co-creation, methodologies, Open Source, Khan Academy, edx.org, coursera.org, architecture, domain driven design, Vim, Eclipse, RubyMine, FireBug, yeoman, grunt, guard, GitHub, Travis CI, Code Climate, SCRUM, Kanban, Nagios, Zabix, Arduino, Beagle Board, Raspberry Pi, Artoo.io, WikiSpeed, Firefox OS, Ubuntu OS, Sailfish OS, Jolla, Tizen, R, Processing, Orange, Clojure, Datomic, Ember.js, Angular.js, CoffeeScript, SASS, Compass, HTML5, Open Shift, Eucalyptus, Cloud Foundry, Docker, UX, UI, IT, Wikipedia, OpenStreetMap, Jamendo"
+    learn_them_description:
+      one: 'The Open Source Days cover a wide variety of topics.'
+      two: 'In 2014 we would very much like to explore some of the topics listed below. Still we are open for other OS-related ideas.'
+    register_as_speaker_url: http://bit.ly/DWO_2014_C4P
+    submit_your_talk: Submit your presentation / workshop
+  schedule:
+    registration:
+      header: Registration
+      description: ' '
+    break:
+      header: Break
+      description: ' '
+    breakfest:
+      header: Breakfast
+      description: ' '
+    lunch:
+      header: Lunch Break
+      description: ''
+    welcome:
+      header: Opening
+      description: ' '
+    bye:
+      header: See you next year!
+      description: ' '
+    dayone:
+      header: Friday, 28 March
+    daytwo:
+      header: Saturday, 29 March
+    daythree:
+      header: Sunday, 30 March
+  venue:
+    take_place: Venue
+    ath: Akademia Techniczno-Humanistyczna in Bielsko-Biała
+    ath_address:Bielsko-Biała, ul. Willowa 2 - Building L (Lecture hall L128)
+    getting_there:
+      header: Directions / Access
+      users:
+        header: On foot
+        description: "Bus 10 or 57 - destination bus stop: Bystrzańska/Willowa; Bus 12, 24 or 24BIS - destination bus stop: Szeroka/Bystrzańska "
+        external_link:
+          text: Detailed Bus / MZK Map
+          link: http://www.mzk.bielsko.pl/plan.html
+      road:
+        header: By car
+        description: There are car parks which can be accessed from the streets: Czołgistów and Willowa; There is also a car park at the univeristy campus. It can be accessed exclusively from the Willowa street. (Parking fee: 2 zł)
+      map:
+        header: Map
+        description: "The map below shows some important locations: the conference venue, bus stops and links to schedules, hotels, hostels and restaurants"
+  sponsors:
+    slogan: Sponsors do have an impact on the quality of the conference!
+    slogan: They help make the Open Source Days a unique event.
+    slogan: Offer your support and
+    join_us: sponsor the Open Source Days ‘14
+    link:
+      text: Check the Sponsorship Booklet for details
+      url: "http://bit.ly/DniWolnegoOprogramowaniaBroszuraDlaSponsorow"
+  contact_us:
+    hint: Should you have any queries, please do not hesitate to contact us using the channels below.
+    follow_us:
+      header: Follow us & stay up to date
+  team:
+    header: The Open Source Days ‘14 Team
+    people_that_make: The people who help organize the Open Source Days ‘14 event.
+  people:
+    Kamil_Galuszka:
+      title: Python Developer
+      description: In his free time, Kamil eagerly engages in the activities of Open Source community.
+    Eunika_Tabak:
+      title: Mikstura.IT Foundation
+      description: President of the Board at Mikstura.IT Foundation and a sign language interpreter.
+    Kate_Terlecka:
+      title: The Scrum Girl
+      description: Kate Terlecka - one of the most prominent figures in the Polish Agile community.
+    Dariusz_Wylon:
+      title: Coach & Trainer
+      description: Innovative and creative manager with 12 years of professional experience to share.
+    Dominik_Kozaczko:
+      title: Lecturer at  ATH
+      description: The founding father of the Open Source Days conference.
+    Tomasz_Gancarczyk:
+      title: Lecturer at  ATH
+      description: The tutor of the operating systems division at the ATH RESET IT community.
+    Grzegorz_Rduch:
+      title: Mikstura.IT Foundation
+      description: Chairman of the Advisory Board at Mikstura.IT Foundation
+    Michal_Czyz:
+      title: Ruby Developer
+      description: Open Source software and community activist.
+  footer:
+    is_organised_by: The Open Source Days 2014 conference is organized by
+    mikstura_it: the Mikstura.IT Foundation
