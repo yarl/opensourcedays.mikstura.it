@@ -2,6 +2,9 @@
   %img{:alt => "DWO '14'", :src => "/assets/layout/dwo_logo_white.png"}/
   .copyright
     = t('footer.is_organised_by')
-    %a{:href => "http://mikstura.it"}= t('footer.mikstura_it')
+    %a{href: "http://mikstura.it", target: '_blank'}= t('footer.mikstura_it')
     %br
+    %a{href: 'https://github.com/miksturait/opensourcedays.mikstura.it', target: '_blank'}= t('footer.source_code_available')
+    %br
+
     2007-2014
