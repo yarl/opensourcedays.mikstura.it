@@ -90,30 +90,30 @@ en:
         16-30:
           type: talk
           speaker: Kamil_Galuszka
-          title: Wprowadzenie do świata free & Open Source
-          description: Open Source jest czymś co zmieniło i zmienia świat. Chcę pokazać jak Ty drogi uczestniku możesz zaangażować się w świat otwartego kodu budowanego przez społeczność wielu niesamowitych ludzi.
+          title: An Introduction to the World of Free & Open Source
+          description: Open Source has changed and is changing the world. I would like to show how those who are interested might start to contribute their skills and effort to co-create open code with other great people in the community.
         16-50:
           type: talk
           speaker: Michal_Czyz
-          title: A więc chciałbyś zostać Hakerem
-          description: TBA
+          title: So You Wanna Be a Hacker?
+          description: ' '
         17-10:
           type: talk
           speaker: Dariusz_Wylon
-          title: Czy można zaprogramować człowieka?
-          description: "Chcesz dowiedzieć się co zrobić, aby osoby w Twoim otoczeniu lepiej rozmiały to co chcesz im przekazać. Chcesz sprawić, aby wypowiadane przez Ciebie  komunikaty były bardziej skuteczne. Co prawda nie powiem jak zaprogramować człowieka aby zrobił to co chcemy, ale chętnie podzielę się z Tobą wiedzą na temat komunikacji międzyludzkiej, która dotychczas dostępna była jedynie na najlepszych szkoleniach."
+          title: Can Human Minds be Programmed?
+          description: "Keen to find out how to make others better understand your message? Determined to become a more effective communicator? I won’t tell you how to program the human mind, but I will surely share what I have so far delivered during multiple communication workshops meant for professionals."
         17-30:
           type: break
         18-00:
           type: talk
           speaker: Kate_Terlecka
-          title: Scrum - czyli jak poddać się zmianom i zrobić swoje
-          description: Scrum to ostatnio bardzo mądre słowo. Ale w Polsce spotkałam dopiero 4 firmy, które na prawdę wiedzą o co w tym chodzi. Chcę wam przybliżyć co to jest Scrum i dlaczego jeśli już go wprowadzamy, to zapominamy o jego sercu.
+          title: SCRUM - How to flow with change and get things done
+          description: Scrum has recently become a buzzword. Still I have so far found just 4 companies in Poland who do know what Scrum is really about. I would like to introduce you to Scrum and explain why we often forget about its very core when it is introduced.
         19-15:
           type: panel
           speaker:
-          title: 'Panel Dyskusyjny: "Kariera IT"'
-          description: TBA
+          title: 'A discussion panel: "Careers in IT"'
+          description: ' '
         20-00:
           type: see_you_tomorrow
           speaker: Dominik_Kozaczko
