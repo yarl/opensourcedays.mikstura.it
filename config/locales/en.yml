@@ -248,7 +248,7 @@ en:
           type: bye
           speaker: Dariusz_Wylon
   venue:
-    take_place: "Conference will take place at University:"
+    take_place: "The conference will take place at the university"
     ath: Akademia Techniczno-Humanistyczna in Bielsko-Biała
     ath_address: Bielsko-Biała, ul. Willowa 2 - Building L (Lecture hall L128)
     getting_there:
