@@ -8,6 +8,18 @@
          url('/assets/6269713/RobotoSlab-Bold-webfont.ttf') format('truetype'),
          url('/assets/6269713/RobotoSlab-Bold-webfont.svg#roboto_slabbold') format('svg');
 }
+
+@font-face {
+    font-family: 'Museo Slab 700';
+    font-weight: normal;
+    font-style: normal;
+    src: url('/assets/Museo_Slab_700/webfont.eot');
+    src: url('/assets/Museo_Slab_700/webfont.eot?#iefix') format('embedded-opentype'),
+    url('/assets/Museo_Slab_700/webfont.woff') format('woff'),
+    url('/assets/Museo_Slab_700/webfont.ttf') format('truetype'),
+    url('/assets/Museo_Slab_700/webfont.svg#museo_slab700') format('svg');
+}
+
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;

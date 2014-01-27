@@ -31,7 +31,7 @@ a:hover {
 }
 h1, h2 {
 	color: inherit;
-	font-family: 'Roboto Slab Bold';
+	font-family: 'Museo Slab 700';
 	font-weight: bold;
 	line-height: 40px;
 	margin: 5px 0 20px;
@@ -1042,7 +1042,7 @@ a.instagram:hover {
 }
 /* Entry */
 .entry-title {
-	font-family: 'Roboto Slab Bold';
+	font-family: 'Museo Slab 700';
 	font-size: 28.5px;
 	margin: 0 0 10px;
 	padding: 0 15px;
