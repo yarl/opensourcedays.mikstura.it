@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   layout 'base'
-  after_action :cache_index, only: [:index, :rules, :policy]
+  after_action :cache_it, only: [:index, :rules, :policy]
 
   def index
     prepare_team
@@ -18,8 +18,8 @@ class HomeController < ApplicationController
 
   private
 
-  def cache_index
-    cache_page(nil, "/#{I18n.locale}/index.html")
+  def cache_it
+    cache_page(nil, "/#{I18n.locale}/#{action_name}.html")
   end
 
   def prepare_speakers
