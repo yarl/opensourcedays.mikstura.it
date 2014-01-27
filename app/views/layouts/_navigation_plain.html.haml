@@ -1,5 +1,5 @@
 %ul.nav
-  - %w(about speakers schedule workshops venue sponsors contact).each do |section|
+  - %w(about register speakers schedule workshops venue sponsors contact).each do |section|
     %li
       = link_to t(section, scope: [:section]), "/##{section}", class: 'external'
   -#%li
