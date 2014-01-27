@@ -5,5 +5,5 @@
     %b= t(:month, scope: i18n_scope)
   %span.year 2014
   %span.location Bielsko-Biała
--#= link_to "", class: "btn btn-large", data: { target: "#modal-register", toggle: "modal"} do
--#  = t(:ticket, scope: i18n_scope)
+= link_to "/#register", class: "btn btn-large" do
+  = t(:ticket, scope: i18n_scope)
