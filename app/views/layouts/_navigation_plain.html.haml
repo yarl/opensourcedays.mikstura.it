@@ -1,0 +1,7 @@
+%ul.nav
+  - %w(about speakers schedule workshops venue sponsors contact).each do |section|
+    %li
+      = link_to t(section, scope: [:section]), "/##{section}", class: 'external'
+  -#%li
+  -#  %a{:href => "#news"} News
+  %li= i18n_switch

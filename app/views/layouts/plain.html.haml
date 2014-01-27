@@ -1,0 +1,41 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %title= t('title')
+    = render partial: 'layouts/meta'
+  %body
+    %header#topbar.top-bar
+      .container
+        .row
+          .span12
+            %a.logo.pull-left{:href => "#intro", :title => "DWO"}
+              %span
+            .navbar.main-nav.pull-right
+              %button.btn.btn-navbar{"data-target" => ".nav-collapse", "data-toggle" => "collapse", :type => "button"}
+                %span.icon-bar
+                %span.icon-bar
+                %span.icon-bar
+              %nav
+                .nav-collapse.collapse
+                  = render partial: 'layouts/navigation_plain'
+
+    %section#intro{style: "heigth: 140px;"}
+      .container
+        = render partial: 'about/intro'
+
+    %section
+      .container
+        .row
+          = yield
+
+    %section#contact.white
+      .container
+        .row
+          = render partial: 'contact_us/index'
+
+    %footer#footer
+      .container
+        .row
+          = render partial: 'layouts/footer'
+
+    = render partial: 'layouts/javascripts'

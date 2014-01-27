@@ -8,6 +8,14 @@ class HomeController < ApplicationController
     prepare_talks
   end
 
+  def rules
+    render template: '/legal/rules', layout: 'plain'
+  end
+
+  def policy
+    render template: '/legal/policy', layout: 'plain'
+  end
+
   private
 
   def cache_index
