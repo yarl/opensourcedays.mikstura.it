@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   layout 'base'
-  after_action :cache_index, only: [:index]
+  after_action :cache_index, only: [:index, :rules, :policy]
 
   def index
     prepare_team
