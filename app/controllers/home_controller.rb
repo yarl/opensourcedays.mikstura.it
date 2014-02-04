@@ -23,11 +23,11 @@ class HomeController < ApplicationController
   end
 
   def prepare_speakers
-    @speakers = %w(Kamil_Galuszka Kate_Terlecka Dariusz_Wylon).map { |spekaer| Person.new(spekaer) }
+    @speakers = %w(Kamil_Galuszka Kate_Terlecka Dariusz_Wylon).map { |speaker| Person.new(speaker) }
   end
 
   def prepare_team
-    @team = %w(Dominik_Kozaczko Eunika_Tabak Dariusz_Wylon Michal_Czyz Tomasz_Gancarczyk Grzegorz_Rduch).map { |spekaer| Person.new(spekaer) }
+    @team = %w(Dominik_Kozaczko Eunika_Tabak Dariusz_Wylon Michal_Czyz Tomasz_Gancarczyk Grzegorz_Rduch).map { |speaker| Person.new(speaker) }
   end
 
   def prepare_talks
