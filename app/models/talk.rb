@@ -20,10 +20,18 @@ class Talk < Struct.new(:id, :day)
   delegate :title, :description, :speaker, to: :info, prefix: true
 
   def start_at
-    Time.parse(id.to_s.sub("-", ":")).strftime(time_format)
+    time.strftime(time_format)
+  end
+
+  def start_at_24_hour_format
+    time.strftime("%H:%M")
   end
 
   private
+
+  def time
+    Time.parse(id.to_s.sub("-", ":"))
+  end
 
   def time_format
     {en: "%l:%M %P", pl: "%H:%M"}[I18n.locale]
