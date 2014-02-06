@@ -19,20 +19,21 @@
   .divider-space
 .span12
   .carouselslider.speakers-carousel.item-4
-    .span12
-      %ul.people
-        - @speakers.each do |speaker|
-          %li
-            .item
-              .photo-wrap.hover_colour
-                %img{:alt => speaker.name, :src => "/assets/speakers/#{speaker.picture}"}
-              .text-wrap.white
-                %h3= speaker.name
-                %h5= speaker.title
-                %hr.divider-short.center/
-                %p.description= speaker.description
-              .social
-                - speaker.social.each do |(name, url)|
-                  = link_to url, title: name.to_s.humanize, target: :blank, class: "icon-wrap small #{name}" do
-                    %i{class: "iconf-#{name}"}
+    - @speakers.each_slice(3) do |slice|
+      .span12
+        %ul.people
+          - slice.each do |speaker|
+            %li
+              .item
+                .photo-wrap.hover_colour
+                  %img{:alt => speaker.name, :src => "/assets/speakers/#{speaker.picture}"}
+                .text-wrap.white
+                  %h3= speaker.name
+                  %h5= speaker.title
+                  %hr.divider-short.center/
+                  %p.description= speaker.description
+                .social
+                  - speaker.social.each do |(name, url)|
+                    = link_to url, title: name.to_s.humanize, target: :blank, class: "icon-wrap small #{name}" do
+                      %i{class: "iconf-#{name}"}
 

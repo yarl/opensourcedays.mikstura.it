@@ -23,7 +23,8 @@ class HomeController < ApplicationController
   end
 
   def prepare_speakers
-    @speakers = %w(Kamil_Galuszka Kate_Terlecka Dariusz_Wylon).map { |speaker| Person.new(speaker) }
+    @speakers = %w(Kamil_Galuszka Kate_Terlecka Dariusz_Wylon Michal_Wyrobek Mikolaj_Pastuszko Rafal_Jagoda Anna_Warzecha Arkadiusz_Benedykt Marcin_Szalowicz Aaron_Kaplan).
+        map { |speaker| Person.new(speaker) }
   end
 
   def prepare_team

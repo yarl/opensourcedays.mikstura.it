@@ -6,8 +6,7 @@ class Talk < Struct.new(:id, :day)
   end
 
   def description
-    info_description ||
-        I18n.t(:description, scope: [:schedule, type])
+    [fetch_description].flatten
   end
 
   # TODO - handle more then one speaker
@@ -28,6 +27,12 @@ class Talk < Struct.new(:id, :day)
   end
 
   private
+
+
+  def fetch_description
+    info_description ||
+        I18n.t(:description, scope: [:schedule, type])
+  end
 
   def time
     Time.parse(id.to_s.sub("-", ":"))

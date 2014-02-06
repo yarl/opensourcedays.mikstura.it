@@ -18,7 +18,10 @@
               .toggle-item-body{:style => "display: none;"}
                 - if talk.speaker
                   %p.span8
-                    = talk.description
+                    - talk.description.each do |paragraph|
+                      = paragraph
+                      %br
+                      %br
                   %p.span2.center
                     %center
                       .photo-wrap
