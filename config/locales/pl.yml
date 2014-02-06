@@ -127,21 +127,24 @@ pl:
           speaker: Dariusz_Wylon
         10-00:
           type: keynote
-          speaker:
-          title: TBA
-          description: TBA
+          speaker: Mikolaj_Pastuszko
+          title: User Experience Design
+          description:
+            - Lat temu kilka nikt nie mówił o projektowaniu wrażeń użytkownika. W ostatnim czasie akronim UX zagościł jednak w świecie IT, a zapotrzebowanie na usługi w tej branży rośnie w niebywałym tempie.
+            - Czym zajmują się osoby pracujące w tej dziedzinie? Kim są? Skąd przyszli? Czym różnią się od innych ludzi? W jaki sposób potrafią zwielokrotniać zyski? Jak wygląda ich warsztat? Jak z nimi rozmawiać? Dlaczego kochają swoją pracę i są ponadprzeciętnie szczęśliwi?
+            - Prezentacja przybierze formę strumienia wrażeń rozprzestrzeniających fascynację ową niezwykłą dziedziną.
         11-00:
           type: break
         11-30:
           type: talk
-          speaker:
-          title: TBA
-          description: TBA
+          speaker: Rafal_Jagoda
+          title: Offline web application - jak "używać" bez internetu
+          description: Podczas wystąpienia zaprezentuję możliwości HTML5 dające sposobność korzystania ze strony internetowej w przeglądarce bez dostępu do sieci. Przedstawię podejście do tworzenia aplikacji działającej w trybie offline dające użytkownikowi najlepsze doznania. Zastanowimy się wspólnie czy budować natywne aplikacje pod konkretne platformy czy jednak można tworzyć mobilnie w HTML5.
         11-50:
           type: talk
-          speaker:
-          title: TBA
-          description: TBA
+          speaker: Anna_Warzecha
+          title: Angular.js
+          description: Prezentacja będzie obejmowała szybkie wprowadzenie do angular.js, tego kiedy się go stosuje, do czego się on nadaje i jakie konsekwencje może nieść towarznie projektu z jego udziałem.
         12-10:
           type: talk
           speaker:
@@ -150,26 +153,38 @@ pl:
         12-30:
           type: lunch
         13-30:
-          type: talk
-          speaker:
-          title: TBA
-          description: TBA
-        13-50:
-          type: talk
-          speaker:
-          title: TBA
-          description: TBA
-        14-10:
-          type: talk
-          speaker:
-          title: TBA
-          description: TBA
+          type: keynote
+          speaker: Aaron_Kaplan
+          title:  Don't connect to the 'net, *be* the net! Why are you no ISP yet?
+          description:
+            - 'While open source democratized access to software and enabled a very successful copy & paste, remix & fork approach to software engineering, there are still two important aspects of our digital infrastructure which are not easily accessible for anyone: open hardware and open networks.'
+            - 'However, concerning open networks, some groups already had some successes.'
+            - 'More than 10 years ago, in 2003 a couple of initiatives in Austria, Germany, Greece and other countries discovered in parallel that you could "hack-open" standard Wi-Fi routers and install mesh software on them. The combination of hackable cheap Wi-Fi routers and open source thus spund the creation of open networks (often also termed "bottom-up networks" or "community wireless networks"). By inverting the traditional role of ISPs and allowing anyone to be part of a community wireless network, these open networks were born.'
+            - 'Now, after ten years of development and research, some of these networks developed and flourished into large communities, covering vast areas. Some other networks dissappeared.'
+            - 'However the development of these individual community networks turned out, one thing is clear: mesh networking is here to stay. It is *the* way to do mobile ad-hoc networking for potentially moving networks nodes.'
+            - 'The talk will also explain the basics of mesh networking and OLSR.org in particular: how to get it running and experiement with it and how to connect devices over a mesh.'
+            - 'But just having a mesh running is only part of the story. You need to connect to the global Internet to become a "real" ISP. There are a couple of steps involved with that and lots of pitfalls. The presenter - also a pioneer of the community wireless network movement - will look back at 10 years of community wireless network development, draw some lessons learned and show a straight forward path to create your own ISP.'
+            - 'Next, the presenter will discuss current issues of mesh networking research and point out opportunities for further research.'
+            - 'The talk will close with a vision for the next ten years in mesh research and community wireless ISP research.'
         14-30:
           type: break
         15-00:
-          type: lightningtalks
-          title: Lightning Talks
+          type: talk
+          speaker:
+          title: TBA
           description: TBA
+        15-20:
+          type: talk
+          speaker:
+          title: TBA
+          description: TBA
+        15-40:
+          type: talk
+          speaker: Mateusz_Juscinski
+          title: Wyrzuć FTP przez okno, czyli wstęp do Continuous Delivery
+          description:
+            - Jesteś programistą i jesteś leniwy (musisz być!), chcesz żeby twój świeżutki kod lądował na serwerze bez uciążliwego odpalania klienta FTP (lub robienia git pull)? Kojarzysz "continuous integration" i zastanawiasz się co dalej? Jeśli tak to ta prezentacja dla Ciebie.
+            - Podczas tej prezentacji przybliżę ideę continuous delivery, która pozwala pracować wydajniej, unikać głupich błędów i jej wdrożenie daje +100 do informatycznego lansu na dzielni.
         16-00:
           type: break
         16-30:
@@ -190,12 +205,11 @@ pl:
         17-30:
           type: break
         18-00:
-          type: keynote
-          speaker:
-          title: TBA
+          type: lightningtalks
+          title: Lightning Talks
           description: TBA
         19-00:
-          type: see_you_tomorrow
+          type: bye
           speaker: Dariusz_Wylon
     daythree:
       header: Niedziela, 30 Mar
@@ -238,13 +252,32 @@ pl:
           title: TBA
           description: TBA
         12-30:
-          type: break
-        13-00:
-          type: keynote
+          type: lunch
+        13-30:
+          type: talk
           speaker:
           title: TBA
           description: TBA
-        14-00:
+        13-50:
+          type: talk
+          speaker: Marcin_Szalowicz
+          title: Mysql Workbench - jak ulatwic sobie prace z bazami MySQL
+          description:
+            - Ogolny opis srodowiska mysql workbench, Revers Engineering baz na diagram eer, synchronizacja zmian,
+            - Informacje ktore mozemy uzyskac z poziomu programu dotyczace stanu bazy danych
+        14-10:
+          type: talk
+          speaker: Arkadiusz_Benedykt
+          title: C# - dlaczego lubie i co to w ogóle ma wspólnego z Open Source
+          description: W czasie prezentacji chce pokazać kilka rzeczy które Lubie w c# i takie których  nie lubię.  Co z tego co używam codziennie jest otwarte i jak świat Microsoftowo zorientowanego  programisty wygląda.
+        14-30:
+          type: break
+        15-00:
+          type: keynote
+          speaker: Michal_Wyrobek
+          title: Programowanie funkcyjne - czyste podejście kontra rzeczywistość
+          description: Lisp, Clojure, Data Oriented Programming vs Smalltalk i podejście obiektowe.
+        16-00:
           type: bye
           speaker: Dariusz_Wylon
   venue:
@@ -282,66 +315,123 @@ pl:
     header: Zespół DWO '14
     people_that_make: Ludzie którzy pomagają przy DWO '14.
   people:
-     Kamil_Galuszka:
-       name: Kamil Gałuszka
-       title: Python Developer
-       description: Kamil w czasie wolnym chętnie angażuje się działania społeczności Open Source
-       social:
-         twitter: https://twitter.com/galuszkak
-         facebook: https://pl-pl.facebook.com/galuszkak
-         google: https://plus.google.com/115271802415949853553/posts
-         linkedin: http://pl.linkedin.com/pub/kamil-ga%C5%82uszka/4a/914/706
-     Eunika_Tabak:
-       name: Eunika Tabak
-       title: Fundacja Mikstura.IT
-       description: Prezes fundacji Mikstura.IT oraz tłumacz języka migowego
-       social:
-         linkedin: http://pl.linkedin.com/pub/eunika-tabak/69/7b4/508
-     Kate_Terlecka:
-       name: Kate Terlecka
-       title: The Scrum Girl
-       description: Kate Terlecka to jedna z najbardziej rozpoznawanych twarzy polskiego Agile.
-       social:
-         twitter: https://twitter.com/kateterlecka
-         google: https://plus.google.com/112917749347345443950/posts
-         linkedin: http://pl.linkedin.com/pub/kate-terlecka/19/738/77a
-     Dariusz_Wylon:
-       name: Dariusz Wylon
-       title: Coach & Trainer
-       description: Innowacyjny i kreatywny manadżer z dwunastoletnim doświadczeniem
-       social:
-         twitter: https://twitter.com/corporate_coach
-         linkedin: http://pl.linkedin.com/in/dariuszwylon
-     Dominik_Kozaczko:
-       name: Dominik Kozaczko
-       title: Wykładowca ATH
-       description: Ojciec założyciel Dni Wolnego Oprogramowania.
-       social:
-         twitter: https://twitter.com/_DomKo_
-         google: https://plus.google.com/110911336147638586954/posts
-         linkedin: http://pl.linkedin.com/pub/dominik-kozaczko/30/6a3/844
-     Tomasz_Gancarczyk:
-       name: Tomasz Gancarczyk
-       title: Wykładowca ATH
-       description: Opiekun sekcji Systemy operacyjne koła RESET
-       social:
-         google: https://plus.google.com/112446594694346695781/posts
-         facebook: https://www.facebook.com/tomasz.gancarczyk.bb
-     Grzegorz_Rduch:
-       name: Grzegorz Rduch
-       title: Fundacja Mikstura.IT
-       description: Przewodniczący rady fundacji Mikstura.IT
-       social:
-         google: https://plus.google.com/110778338808339960678/posts
-         linkedin: http://pl.linkedin.com/in/grzegorzrduch
-     Michal_Czyz:
-       name: Michał Czyż
-       title: Ruby Developer
-       description: "Aktywny działacz społeczności Open Source"
-       social:
-         twitter: http://bit.ly/twitter_michalczyz
-         google: http://bit.ly/michalczyz_googleplus
-         linkedin: http://linkd.in/michalczyz
+    Kamil_Galuszka:
+     name: Kamil Gałuszka
+     title: Python Developer
+     description: Kamil w czasie wolnym chętnie angażuje się działania społeczności Open Source
+     social:
+       twitter: https://twitter.com/galuszkak
+       facebook: https://pl-pl.facebook.com/galuszkak
+       google: https://plus.google.com/115271802415949853553/posts
+       linkedin: http://pl.linkedin.com/pub/kamil-ga%C5%82uszka/4a/914/706
+    Eunika_Tabak:
+     name: Eunika Tabak
+     title: Fundacja Mikstura.IT
+     description: Prezes fundacji Mikstura.IT oraz tłumacz języka migowego
+     social:
+       linkedin: http://pl.linkedin.com/pub/eunika-tabak/69/7b4/508
+    Kate_Terlecka:
+     name: Kate Terlecka
+     title: The Scrum Girl
+     description: Kate Terlecka to jedna z najbardziej rozpoznawanych twarzy polskiego Agile.
+     social:
+       twitter: https://twitter.com/kateterlecka
+       google: https://plus.google.com/112917749347345443950/posts
+       linkedin: http://pl.linkedin.com/pub/kate-terlecka/19/738/77a
+    Dariusz_Wylon:
+     name: Dariusz Wylon
+     title: Coach & Trainer
+     description: Innowacyjny i kreatywny manadżer z dwunastoletnim doświadczeniem
+     social:
+       twitter: https://twitter.com/corporate_coach
+       linkedin: http://pl.linkedin.com/in/dariuszwylon
+    Dominik_Kozaczko:
+     name: Dominik Kozaczko
+     title: Wykładowca ATH
+     description: Ojciec założyciel Dni Wolnego Oprogramowania.
+     social:
+       twitter: https://twitter.com/_DomKo_
+       google: https://plus.google.com/110911336147638586954/posts
+       linkedin: http://pl.linkedin.com/pub/dominik-kozaczko/30/6a3/844
+    Tomasz_Gancarczyk:
+     name: Tomasz Gancarczyk
+     title: Wykładowca ATH
+     description: Opiekun sekcji Systemy operacyjne koła RESET
+     social:
+       google: https://plus.google.com/112446594694346695781/posts
+       facebook: https://www.facebook.com/tomasz.gancarczyk.bb
+    Grzegorz_Rduch:
+     name: Grzegorz Rduch
+     title: Fundacja Mikstura.IT
+     description: Przewodniczący rady fundacji Mikstura.IT
+     social:
+       google: https://plus.google.com/110778338808339960678/posts
+       linkedin: http://pl.linkedin.com/in/grzegorzrduch
+    Michal_Czyz:
+     name: Michał Czyż
+     title: Ruby Developer
+     description: "Aktywny działacz społeczności Open Source"
+     social:
+       twitter: http://bit.ly/twitter_michalczyz
+       google: http://bit.ly/michalczyz_googleplus
+       linkedin: http://linkd.in/michalczyz
+    Michal_Wyrobek:
+     name: Michał Wyrobek
+     title: Passionate Programming Teacher
+     description:  The software developer, architect and the passionate programming teacher.
+     social:
+       world: http://michalwyrobek.com
+       linkedin: http://pl.linkedin.com/in/mwyrobek
+    Mateusz_Juscinski:
+      name: Mateusz Juściński
+      title: Programista PHP
+      description: Fan wysoko obciążonych systemów webowych, degustator dobrego kodu i miłośnik zastępowania ludzi małymi shellowymi skryptami.
+      social:
+        facebook: https://www.facebook.com/mateuszjuscinski
+        linkedin: http://pl.linkedin.com/in/mateuszjuscinski
+    Mikolaj_Pastuszko:
+      name: Mikołaj Pastuszko
+      title: UX Designer
+      description: Lubi to, co działa. Reaguje alergicznie na nieintuicyjne interfejsy i nieprzemyślane architektury informacji.
+      social:
+        twitter: https://twitter.com/mPastuszko
+        linkedin: http://pl.linkedin.com/in/mikolajpastuszko
+    Rafal_Jagoda:
+      name: Rafał Jagoda
+      title: Programista Python
+      description: Wierzy w wolność w internecie. Na co dzień korzysta z Linuksa. W wolnym czasie śpiewa amatorsko w chórze.
+      social:
+        facebook: https://www.facebook.com/rafal.jagoda
+        linkedin: http://pl.linkedin.com/pub/rafał-jagoda/83/b62/166
+    Anna_Warzecha:
+      name: Anna Warzecha
+      title: Software Engineer
+      description: Pracuje w firmie 10Clouds. Backendowiec z wyboru, frontendowiec z konieczności, linuksowiec z zamiłowania.
+      social:
+        github: https://github.com/aniav
+        google: https://plus.google.com/u/0/+AnnaWarzecha/
+        twitter: https://twitter.com/aniawarzecha
+    Marcin_Szalowicz:
+      name: Marcin Szałowicz
+      title: Programista C++
+      description: Used to be SQL developer and DBA, moved into C++ world.
+      social:
+        linkedin: http://pl.linkedin.com/pub/marcin-sza%C5%82owicz/65/841/ab0
+    Arkadiusz_Benedykt:
+      name: Arkadiusz_Benedykt
+      title: Programista C#
+      description: Programista z wykształcenia i z wyboru. Fan Uncle Boba i Lock Stock and two smoking barrels.
+      social:
+        linkedin: http://pl.linkedin.com/in/arkadiuszbenedykt
+        google: https://plus.google.com/u/0/108534224745986821347/posts
+        facebook: https://www.facebook.com/arkadiusz.benedykt
+    Aaron_Kaplan:
+      name: Aaron Kaplan
+      title: Unix Programmer
+      description: Aaron is the founder of the FunkFeuer free wireless community network in Austria.
+      social:
+        world: http://www.funkfeuer.at
+
   footer:
     is_organised_by: Konferencja Dni Wolnego Oprogramowania 2014 jest organizowana przez
     mikstura_it: Fundacja Mikstura.IT
