@@ -278,7 +278,7 @@ pl:
           title: Programowanie funkcyjne - czyste podejście kontra rzeczywistość
           description: Lisp, Clojure, Data Oriented Programming vs Smalltalk i podejście obiektowe.
         16-00:
-          type: bye
+          type: see_you_tomorrow
           speaker: Dariusz_Wylon
   venue:
     take_place: Konferencja odbędzie się na uczelni
