@@ -184,7 +184,7 @@ en:
           title: Throw away FTP - an intro to Continuous Delivery
           description:
             - So you are a programmer and you are lazy (you have to be!). You want your freshly baked code to land on the server without bothering to touch the FTP client (or resorting to a git pull)? You have heard about "continuous integration" and wonder if this is the way to go. This presentation is for you then.
-            -  I will introduce the concept of “continuous delivery”, which enables you to work more efficiently and guards you against making stupid mistakes. i jej wdrożenie daje +100 do informatycznego lansu na dzielni.
+            - I will introduce the concept of “continuous delivery”, which enables you to work more efficiently and guards you against making stupid mistakes. i jej wdrożenie daje +100 do informatycznego lansu na dzielni.
         16-00:
           type: break
         16-30:
@@ -275,8 +275,8 @@ en:
         15-00:
           type: keynote
           speaker: Michal_Wyrobek
-          title: Programowanie funkcyjne - czyste podejście kontra rzeczywistość
-          description: Lisp, Clojure, Data Oriented Programming vs Smalltalk i podejście obiektowe.
+          title: Functional programming - a pure approach vs. reality.
+          description: Lisp, Clojure, Data Oriented Programming vs. Smalltalk and the object-oriented approach.
         16-00:
           type: bye
           speaker: Dariusz_Wylon
