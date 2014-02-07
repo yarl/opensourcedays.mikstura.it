@@ -138,13 +138,13 @@ en:
         11-30:
           type: talk
           speaker: Rafal_Jagoda
-          title: Offline web application - jak "używać" bez internetu
-          description: Podczas wystąpienia zaprezentuję możliwości HTML5 dające sposobność korzystania ze strony internetowej w przeglądarce bez dostępu do sieci. Przedstawię podejście do tworzenia aplikacji działającej w trybie offline dające użytkownikowi najlepsze doznania. Zastanowimy się wspólnie czy budować natywne aplikacje pod konkretne platformy czy jednak można tworzyć mobilnie w HTML5.
+          title: Offline web application - how to “use it” without internet access.
+          description: I will present the features of HTML5 which enable the user to explore websites in the browser without internet access. I will also talk about creating offline applications which ensure supreme user experience. We will consider if it is better to build a suite of native apps for specific platforms or develop just one mobile HTML5-based application as a viable alternative.
         11-50:
           type: talk
           speaker: Anna_Warzecha
           title: Angular.js
-          description: Prezentacja będzie obejmowała szybkie wprowadzenie do angular.js, tego kiedy się go stosuje, do czego się on nadaje i jakie konsekwencje może nieść towarznie projektu z jego udziałem.
+          description: The presentation will be a brief and compact introduction to angular.js. You will find out when to use it, what to use it for, and what it might mean for the project on which it is deployed.
         12-10:
           type: talk
           speaker:
@@ -181,7 +181,7 @@ en:
         15-40:
           type: talk
           speaker: Mateusz_Juscinski
-          title: Wyrzuć FTP przez okno, czyli wstęp do Continuous Delivery
+          title: Throw away FTP - an intro to Continuous Delivery
           description:
             - Jesteś programistą i jesteś leniwy (musisz być!), chcesz żeby twój świeżutki kod lądował na serwerze bez uciążliwego odpalania klienta FTP (lub robienia git pull)? Kojarzysz "continuous integration" i zastanawiasz się co dalej? Jeśli tak to ta prezentacja dla Ciebie.
             - Podczas tej prezentacji przybliżę ideę continuous delivery, która pozwala pracować wydajniej, unikać głupich błędów i jej wdrożenie daje +100 do informatycznego lansu na dzielni.
