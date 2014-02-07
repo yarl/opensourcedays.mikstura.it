@@ -25,7 +25,7 @@ en:
       text_on_link: Submit your proposal
     became_sponsor:
       call_4_action: Sponsor the event
-      note: Support Open Source community
+      note: Support the Open Source community
       text_on_link: I want to get involved
   about:
     info:
@@ -183,8 +183,8 @@ en:
           speaker: Mateusz_Juscinski
           title: Throw away FTP - an intro to Continuous Delivery
           description:
-            - Jesteś programistą i jesteś leniwy (musisz być!), chcesz żeby twój świeżutki kod lądował na serwerze bez uciążliwego odpalania klienta FTP (lub robienia git pull)? Kojarzysz "continuous integration" i zastanawiasz się co dalej? Jeśli tak to ta prezentacja dla Ciebie.
-            - Podczas tej prezentacji przybliżę ideę continuous delivery, która pozwala pracować wydajniej, unikać głupich błędów i jej wdrożenie daje +100 do informatycznego lansu na dzielni.
+            - So you are a programmer and you are lazy (you have to be!). You want your freshly baked code to land on the server without bothering to touch the FTP client (or resorting to a git pull)? You have heard about "continuous integration" and wonder if this is the way to go. This presentation is for you then.
+            -  I will introduce the concept of “continuous delivery”, which enables you to work more efficiently and guards you against making stupid mistakes. i jej wdrożenie daje +100 do informatycznego lansu na dzielni.
         16-00:
           type: break
         16-30:
@@ -261,15 +261,15 @@ en:
         13-50:
           type: talk
           speaker: Marcin_Szalowicz
-          title: Mysql Workbench - jak ulatwic sobie prace z bazami MySQL
+          title: Mysql Workbench - how to handle MySQL with ease.
           description:
-            - Ogolny opis srodowiska mysql workbench, Revers Engineering baz na diagram eer, synchronizacja zmian,
-            - Informacje ktore mozemy uzyskac z poziomu programu dotyczace stanu bazy danych
+            - An introduction to the environment of mysql workbench, database Revers Engineering onto the eer diagram, change synchronization,
+            - data we can access from the program which are related to the database status.
         14-10:
           type: talk
           speaker: Arkadiusz_Benedykt
-          title: C# - dlaczego lubie i co to w ogóle ma wspólnego z Open Source
-          description: W czasie prezentacji chce pokazać kilka rzeczy które Lubie w c# i takie których  nie lubię.  Co z tego co używam codziennie jest otwarte i jak świat Microsoftowo zorientowanego  programisty wygląda.
+          title: C# - why do I like it? What does it have to do with Open Source?
+          description: During the presentation I would like to talk about the things I love in c# as well as those I do not particularly enjoy. I would like to show what is “open” and take you for a short trip into the world of an MS-oriented programmer.
         14-30:
           type: break
         15-00:
@@ -384,43 +384,43 @@ en:
        linkedin: http://pl.linkedin.com/in/mwyrobek
     Mateusz_Juscinski:
       name: Mateusz Juściński
-      title: Programista PHP
-      description: Fan wysoko obciążonych systemów webowych, degustator dobrego kodu i miłośnik zastępowania ludzi małymi shellowymi skryptami.
+      title: PHP Programmer
+      description: A fan of heavily loaded web systems, a connoisseur of well-crafted code and an aficionado of replacing people with small shell scripts.
       social:
         facebook: https://www.facebook.com/mateuszjuscinski
         linkedin: http://pl.linkedin.com/in/mateuszjuscinski
     Mikolaj_Pastuszko:
       name: Mikołaj Pastuszko
       title: UX Designer
-      description: Lubi to, co działa. Reaguje alergicznie na nieintuicyjne interfejsy i nieprzemyślane architektury informacji.
+      description: Mikołaj likes what works and is allergic to non-intuitive interfaces and badly thought-out information architectures.
       social:
         twitter: https://twitter.com/mPastuszko
         linkedin: http://pl.linkedin.com/in/mikolajpastuszko
     Rafal_Jagoda:
       name: Rafał Jagoda
-      title: Programista Python
-      description: Wierzy w wolność w internecie. Na co dzień korzysta z Linuksa. W wolnym czasie śpiewa amatorsko w chórze.
+      title: Python Programmer
+      description: Rafał believes in internet freedom, uses Linux on a daily basis and sings in a choir in his free time.
       social:
         facebook: https://www.facebook.com/rafal.jagoda
         linkedin: http://pl.linkedin.com/pub/rafał-jagoda/83/b62/166
     Anna_Warzecha:
       name: Anna Warzecha
       title: Software Engineer
-      description: Pracuje w firmie 10Clouds. Backendowiec z wyboru, frontendowiec z konieczności, linuksowiec z zamiłowania.
+      description: A back-end programmer of choice, a front-end developer out of necessity and an enthusiast of Linux - Aneta works with 10Clouds.
       social:
         world: https://github.com/aniav
         google: https://plus.google.com/u/0/+AnnaWarzecha/
         twitter: https://twitter.com/aniawarzecha
     Marcin_Szalowicz:
       name: Marcin Szałowicz
-      title: Programista C++
+      title: C# Programmer
       description: Used to be SQL developer and DBA, moved into C++ world.
       social:
         linkedin: http://pl.linkedin.com/pub/marcin-sza%C5%82owicz/65/841/ab0
     Arkadiusz_Benedykt:
       name: Arkadiusz_Benedykt
       title: Programista C#
-      description: Programista z wykształcenia i z wyboru. Fan Uncle Boba i Lock Stock and two smoking barrels.
+      description: A programmer of choice and by profession. A fan of Uncle Bob and Lock Stock and two smoking barrels.
       social:
         linkedin: http://pl.linkedin.com/in/arkadiuszbenedykt
         google: https://plus.google.com/u/0/108534224745986821347/posts
