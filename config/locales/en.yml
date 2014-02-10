@@ -1,6 +1,8 @@
 en:
   title: The Open Source Days ‘14, 28th - 30th March - Bielsko-Biała
   domain: http://opensourcedays.mikstura.it
+  links:
+    facebook: https://www.facebook.com/MiksturaIT
   meta:
     description:  The Open Source Days conference is one of the biggest free Open Source events in Europe.
     keywords: open source, conference, workshops, community
@@ -81,6 +83,7 @@ en:
       header: See you tomorrow!
       description: ' '
     dayone:
+      date: 2014-03-28
       header: Friday, 28 March
       agenda:
         15-00:
@@ -119,6 +122,7 @@ en:
           type: see_you_tomorrow
           speaker: Dominik_Kozaczko
     daytwo:
+    date: 2014-03-29
       header: Saturday, 29 March
       agenda:
         08-30:
@@ -213,6 +217,7 @@ en:
           type: see_you_tomorrow
           speaker: Dariusz_Wylon
     daythree:
+      date: 2014-03-30
       header: Sunday, 30 March
       agenda:
         08-30:
