@@ -11,4 +11,18 @@ class Person < Struct.new(:key)
         OpenStruct.new(
             I18n.translate(key, scope: [:people]))
   end
+
+  def to_hash
+    {
+        name: name,
+        avatar: avatar_url,
+        title: title,
+        description: description,
+        social: social
+    }
+  end
+
+  def avatar_url
+    [I18n.t(:domain), 'assets/speakers', picture].join("/")
+  end
 end

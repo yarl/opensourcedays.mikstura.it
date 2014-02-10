@@ -26,6 +26,16 @@ class Talk < Struct.new(:id, :day)
     time.strftime("%H:%M")
   end
 
+  def to_hash
+    {
+        start_at: start_at,
+        type: type,
+        title: title,
+        description: description,
+        speakers: [speaker].flatten.compact.map(&:to_hash)
+    }
+  end
+
   private
 
 

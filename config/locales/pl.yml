@@ -1,5 +1,8 @@
 pl:
   title: Dni Wolnego Oprogramowania '14, 28 - 30 Marca - Bielsko-Biała
+  domain: http://dwo.mikstura.it
+  links:
+    facebook: https://www.facebook.com/MiksturaIT
   meta:
     description:  Dni Wolnego Oprogramowania ‘14 to jedna z największych bezpłatnych konferencji Open Source w Europie.
     keywords: open source, conference, workshops, community
@@ -80,6 +83,7 @@ pl:
       header: do zobaczenia jutro!
       description: ' '
     dayone:
+      date: 2014-03-28
       header: Piątek, 28 Mar
       agenda:
         15-00:
@@ -118,6 +122,7 @@ pl:
           type: see_you_tomorrow
           speaker: Dominik_Kozaczko
     daytwo:
+      date: 2014-03-29
       header: Sobota, 29 Mar
       agenda:
         08-30:
@@ -212,6 +217,7 @@ pl:
           type: see_you_tomorrow
           speaker: Dariusz_Wylon
     daythree:
+      date: 2014-03-30
       header: Niedziela, 30 Mar
       agenda:
         08-30:
