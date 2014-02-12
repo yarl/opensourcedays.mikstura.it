@@ -8,7 +8,20 @@
       = t('sponsors.join_us')
   %p
     = link_to t('sponsors.link.text'), t('sponsors.link.url')
-  = image_tag("/assets/layout/pinguin.png", style: "width: 55%; max-width: 400px; padding-top: 2em;")
+
+.divider-space
+
+#gold.text-center
+  = link_to 'http://selleo.com/', target: :blank do
+    .span12#selleo
+      = image_tag('/assets/sponsors/logo/selleo.png')
+
+#bronze.text-center
+  .span4.offset4#jetbrains
+    = link_to 'http://www.jetbrains.com/', target: :blank do
+      = image_tag('/assets/sponsors/logo/jetbrains.png')
+
+
 -#.span12.text-center
   -#.subheader
 -#    %h4 Main Sponsors
