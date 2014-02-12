@@ -260,10 +260,10 @@ pl:
         12-30:
           type: lunch
         13-30:
-          type: talk
-          speaker:
-          title: TBA
-          description: TBA
+          type: keynote
+          speaker: Michal_Wyrobek
+          title: Programowanie funkcyjne - czyste podejście kontra rzeczywistość
+          description: Lisp, Clojure, Data Oriented Programming vs Smalltalk i podejście obiektowe.
         13-50:
           type: talk
           speaker: Marcin_Szalowicz
@@ -279,12 +279,22 @@ pl:
         14-30:
           type: break
         15-00:
-          type: keynote
-          speaker: Michal_Wyrobek
-          title: Programowanie funkcyjne - czyste podejście kontra rzeczywistość
-          description: Lisp, Clojure, Data Oriented Programming vs Smalltalk i podejście obiektowe.
+          type: talk
+          speaker:
+          title: TBA
+          description: TBA
+        15-20:
+          type: talk
+          speaker:
+          title: TBA
+          description: TBA
+        15-40:
+          type: talk
+          speaker:
+          title: TBA
+          description: TBA
         16-00:
-          type: see_you_tomorrow
+          type: bye
           speaker: Dariusz_Wylon
   venue:
     take_place: Konferencja odbędzie się na uczelni
@@ -424,7 +434,7 @@ pl:
       social:
         linkedin: http://pl.linkedin.com/pub/marcin-sza%C5%82owicz/65/841/ab0
     Arkadiusz_Benedykt:
-      name: Arkadiusz_Benedykt
+      name: Arkadiusz Benedykt
       title: Programista C#
       description: Programista z wykształcenia i z wyboru. Fan Uncle Boba i Lock Stock and two smoking barrels.
       social:

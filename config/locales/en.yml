@@ -261,9 +261,9 @@ en:
           type: lunch
         13-30:
           type: talk
-          speaker:
-          title: TBA
-          description: TBA
+          speaker: Michal_Wyrobek
+          title: Functional programming - a pure approach vs. reality.
+          description: Lisp, Clojure, Data Oriented Programming vs. Smalltalk and the object-oriented approach.
         13-50:
           type: talk
           speaker: Marcin_Szalowicz
@@ -279,10 +279,20 @@ en:
         14-30:
           type: break
         15-00:
-          type: keynote
-          speaker: Michal_Wyrobek
-          title: Functional programming - a pure approach vs. reality.
-          description: Lisp, Clojure, Data Oriented Programming vs. Smalltalk and the object-oriented approach.
+          type: talk
+          speaker:
+          title: TBA
+          description: TBA
+        15-20:
+          type: talk
+          speaker:
+          title: TBA
+          description: TBA
+        15-40:
+          type: talk
+          speaker:
+          title: TBA
+          description: TBA
         16-00:
           type: bye
           speaker: Dariusz_Wylon
@@ -424,7 +434,7 @@ en:
       social:
         linkedin: http://pl.linkedin.com/pub/marcin-sza%C5%82owicz/65/841/ab0
     Arkadiusz_Benedykt:
-      name: Arkadiusz_Benedykt
+      name: Arkadiusz Benedykt
       title: Programista C#
       description: A programmer of choice and by profession. A fan of Uncle Bob and Lock Stock and two smoking barrels.
       social:
