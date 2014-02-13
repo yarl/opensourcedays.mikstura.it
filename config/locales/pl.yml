@@ -42,7 +42,7 @@ pl:
         message: Żadna idea nigdy nie odniosła sukcesu bez zaangażowania zwykłych ludzi. Ty również możesz zmieniać świat wokół nas! ‘Uwolnij się’ :-) i dołącz do społeczności Open Source!
       workshop:
         header: Warsztaty
-        message: W społeczności Open Source jest wiele osób które posiadają konkretne umiejętności, a przy tym chętnie się nimi dzielą. Wielu jest również tych, którzy starają się tego rodzaju umiejętności w sobie wykształcić. Warsztaty pozwalają im się spotkać.
+        message: W społeczności Open Source jest wiele osób, które posiadają konkretne umiejętności, a przy tym chętnie się nimi dzielą. Wielu jest również tych, którzy starają się tego rodzaju umiejętności w sobie wykształcić. Warsztaty pozwalają im się spotkać.
     register:
       modal:
         title: Zarejestruj się
@@ -56,7 +56,7 @@ pl:
     learn_them: Podziel się Swoją Wiedzą
     topic_cloud: "Open Source, nauka, programowanie, nauczanie, społeczność, swobodny dostęp, Khan Academy, edx.org, coursera.org, współtworzenie zbiorów danych, umiejętności miękkie, efektywna komunikacja, praca zespołowa, doskonalenie rzemiołsa programistycznego, architektura, domain driven design, Vim, Eclipse, RubyMine, FireBug, automatyczne testy, yeoman, grunt, guard, GitHub, Travis CI, Code Climate, metodologie, SCRUM, Kanban, zespoły rozproszone, projektowanie, gry komputerowe, studium przypadku, wolne oprogramowanie, szkoły, technika, organizacje pozarządowe, Nagios, Zabix, otwarty sprzęt, Arduino, Beagle Board, Raspberry Pi, Artoo.io, WikiSpeed, systemy operacyjne, Firefox OS, Ubuntu OS, Sailfish OS, Jolla, Tizen, analiza danych, wizualizacja danych, R, Processing, Orange, programowanie funkcyjne, niemutowalne typy danych, Clojure, Datomic, aplikacje klienckie, Ember.js, Angular.js, CoffeeScript, SASS, Compass, HTML5, prywatne chmury obliczeniowe, Open Shift, Eucalyptus, Cloud Foundry, Docker, UX, UI, IT, projektowanie interfejsów, architektura informacji, wolna kultura, Wikipedia, OpenStreetMap, Jamendo"
     learn_them_description:
-      one: 'Dni Wolnego Oprogramowania mają bardzo szeroką tematykę - jesteśmy otwarci na wasze propozycje.'
+      one: 'Dni Wolnego Oprogramowania mają bardzo szeroką tematykę - jesteśmy otwarci na Wasze propozycje.'
       two: 'W tym roku w szczególności interesują nas wystąpienia poświęcone następującym zagadnieniom:'
     register_as_speaker_url: http://bit.ly/DWO_2014_C4P
     submit_your_talk: Zgłoś Swoją Prezentację
@@ -310,7 +310,7 @@ pl:
           link: http://www.mzk.bielsko.pl/plan.html
       road:
         header: Samochodem
-        description: Od ulicy Czołgistów, oraz Willowej znajdują się ogólnodostępne parkingi. Na terenie uczelni (wjazd tylko od ulicy Willowej) również są prakingi płatne (opłata zryczałtowana 2 zł)
+        description: Od ulicy Czołgistów, oraz Willowej znajdują się ogólnodostępne parkingi. Na terenie uczelni (wjazd tylko od ulicy Willowej) również są parkingi płatne (opłata zryczałtowana 2 zł)
       map:
         header: Mapa
         description: "Na poniższej mapie zostały oznaczone ważne punkty, takie jak: miejsce konferencji :-), przystanki autobusowe wraz z linkami do szczegółowych rozkładów jazdy, hotele, hostele, restauracje"
@@ -339,7 +339,7 @@ pl:
     Kamil_Galuszka:
      name: Kamil Gałuszka
      title: Python Developer
-     description: Kamil w czasie wolnym chętnie angażuje się działania społeczności Open Source
+     description: Kamil w czasie wolnym chętnie angażuje się w działania społeczności Open Source
      social:
        twitter: https://twitter.com/galuszkak
        facebook: https://pl-pl.facebook.com/galuszkak
@@ -354,7 +354,7 @@ pl:
     Kate_Terlecka:
      name: Kate Terlecka
      title: The Scrum Girl
-     description: Kate Terlecka to jedna z najbardziej rozpoznawanych twarzy polskiego Agile.
+     description: Kate Terlecka to jedna z najbardziej rozpoznawalnych twarzy polskiego Agile.
      social:
        twitter: https://twitter.com/kateterlecka
        google: https://plus.google.com/112917749347345443950/posts
@@ -362,7 +362,7 @@ pl:
     Dariusz_Wylon:
      name: Dariusz Wylon
      title: Coach & Trainer
-     description: Innowacyjny i kreatywny manadżer z dwunastoletnim doświadczeniem
+     description: Innowacyjny i kreatywny menedżer z dwunastoletnim doświadczeniem
      social:
        twitter: https://twitter.com/corporate_coach
        linkedin: http://pl.linkedin.com/in/dariuszwylon
