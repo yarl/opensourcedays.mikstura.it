@@ -322,6 +322,11 @@ pl:
     link:
       text: Dowiedz się więcej z broszury dla sponsorów
       url: "http://bit.ly/DniWolnegoOprogramowaniaBroszuraDlaSponsorow"
+    sponsors:
+      gold:
+        selleo:
+          description:
+            - Selleo projektuje i wdraża aplikacje webowe i mobilne dla firm oraz organizacji pozarządowych. Siedzibą firmy jest Bielsko-Biała, choć zdecydowana większość projektów realizowana jest na rzecz klientów zagranicznych pochodzących z Europy oraz Ameryki Północnej. Szczególnie chętnie współpracujemy z klientami poszukującymi innowacji biznesowych, organizacyjnych i procesowych bazujących na rozwiązaniach informatycznych, w tym aplikacjach webowych oraz mobilnych. Nasza kultura organizacyjna oparta jest na otwartości, rzetelności, pracy zespołowej oraz profesjonalnym podejściu do ciągłego doskonalenia warsztatu pracy. Jeśli jesteś programistą, grafikiem czy front-end developerem, któremu/ej bliskie są te wartości, jesteśmy otwarci na rozmowy o współpracy.
   contact_us:
     hint: W razie pytań bądź wątpliwości, zachęcamy do kontaktu za pośrednictwem poniżej wymienionych kanałów.
     follow_us:
