@@ -3,12 +3,21 @@
   .copyright
     = t('footer.is_organised_by')
     %a{href: "http://mikstura.it", target: '_blank'}= t('footer.mikstura_it')
-    %br
-    %a{href: 'https://github.com/miksturait/opensourcedays.mikstura.it', target: '_blank'}= t('footer.source_code_available')
+    %br#code_of_conduct
+    = link_to t('footer.code_of_conduct.header'), "", data: { target: '#modal-code-of-conduct', toggle: "modal"}
     %br
     = link_to t('footer.tos'), "/rules"
     %br
     = link_to t('footer.policy'), "/policy"
     %br
+    %a{href: 'https://github.com/miksturait/opensourcedays.mikstura.it', target: '_blank'}= t('footer.source_code_available')
+    %br
     =image_tag('/assets/layout/favicon.ico', alt: "DWO '14", width: '16px')
     2007-2014
+
+#modal-code-of-conduct.modal.hide.fade.code-of-conduct.text-center
+  .modal-header
+    %h3= t('footer.code_of_conduct.header')
+  .modal-body
+    = t('footer.code_of_conduct.message')
+
