@@ -19,5 +19,8 @@
   .modal-header
     %h3= t('footer.code_of_conduct.header')
   .modal-body
-    = t('footer.code_of_conduct.message')
+    %p= t('footer.code_of_conduct.message')
+    %small
+      %p= link_to t('footer.code_of_conduct.inspired_by_oreilly'),
+        "http://oreilly.com/conferences/code-of-conduct.html", target: :blank
 
