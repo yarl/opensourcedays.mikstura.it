@@ -29,6 +29,7 @@ class Talk < Struct.new(:id, :day)
   def to_hash
     {
         id: info.id,
+        more_info: more_info,
         start_at: start_at,
         type: type,
         title: title,
@@ -39,6 +40,9 @@ class Talk < Struct.new(:id, :day)
 
   private
 
+  def more_info
+    %w(talk keynote).include? type
+  end
 
   def fetch_description
     info_description ||
