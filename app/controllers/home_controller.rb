@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
   layout 'base'
   after_action :cache_it, only: [:index, :rules, :policy]
-  #after_action :cache_json, only: [:api]
+  after_action :cache_json, only: [:api]
 
   def index
     prepare_team
