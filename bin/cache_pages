@@ -11,6 +11,8 @@ curl http://localhost:3000/policy?locale=en
 curl http://localhost:3000/policy?locale=pl
 curl http://localhost:3000/rules?locale=en
 curl http://localhost:3000/rules?locale=pl
+curl http://localhost:3000/api.json?locale=en
+curl http://localhost:3000/api.json?locale=pl
 
 kill -QUIT `cat tmp/pids/server.pid`
 

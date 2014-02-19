@@ -87,38 +87,47 @@ pl:
       header: Piątek, 28 Mar
       agenda:
         15-00:
+          id: 101
           type: registration
         16-00:
+          id: 102
           type: welcome
           speaker: Dominik_Kozaczko
         16-30:
+          id: 103
           type: talk
           speaker: Kamil_Galuszka
           title: Wprowadzenie do świata free & Open Source
           description: Open Source jest czymś co zmieniło i zmienia świat. Chcę pokazać jak Ty drogi uczestniku możesz zaangażować się w świat otwartego kodu budowanego przez społeczność wielu niesamowitych ludzi.
         16-50:
+          id: 104
           type: talk
           speaker: Michal_Czyz
           title: A więc chciałbyś zostać Hakerem
           description: ' '
         17-10:
+          id: 105
           type: talk
           speaker: Dariusz_Wylon
           title: Czy można zaprogramować człowieka?
           description: "Chcesz dowiedzieć się co zrobić, aby osoby w Twoim otoczeniu lepiej rozmiały to co chcesz im przekazać. Chcesz sprawić, aby wypowiadane przez Ciebie  komunikaty były bardziej skuteczne. Co prawda nie powiem jak zaprogramować człowieka aby zrobił to co chcemy, ale chętnie podzielę się z Tobą wiedzą na temat komunikacji międzyludzkiej, która dotychczas dostępna była jedynie na najlepszych szkoleniach."
         17-30:
+          id: 106
           type: break
         18-00:
+          id: 107
           type: talk
           speaker: Kate_Terlecka
           title: Scrum - czyli jak poddać się zmianom i zrobić swoje
           description: Scrum to ostatnio bardzo mądre słowo. Ale w Polsce spotkałam dopiero 4 firmy, które na prawdę wiedzą o co w tym chodzi. Chcę wam przybliżyć co to jest Scrum i dlaczego jeśli już go wprowadzamy, to zapominamy o jego sercu.
         19-15:
+          id: 107
           type: panel
           speaker:
           title: 'Panel Dyskusyjny: "Kariera IT"'
           description: TBA
         20-00:
+          id: 108
           type: see_you_tomorrow
           speaker: Dominik_Kozaczko
     daytwo:
@@ -126,11 +135,14 @@ pl:
       header: Sobota, 29 Mar
       agenda:
         08-30:
+          id: 109
           type: breakfest
         09-45:
+          id: 110
           type: welcome
           speaker: Dariusz_Wylon
         10-00:
+          id: 111
           type: keynote
           speaker: Mikolaj_Pastuszko
           title: User Experience Design
@@ -139,25 +151,31 @@ pl:
             - Czym zajmują się osoby pracujące w tej dziedzinie? Kim są? Skąd przyszli? Czym różnią się od innych ludzi? W jaki sposób potrafią zwielokrotniać zyski? Jak wygląda ich warsztat? Jak z nimi rozmawiać? Dlaczego kochają swoją pracę i są ponadprzeciętnie szczęśliwi?
             - Prezentacja przybierze formę strumienia wrażeń rozprzestrzeniających fascynację ową niezwykłą dziedziną.
         11-00:
+          id: 112
           type: break
         11-30:
+          id: 113
           type: talk
           speaker: Rafal_Jagoda
           title: Offline web application - jak "używać" bez internetu
           description: Podczas wystąpienia zaprezentuję możliwości HTML5 dające sposobność korzystania ze strony internetowej w przeglądarce bez dostępu do sieci. Przedstawię podejście do tworzenia aplikacji działającej w trybie offline dające użytkownikowi najlepsze doznania. Zastanowimy się wspólnie czy budować natywne aplikacje pod konkretne platformy czy jednak można tworzyć mobilnie w HTML5.
         11-50:
+          id: 114
           type: talk
           speaker: Anna_Warzecha
           title: Angular.js
           description: Prezentacja będzie obejmowała szybkie wprowadzenie do angular.js, tego kiedy się go stosuje, do czego się on nadaje i jakie konsekwencje może nieść towarznie projektu z jego udziałem.
         12-10:
+          id: 115
           type: talk
           speaker:
           title: TBA
           description: TBA
         12-30:
+          id: 116
           type: lunch
         13-30:
+          id: 117
           type: keynote
           speaker: Aaron_Kaplan
           title:  Don't connect to the 'net, *be* the net! Why are you no ISP yet?
@@ -172,18 +190,22 @@ pl:
             - 'Next, the presenter will discuss current issues of mesh networking research and point out opportunities for further research.'
             - 'The talk will close with a vision for the next ten years in mesh research and community wireless ISP research.'
         14-30:
+          id: 118
           type: break
         15-00:
+          id: 119
           type: talk
           speaker:
           title: TBA
           description: TBA
         15-20:
+          id: 120
           type: talk
           speaker:
           title: TBA
           description: TBA
         15-40:
+          id: 121
           type: talk
           speaker: Mateusz_Juscinski
           title: Wyrzuć FTP przez okno, czyli wstęp do Continuous Delivery
@@ -191,29 +213,36 @@ pl:
             - Jesteś programistą i jesteś leniwy (musisz być!), chcesz żeby twój świeżutki kod lądował na serwerze bez uciążliwego odpalania klienta FTP (lub robienia git pull)? Kojarzysz "continuous integration" i zastanawiasz się co dalej? Jeśli tak to ta prezentacja dla Ciebie.
             - Podczas tej prezentacji przybliżę ideę continuous delivery, która pozwala pracować wydajniej, unikać głupich błędów i jej wdrożenie daje +100 do informatycznego lansu na dzielni.
         16-00:
+          id: 122
           type: break
         16-30:
+          id: 123
           type: talk
           speaker:
           title: TBA
           description: TBA
         16-50:
+          id: 124
           type: talk
           speaker:
           title: TBA
           description: TBA
         17-10:
+          id: 125
           type: talk
           speaker:
           title: TBA
           description: TBA
         17-30:
+          id: 126
           type: break
         18-00:
+          id: 127
           type: lightningtalks
           title: Lightning Talks
           description: TBA
         19-00:
+          id: 128
           type: see_you_tomorrow
           speaker: Dariusz_Wylon
     daythree:
@@ -221,50 +250,61 @@ pl:
       header: Niedziela, 30 Mar
       agenda:
         08-30:
+          id: 129
           type: breakfest
         09-45:
           type: welcome
           speaker: Eunika_Tabak
         10-00:
+          id: 130
           type: talk
           speaker:
           title: TBA
           description: TBA
         10-20:
+          id: 131
           type: talk
           speaker:
           title: TBA
           description: TBA
         10-40:
+          id: 132
           type: talk
           speaker:
           title: TBA
           description: TBA
         11-00:
+          id: 133
           type: break
         11-30:
+          id: 134
           type: talk
           speaker:
           title: TBA
           description: TBA
         11-50:
+          id: 135
           type: talk
           speaker:
           title: TBA
           description: TBA
         12-10:
+          id: 136
           type: talk
           speaker:
           title: TBA
           description: TBA
         12-30:
+          id: 137
           type: lunch
         13-30:
+          id: 138
           type: keynote
           speaker: Michal_Wyrobek
           title: Programowanie funkcyjne - czyste podejście kontra rzeczywistość
           description: Lisp, Clojure, Data Oriented Programming vs Smalltalk i podejście obiektowe.
         13-50:
+          id: 139
           type: talk
           speaker: Marcin_Szalowicz
           title: Mysql Workbench - jak ulatwic sobie prace z bazami MySQL
@@ -272,28 +312,34 @@ pl:
             - Ogolny opis srodowiska mysql workbench, Revers Engineering baz na diagram eer, synchronizacja zmian,
             - Informacje ktore mozemy uzyskac z poziomu programu dotyczace stanu bazy danych
         14-10:
+          id: 140
           type: talk
           speaker: Arkadiusz_Benedykt
           title: C# - dlaczego lubie i co to w ogóle ma wspólnego z Open Source
           description: W czasie prezentacji chce pokazać kilka rzeczy które Lubie w c# i takie których  nie lubię.  Co z tego co używam codziennie jest otwarte i jak świat Microsoftowo zorientowanego  programisty wygląda.
         14-30:
+          id: 141
           type: break
         15-00:
+          id: 142
           type: talk
           speaker:
           title: TBA
           description: TBA
         15-20:
+          id: 143
           type: talk
           speaker:
           title: TBA
           description: TBA
         15-40:
+          id: 144
           type: talk
           speaker:
           title: TBA
           description: TBA
         16-00:
+          id: 145
           type: bye
           speaker: Dariusz_Wylon
   venue:

@@ -28,6 +28,7 @@ class Talk < Struct.new(:id, :day)
 
   def to_hash
     {
+        id: info.id,
         start_at: start_at,
         type: type,
         title: title,
