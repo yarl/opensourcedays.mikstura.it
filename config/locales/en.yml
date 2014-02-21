@@ -361,6 +361,19 @@ en:
       map:
         header: Map
         description: "The map below shows some important locations: the conference venue, bus stops and links to schedules, hotels, hostels and restaurants"
+    places:
+      main:
+        code: L128
+        name: main stage
+      computer:
+        code: CH@4
+        name: computer hall at floor 4th
+      small:
+        code: HW@4
+        name: hallway at floor 4th
+      hackathon:
+        code: HA@4
+        name: hackathon room at floor 4th
   sponsors:
     slogan: Sponsors do have an impact on the quality of the conference!
     slogan: They help make the Open Source Days a unique event.

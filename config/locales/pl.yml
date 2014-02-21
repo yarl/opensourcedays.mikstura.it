@@ -361,6 +361,19 @@ pl:
       map:
         header: Mapa
         description: "Na poniższej mapie zostały oznaczone ważne punkty, takie jak: miejsce konferencji :-), przystanki autobusowe wraz z linkami do szczegółowych rozkładów jazdy, hotele, hostele, restauracje"
+    places:
+      main:
+        code: L128
+        name: główna scena
+      computer:
+        code: CH@4
+        name: sala komputerowa na piętrze 4-ym
+      small:
+        code: HW@4
+        name: korytarz na piętrze 4-ym
+      hackathon:
+        code: HA@4
+        name: L??? na piętrze 4-ym
   sponsors:
     slogan: Sponsorzy mają zaczący wpływ na jakość konferencji
     slogan: Dzięki nim, Dni Wolnego Oprogramowania są wyjątkowe
