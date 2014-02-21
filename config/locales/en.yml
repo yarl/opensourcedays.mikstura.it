@@ -342,6 +342,31 @@ en:
           id: 145
           type: bye
           speaker: Dariusz_Wylon
+  workshops:
+    open_source:
+      lead: Kamil_Galuszka
+      where: computer
+      title: Włącz się w ruch Open Source
+      description:
+        - Celem warsztatów jest umożliwienie uczestnikom zapoznanie z narzędziami wykorzystywanymi przez społeczność Open source. Uczestnik po warsztatach ma wiedzę i umiejętności by aktywnie wspierać społeczność swoimi poprawkami, nowymi funkcjonalnościami do oprogramowania oraz innymi umiejętnościami (jak tłumaczenie, testowanie itd).
+        - Warsztaty bedą w trybie BYOL(bring your own laptop). Nie ma żadnych ograniczeń jaki system jest na urządzeniu.
+        - Podczas warsztatów bedą mentorzy którzy bedą wspierali was wiedzą i pomocą.
+      logo: open_source_wikipedia.org.png
+    your_own_parser:
+      lead: Stanislaw_Klekot
+      where: small
+      title: Ale parsery są trudne! A są?
+      description:
+        - Na tych warsztatach opowiem jak są zbudowane kompilatory i pokażę, jak napisać w Pythonie własny interpreter dla wymyślonego języka programowania
+      logo: python.wikipedia.org.png
+    mindstorms:
+      lead: Agnieszka_Pawlicka
+      where: computer
+      title: Uwolnij pingwina – warsztaty z programowania Lego Mindstorms
+      description:
+        - Jesteś fanem wolnego oprogramowania? Zawsze chciałeś uwolnić pingwina? A może chcesz sprawić, żeby chodził, ruszał skrzydłami, śpiewał, czy nawet tańczył?
+        - Przyjdź na warsztaty, a za pomocą Lego Mindstorms zbudujesz i zaprogramujesz swojego własnego Robo-pingwina! Uwolnij wyobraźnię!
+      logo: lego.mindstorms.jpg
   venue:
     take_place: "The conference will take place at the university"
     ath: Akademia Techniczno-Humanistyczna in Bielsko-Biała
@@ -559,6 +584,13 @@ en:
         world: http://aviary.pl
         twitter: https://twitter.com/bpiec
         linkedin: https://pl.linkedin.com/in/bartoszpiec
+    Stanislaw_Klekot:
+      name: Stanisław Klekot
+      title: System Administrator
+      description: Zawodowo administruję serwerami linuksowymi, choć więcej czasu spędzam programując w rozmaitych językach.
+      social:
+        world: http://dozzie.jogger.pl/
+        linkedin: http://pl.linkedin.com/in/dozzie
 
   footer:
     is_organised_by: The Open Source Days 2014 conference is organized by

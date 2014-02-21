@@ -1,0 +1,17 @@
+%li.event-item.clearfix.span6
+  .event-date
+    %time= workshop.date
+    %small= workshop.place_name
+  %br.clearfix/
+  .event-entry.text-center
+    %h3.entry-title= workshop.title
+    %p.lead
+      = workshop.lead_name
+      .photo-wrap
+        = image_tag("/assets/speakers/#{workshop.lead_picture}", width: 50)
+    .event-image
+      %img.img-circle{:alt => workshop.title, :src => "/assets/workshops/#{workshop.logo}"}
+  .entry-content
+    - workshop.description.each do |paragraph|
+      %p= paragraph
+

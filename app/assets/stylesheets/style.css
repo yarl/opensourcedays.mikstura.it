@@ -1236,7 +1236,7 @@ a.instagram:hover {
 .carouselslider ul li .item:hover {
 /*background:rgba(0, 0, 0, 0.02);*/
 }
-.carouselslider ul li .item .photo-wrap > img {
+.event-entry .photo-wrap > img, .carouselslider ul li .item .photo-wrap > img {
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
