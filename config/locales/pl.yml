@@ -121,7 +121,7 @@ pl:
           title: Scrum - czyli jak poddać się zmianom i zrobić swoje
           description: Scrum to ostatnio bardzo mądre słowo. Ale w Polsce spotkałam dopiero 4 firmy, które na prawdę wiedzą o co w tym chodzi. Chcę wam przybliżyć co to jest Scrum i dlaczego jeśli już go wprowadzamy, to zapominamy o jego sercu.
         19-15:
-          id: 107
+          id: 146
           type: panel
           speaker:
           title: 'Panel Dyskusyjny: "Kariera IT"'
@@ -253,6 +253,7 @@ pl:
           id: 129
           type: breakfest
         09-45:
+          id: 147
           type: welcome
           speaker: Eunika_Tabak
         10-00:
