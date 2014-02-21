@@ -168,9 +168,12 @@ pl:
         12-10:
           id: 115
           type: talk
-          speaker:
-          title: TBA
-          description: TBA
+          speaker: Agnieszka_Pawlicka
+          title: Programowanie zabawnie proste
+          description:
+            - Czy ktoś choć raz próbował Wam wmówić, że programowanie jest trudne?
+            - A może przekonywano Was, że jest strasznie nudne?
+            - Podczas prezentacji udowodnię Wam, że może być inaczej. Wystarczy dobrze układać klocki. To takie proste.
         12-30:
           id: 116
           type: lunch
@@ -218,20 +221,14 @@ pl:
         16-30:
           id: 123
           type: talk
-          speaker:
-          title: TBA
-          description: TBA
-        16-50:
-          id: 124
-          type: talk
-          speaker:
-          title: TBA
+          speaker: Carsten_Munk
+          title: Sailfish OS
           description: TBA
         17-10:
           id: 125
           type: talk
-          speaker:
-          title: TBA
+          speaker: Bartosz_Piec
+          title: Firefox OS
           description: TBA
         17-30:
           id: 126
@@ -286,9 +283,11 @@ pl:
         11-50:
           id: 135
           type: talk
-          speaker:
-          title: TBA
-          description: TBA
+          speaker: Tomasz_Mloduchowski
+          title: Bitcoin Enterprise Edition - Open Source z wielomiliardową kapitalizacją
+          description:
+            - Czym jest i jak działa Bitcoin, zaczynając od teorii, a na doświadczeniu z uruchamianiem usług finansowych kończąc.
+            - Podczas wystąpienia przedstawię teoretyczne podstawy bezpieczeństwa sieci, opowiem o praktycznych aspektach wdrażania rozległych rozwiązań opartych na technologii Bitcoin, pułapkach czyhających na programistów integrujących się z siecią Bitcoin, a także o Bitcoin jako narzędziu umożliwiającym każdemu zapoznanie się z tematyką systemów klasy "Enterprise"
         12-10:
           id: 136
           type: talk
@@ -512,6 +511,55 @@ pl:
       description: Aaron is the founder of the FunkFeuer free wireless community network in Austria.
       social:
         world: http://www.funkfeuer.at
+    Agnieszka_Pawlicka:
+      name: Agnieszka Pawlicka
+      title: IT Trainer
+      description: Wielka pasjonatka konstruowania robotów i ich programowania, wytrwale podążająca za najnowocześniejszymi technologiami.
+      social:
+        facebook: https://www.facebook.com/agnieszka.pawlicka2
+    Pawel_Marynowski:
+      name: Paweł Marynowski
+      title: Fan wolnej wiedzy
+      description: Edytor OpenStreetMap z czteroletnim doświadczeniem. Członek zarządu Stowarzyszenia OpenStreetMap Polska.
+      social:
+        twitter: https://twitter.com/pmarynowski
+        google:  http://gplus.to/pmarynowski
+    Arkadiusz_Kwasny:
+      name: Arkadiusz Kwaśny
+      title: Unity 3D Developer
+      description: Prowadzę firmę informatyczną, a w wolnym czasie pasjonuję się tworzeniem gier w oparciu o silnik Unity 3D.
+      social:
+        linkedin: http://www.linkedin.com/in/arkadiuszkwasny
+        twitter: https://twitter.com/arkadiuszkwasny
+    Karol_Ryt:
+      name: Karol Ryt
+      title: Unity 3D Ninja
+      description:  One man army gamedev'owy. W wolnym czasie gra, zwiedza góry na rowerze albo i czyta książki wszelakie.
+      social:
+        linkedin: http://pl.linkedin.com/pub/karol-ryt/34/b28/b9a
+        twitter: https://twitter.com/namassaTheMan
+    Tomasz_Mloduchowski:
+      name: Tomasz Młoduchowski
+      title: Tech Entrepreneur
+      description: Współzałożyciel Warsaw Hackerspace. Absolwent MIT.
+      social:
+        linkedin: http://www.linkedin.com/in/tomaszmloduchowski
+    Carsten_Munk:
+      name: Carsten Munk
+      title: Chief Research Engineer
+      description: Working on Mer Core and next generation mobile stacks on top of it as well as research efforts into whatever falls into my lap.
+      social:
+        linkedin: https://pl.linkedin.com/in/carstenmunk
+        world: http://jolla.com/
+    Bartosz_Piec:
+      name: Bartosz Piec
+      title:
+      description:
+      social:
+        world: http://aviary.pl
+        twitter: https://twitter.com/bpiec
+        linkedin: https://pl.linkedin.com/in/bartoszpiec
+
   footer:
     is_organised_by: Konferencja Dni Wolnego Oprogramowania 2014 jest organizowana przez
     mikstura_it: Fundacja Mikstura.IT
