@@ -169,11 +169,11 @@ en:
           id: 115
           type: talk
           speaker: Agnieszka_Pawlicka
-          title: Programowanie zabawnie proste
+          title: Playfully simple programming
           description:
-            - Czy ktoś choć raz próbował Wam wmówić, że programowanie jest trudne?
-            - A może przekonywano Was, że jest strasznie nudne?
-            - Podczas prezentacji udowodnię Wam, że może być inaczej. Wystarczy dobrze układać klocki. To takie proste.
+            - Has anyone ever told you that programming is hard?
+            - Have they told you it is dead boring?
+            - I shall prove it can be different. You just need to stack the blocks right. It is so simple.
         12-30:
           id: 116
           type: lunch
@@ -284,10 +284,10 @@ en:
           id: 135
           type: talk
           speaker: Tomasz_Mloduchowski
-          title: Bitcoin Enterprise Edition - Open Source z wielomiliardową kapitalizacją
+          title: Bitcoin Enterprise Edition - Open Source with multibillion capitalization
           description:
-            - Czym jest i jak działa Bitcoin, zaczynając od teorii, a na doświadczeniu z uruchamianiem usług finansowych kończąc.
-            - Podczas wystąpienia przedstawię teoretyczne podstawy bezpieczeństwa sieci, opowiem o praktycznych aspektach wdrażania rozległych rozwiązań opartych na technologii Bitcoin, pułapkach czyhających na programistów integrujących się z siecią Bitcoin, a także o Bitcoin jako narzędziu umożliwiającym każdemu zapoznanie się z tematyką systemów klasy "Enterprise"
+            - What is Bitcoin? How does it work? From theory to the practice of running financial services.
+            - I will introduce the basics of the network security and talk about the practice of implementing solutions based on the Bitcoin technology, traps lurking for the developers who integrate with the Bitcoin network as well as about Bitcoin as a tool enabling you to familiarize yourself with the topic of enterprise-class systems.
         12-10:
           id: 136
           type: talk
@@ -346,26 +346,26 @@ en:
     open_source:
       lead: Kamil_Galuszka
       where: computer
-      title: Włącz się w ruch Open Source
+      title: Join the Open Source movement.
       description:
-        - Celem warsztatów jest umożliwienie uczestnikom zapoznanie z narzędziami wykorzystywanymi przez społeczność Open source. Uczestnik po warsztatach ma wiedzę i umiejętności by aktywnie wspierać społeczność swoimi poprawkami, nowymi funkcjonalnościami do oprogramowania oraz innymi umiejętnościami (jak tłumaczenie, testowanie itd).
-        - Warsztaty bedą w trybie BYOL(bring your own laptop). Nie ma żadnych ograniczeń jaki system jest na urządzeniu.
-        - Podczas warsztatów bedą mentorzy którzy bedą wspierali was wiedzą i pomocą.
+        - The workshop should help the participants to find out about the tools used by the Open Source community. Those who complete the workshop should have the knowledge and skills with which to support projects with improvements, new software features or make other valuable contributions, such as translations, tests, etc.
+        - The BYOL (bring your own laptop) workshop imposes no limitations regarding the device operating system.
+        - The workshop will be run with mentors who will support you with their expertise.
       logo: open_source_wikipedia.org.png
     your_own_parser:
       lead: Stanislaw_Klekot
       where: small
-      title: Ale parsery są trudne! A są?
+      title: But parsers are really hard! Are they indeed?
       description:
-        - Na tych warsztatach opowiem jak są zbudowane kompilatory i pokażę, jak napisać w Pythonie własny interpreter dla wymyślonego języka programowania
+        - I will talk about compilers and show how to use Python to program your own interpreter for a programming language of your choice.
       logo: python.wikipedia.org.png
     mindstorms:
       lead: Agnieszka_Pawlicka
       where: computer
-      title: Uwolnij pingwina – warsztaty z programowania Lego Mindstorms
+      title: Set the penguin free - a Lego Mindstorms programming workshop.
       description:
-        - Jesteś fanem wolnego oprogramowania? Zawsze chciałeś uwolnić pingwina? A może chcesz sprawić, żeby chodził, ruszał skrzydłami, śpiewał, czy nawet tańczył?
-        - Przyjdź na warsztaty, a za pomocą Lego Mindstorms zbudujesz i zaprogramujesz swojego własnego Robo-pingwina! Uwolnij wyobraźnię!
+        - Are you a fan of Open Source software? Have you always wanted to set the penguin free? You may as well what to make it walk, flap its wings, sing or even dance.
+        - Join us at the workshop to build and programme your own Robo-penguin! Come and unleash your imagination!
       logo: lego.mindstorms.jpg
   venue:
     take_place: "The conference will take place at the university"
@@ -539,34 +539,34 @@ en:
     Agnieszka_Pawlicka:
       name: Agnieszka Pawlicka
       title: IT Trainer
-      description: Wielka pasjonatka konstruowania robotów i ich programowania, wytrwale podążająca za najnowocześniejszymi technologiami.
+      description: A new tech geek, passionate about building and programming robots.
       social:
         facebook: https://www.facebook.com/agnieszka.pawlicka2
     Pawel_Marynowski:
       name: Paweł Marynowski
-      title: Fan wolnej wiedzy
-      description: Edytor OpenStreetMap z czteroletnim doświadczeniem. Członek zarządu Stowarzyszenia OpenStreetMap Polska.
+      title: A fan of open knowledge.
+      description: OpenStreetMap editor with 4 years of experience to share. A board member of the OpenStreetMap Association in Poland.
       social:
         twitter: https://twitter.com/pmarynowski
         google:  http://gplus.to/pmarynowski
     Arkadiusz_Kwasny:
       name: Arkadiusz Kwaśny
       title: Unity 3D Developer
-      description: Prowadzę firmę informatyczną, a w wolnym czasie pasjonuję się tworzeniem gier w oparciu o silnik Unity 3D.
+      description: Arek runs a software development house. In his free time he lets off steam programming Unity 3D games.
       social:
         linkedin: http://www.linkedin.com/in/arkadiuszkwasny
         twitter: https://twitter.com/arkadiuszkwasny
     Karol_Ryt:
       name: Karol Ryt
       title: Unity 3D Ninja
-      description:  One man army gamedev'owy. W wolnym czasie gra, zwiedza góry na rowerze albo i czyta książki wszelakie.
+      description:  One man gamedev army. Loves gaming, mountain biking and reading widely.
       social:
         linkedin: http://pl.linkedin.com/pub/karol-ryt/34/b28/b9a
         twitter: https://twitter.com/namassaTheMan
     Tomasz_Mloduchowski:
       name: Tomasz Młoduchowski
       title: Tech Entrepreneur
-      description: Współzałożyciel Warsaw Hackerspace. Absolwent MIT.
+      description: Co-founder of Warsaw Hackerspace. MIT graduate.
       social:
         linkedin: http://www.linkedin.com/in/tomaszmloduchowski
     Carsten_Munk:
@@ -587,7 +587,7 @@ en:
     Stanislaw_Klekot:
       name: Stanisław Klekot
       title: System Administrator
-      description: Zawodowo administruję serwerami linuksowymi, choć więcej czasu spędzam programując w rozmaitych językach.
+      description: Stanisław is a Linux Servers Administrator by profession, but he spends more time programming in different languages.
       social:
         world: http://dozzie.jogger.pl/
         linkedin: http://pl.linkedin.com/in/dozzie
