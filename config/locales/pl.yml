@@ -397,15 +397,15 @@ pl:
         name: "`korytarz` na piętrze czwartym"
       hackathon:
         code: HA@4
-        name: L??? na piętrze czwartym
+        name: L412 na piętrze czwartym
   sponsors:
     slogan: Sponsorzy mają zaczący wpływ na jakość konferencji
     slogan: Dzięki nim, Dni Wolnego Oprogramowania są wyjątkowe
     slogan: Przygarnij pingwinka pod swoje skrzydła :-)
     join_us: i zostań sponsorem DWO '14
     link:
-      text: Dowiedz się więcej z broszury dla sponsorów
-      url: "http://bit.ly/DniWolnegoOprogramowaniaBroszuraDlaSponsorow"
+      text: Dowiedz się więcej z broszury dla sponsorów?
+      url: "http://dwo.mikstura.it/booklets/broszura_dla_sponsorow.pdf"
     sponsors:
       gold:
         selleo:

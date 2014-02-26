@@ -397,7 +397,7 @@ en:
         name: hallway at floor 4th
       hackathon:
         code: HA@4
-        name: hackathon room at floor 4th
+        name: L412 at floor 4th
   sponsors:
     slogan: Sponsors do have an impact on the quality of the conference!
     slogan: They help make the Open Source Days a unique event.
@@ -405,7 +405,7 @@ en:
     join_us: sponsor the Open Source Days ‘14
     link:
       text: Check the Sponsorship Booklet for details
-      url: "http://bit.ly/OpenSourceDaysSponsorshipBooklet"
+      url: "http://opensourcedays.mikstura.it/booklets/sponsorship_booklet.pdf"
     sponsors:
       gold:
         selleo:
