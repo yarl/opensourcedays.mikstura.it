@@ -14,20 +14,31 @@
 #gold.text-center
   .span12#selleo
     .span5
-      = link_to 'http://selleo.com/', target: :blank do
+      = link_to 'http://bit.ly/1o5JRCp', target: :blank do
         = image_tag('/assets/sponsors/logo/selleo.png')
     .span6
       .sponsor-description{style: 'margin-top: 5em; margin-bottom: 1em;'}
         - I18n.t('sponsors.sponsors.gold.selleo.description').each do |paragraph|
           %p= paragraph
+  .span12#microsoft_openness
+    .span6
+      .sponsor-description{style: 'margin-top: 5em; margin-bottom: 1em;'}
+        - I18n.t('sponsors.sponsors.gold.microsoft_openness.description').each do |paragraph|
+          %p= paragraph
+    .span5
+      = link_to 'http://bit.ly/1k8KiOR', target: :blank do
+        = image_tag('/assets/sponsors/logo/microsoft_openness.png')
 
 #bronze.text-center
-  .span4.offset2#jetbrains
-    = link_to 'http://www.jetbrains.com/', target: :blank do
+  .span4#jetbrains
+    = link_to 'https://bit.ly/NZW9BC', target: :blank do
       = image_tag('/assets/sponsors/logo/jetbrains.png')
   .span4#helion
-    = link_to 'http://www.helion.pl/', target: :blank do
+    = link_to 'http://bit.ly/1bLJ6hC', target: :blank do
       = image_tag('/assets/sponsors/logo/helion.png')
+  .span4#aip
+    = link_to 'http://bit.ly/1ew2xWu', target: :blank do
+      = image_tag('/assets/sponsors/logo/aip.png')
 
 
 -#.span12.text-center

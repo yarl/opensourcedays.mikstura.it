@@ -411,6 +411,9 @@ en:
         selleo:
           description:
                 - Selleo is a web and mobile development house based in Bielsko-Biała, Poland. We support entrepreneurs, enterprise clients, consultancies and NGO innovators in their efforts to develop software infrastructure for web and mobile enabled processes and ventures. We design, develop and maintain custom web and mobile applications and advise on technology issues. We seek collaboration with clients who are after software driven innovation in private, public or voluntary sector. On the other hand, we are always on the lookout for designers and developers who value openness, reliability, collaboration and continuous learning and who are genuinely committed to their professional development.
+        microsoft_openess:
+          description:
+                - " "
   contact_us:
     hint: Should you have any queries, please do not hesitate to contact us using the channels below.
     follow_us:
