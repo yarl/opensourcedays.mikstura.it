@@ -15,11 +15,20 @@ class Workshop < Struct.new(:id, :date)
         I18n.t(info_where, scope: [:venue, :places]))
   end
 
-  delegate :name, :picture, to: :lead, prefix: true
+  def lead_names
+    leaders.map(&:name)
+  end
 
-  def lead
-    info_lead ?
-        Person.new(info_lead) : nil
+  def lead_pictures
+    leaders.map(&:picture)
+  end
+
+  def leaders
+    info_leads.map {|info_lead| Person.new(info_lead)}
+  end
+
+  def info_leads
+    info_lead.is_a?(Array) ? info_lead : [info_lead]
   end
 
   delegate :type, :logo, to: :info

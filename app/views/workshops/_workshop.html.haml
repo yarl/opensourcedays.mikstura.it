@@ -5,12 +5,23 @@
   %br.clearfix/
   .event-entry.text-center
     %h3.entry-title= workshop.title
-    %p.lead
-      = workshop.lead_name
-      .photo-wrap
-        = image_tag("/assets/speakers/#{workshop.lead_picture}", width: 50)
+    - if workshop.leaders.size > 1
+      .span1
+      - workshop.leaders.each do |lead|
+        .span2
+          %p.lead
+            = lead.name
+            .photo-wrap
+              = image_tag("/assets/speakers/#{lead.picture}", width: 50)
+    - else
+      - workshop.leaders.each do |lead|
+        %p.lead
+          = lead.name
+          .photo-wrap
+            = image_tag("/assets/speakers/#{lead.picture}", width: 50)
+
     .event-image
-      %img.img-circle{:alt => workshop.title, :src => "/assets/workshops/#{workshop.logo}"}
+      %img{:alt => workshop.title, :src => "/assets/workshops/#{workshop.logo}"}
   .entry-content
     - workshop.description.each do |paragraph|
       %p= paragraph

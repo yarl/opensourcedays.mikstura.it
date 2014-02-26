@@ -204,9 +204,12 @@ en:
         15-20:
           id: 120
           type: talk
-          speaker:
-          title: TBA
-          description: TBA
+          speaker: Henryk_Konsek
+          title: Infracoding wg JBossa - Fuse Fabric + Docker
+          description:
+            - Opowiem o tym, jak w Red Hatcie (JBossie) pomagam naszym największym klientom projektować rozwiązania, które po wdrożeniu na produkcje... po prostu działają.
+            - Przedstawię tematykę "infracodingu" jako techniki pozwalającej na zminimalizowanie szansy na to, że oprogramowanie tworzone przez developera na jednej maszynie, zacznie sypać się po wdrożeniu na klaster w data center lub chmurze.
+            - Opowiem też, dlaczego z pomocą takich projektów open source jak Fuse Fabric i Docker, każdy developer staje się devopsem.
         15-40:
           id: 121
           type: talk
@@ -256,15 +259,16 @@ en:
         10-00:
           id: 130
           type: talk
-          speaker:
-          title: TBA
-          description: TBA
+          speaker: Stanislaw_Klekot
+          title: Topic maps -- wyższy poziom organizacji wiedzy
+          description:
+            - "Silniki wiki znają praktycznie wszyscy. Administratorzy trzymają w nich notatki o sieci, programiści opisy architektury aplikacji i dokumentację użytkowników. Czy da się ulepszyć ten system? Spróbujemy to zrobić za pomocą mało znanej struktury: map tematów."
         10-20:
           id: 131
           type: talk
-          speaker:
-          title: TBA
-          description: TBA
+          speaker: Grzegorz_Nosek
+          title: Kiedy rozum śpi, budzą się backupy
+          description: Bacula to system backupowy wysublimowany jak radziecki traktor, ale rewelacyjny przy dużej ilości danych (wydajny, skalowalny , w pełni buzzword-compliant).
         10-40:
           id: 132
           type: talk
@@ -277,9 +281,16 @@ en:
         11-30:
           id: 134
           type: talk
-          speaker:
-          title: TBA
-          description: TBA
+          speaker: Karol_Ryt
+          title: Jak robić gry to z głową, czyli jak zrobić coś sensownego. Wczesne metody weryfikacji pomysłów.
+          description:
+            - Wiele osób chce zrealizować jakiś określony projekt. Jak to bywa w gamedevie znany jest tylko kierunek a wykonanie przychodzi w formie luźnej adaptacji w celu zrealizowania projektu.
+            - Jak zrobić to optymalnie?
+            - " * Powinno się zrewaulować problem pod względem dostępnych istniejących rozwiązań."
+            - " * Gdy ich nie ma zastanawić się jak to rozwiązać."
+            - " * Implementacja."
+            - Teraz ważniejsze pytanie czy da się zrobić to jeszcze efektywniej?
+            - Przenosząc wiedzę i doświadczenie z imprez z San Francisco gdzie spędziłem ponad 2 miesiące poprzedniego roku chciałbym zaprezentować co można zrobić by sprawdzić czy dany pomysł ma sens jeszcze w fazie pomysłu.
         11-50:
           id: 135
           type: talk
@@ -367,6 +378,36 @@ en:
         - Are you a fan of Open Source software? Have you always wanted to set the penguin free? You may as well what to make it walk, flap its wings, sing or even dance.
         - Join us at the workshop to build and programme your own Robo-penguin! Come and unleash your imagination!
       logo: lego.mindstorms.jpg
+    open_street_map:
+      lead: Pawel_Marynowski
+      where: computer
+      title: OpenStreetMap - narysuj swoją okolicę
+      description:
+        - "Warsztaty edytowania OpenStreetMap, otwartej mapy świata tworzonej przez ludzi z całego świata. W skład warsztatów wchodzi:"
+        - " * krótkie wprowadzenie teoretyczne"
+        - " * podstawy praktyczne"
+        - " * praca samodzielna pod okiem ekspertów ;)"
+      logo: open.street.map.wikipedia.org.jpg
+    continuous_delivery:
+      lead: Mateusz_Juscinski
+      where: small
+      title: Problemy ludzi Pierwszego Świata, czyli jak zbudować środowisko Continuous Delivery
+      description:
+        - Jeśli w swoim projekcie piszesz testy i wprowadziłeś/łaś Continuous Integration to jeszcze nie jesteś zwycięzcą. Pójdź o krok dalej, zautomatyzuj proces deploymentu kodu (lub go ulepsz) i zostań prawdziwym zwycięzcą!
+        - Na tym spotkaniu chciałbym podzielić się moimi doświadczeniami dotyczącymi tworzenia środowisk CD. Zaczniemy od elementów niezbędnych do złożenia takiego środowiska, przejdziemy przez architekturę aplikacji i skończymy na narzędziach, które mogą się przydać.
+        - Podczas warsztatu nie przewiduję klepania komend w konsoli, jego celem jest prezentacja problemów i dyskusja nad ich rozwiązaniami.
+      logo: continuous.delivery.pixabay.com.png
+    ember_js:
+      lead:
+        - Tomasz_Bak
+        - Wojtek_Ryrych
+      where: small
+      title: aplikacje webowe na miarę XXI wieku
+      description:
+        - Na podstawie przykładowej aplikacji poznamy jak działa technologia Ember.js - nowoczesny framework MVVC Javascript do, jak to trafnie ujęli jego twórcy, 'budowania ambitnych aplikacji'.
+        - Mając za sobą potężne wsparcie społeczności, Ember.js stał się tym, czym dla programistów back-end stał się Ruby On Rails czy Django. Obficie korzystając z konwencji znanych w Railsach, Ember.js służy po prostu do wykonywania roboty, stając się przedłużeniem ręki programisty, nie jego zmorą.
+      logo: ember.js.emberjs.com.png
+
   venue:
     take_place: "The conference will take place at the university"
     ath: Akademia Techniczno-Humanistyczna in Bielsko-Biała
@@ -594,6 +635,30 @@ en:
       social:
         world: http://dozzie.jogger.pl/
         linkedin: http://pl.linkedin.com/in/dozzie
+    Henryk_Konsek:
+      name: Henryk Konsek
+      title: Inżynier @ Red Hat
+      description: Zaangażowany w ruch open source rozwijając takie projekty jak Apache Camel oraz Spring Scala. Promuję wypasione technologie open source.
+      social:
+        twitter: https://twitter.com/hekonsek
+    Grzegorz_Nosek:
+      name: Grzegorz Nosek
+      title: CTO @ MegiTeam
+      description: Współzałożyciel i Chief Tinkering Officer w MegiTeam. Zbyt doświadczony administrator Linuksów i programista systemowy, programista Python/Django.
+      social:
+        twitter: https://twitter.com/@GrzegorzNosek
+    Tomasz_Bak:
+      name: Tomasz Bąk
+      title: RoR & JS Craftsman
+      description: Ruby On Rails and Javascript Craftsman
+      social:
+        twitter: https://twitter.com/tomaszbak
+    Wojtek_Ryrych:
+      name: Wojtek Ryrych
+      title: Front-End Develper
+      description:
+      social:
+        twitter: https://twitter.com/wryrych
 
   footer:
     is_organised_by: The Open Source Days 2014 conference is organized by
