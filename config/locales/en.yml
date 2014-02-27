@@ -205,11 +205,11 @@ en:
           id: 120
           type: talk
           speaker: Henryk_Konsek
-          title: Infracoding wg JBossa - Fuse Fabric + Docker
+          title: Infracoding. JBoss - Fuse Fabric + Docker
           description:
-            - Opowiem o tym, jak w Red Hatcie (JBossie) pomagam naszym największym klientom projektować rozwiązania, które po wdrożeniu na produkcje... po prostu działają.
-            - Przedstawię tematykę "infracodingu" jako techniki pozwalającej na zminimalizowanie szansy na to, że oprogramowanie tworzone przez developera na jednej maszynie, zacznie sypać się po wdrożeniu na klaster w data center lub chmurze.
-            - Opowiem też, dlaczego z pomocą takich projektów open source jak Fuse Fabric i Docker, każdy developer staje się devopsem.
+            - I will talk about how Red Hat (using JBoss) help their biggest enterprise clients design solutions which simply work well after they have been deployed to production.
+            - I will attempt to introduce “infracoding” as a technique which reduces the risk of software failure after the code created by a developer is deployed to a cluster in a data centre or the cloud.
+            - I will also try to explain how such open source projects as Fuse Fabric and Docker help transform a developer into a devops.
         15-40:
           id: 121
           type: talk
@@ -260,15 +260,15 @@ en:
           id: 130
           type: talk
           speaker: Stanislaw_Klekot
-          title: Topic maps -- wyższy poziom organizacji wiedzy
+          title: Topic maps - a higher level of knowledge organization
           description:
-            - "Silniki wiki znają praktycznie wszyscy. Administratorzy trzymają w nich notatki o sieci, programiści opisy architektury aplikacji i dokumentację użytkowników. Czy da się ulepszyć ten system? Spróbujemy to zrobić za pomocą mało znanej struktury: map tematów."
+            - All of you are most probably familiar with wiki engines. System admins use them to keep notes; programmers store application architecture descriptions or user documentation in them. Can this system be refined? The not-so-well-known concept of topic maps may very well help us come up with some improvements.
         10-20:
           id: 131
           type: talk
           speaker: Grzegorz_Nosek
-          title: Kiedy rozum śpi, budzą się backupy
-          description: Bacula to system backupowy wysublimowany jak radziecki traktor, ale rewelacyjny przy dużej ilości danych (wydajny, skalowalny , w pełni buzzword-compliant).
+          title: The sleep of reason produces … backups.
+          description: Bacula is a backup system which brings to mind the sublime quality of a Soviet tractor. And yet it is splendid when it comes to handling large amounts of data - it is efficient, scalable and fully buzzword-compliant.
         10-40:
           id: 132
           type: talk
@@ -282,15 +282,15 @@ en:
           id: 134
           type: talk
           speaker: Karol_Ryt
-          title: Jak robić gry to z głową, czyli jak zrobić coś sensownego. Wczesne metody weryfikacji pomysłów.
+          title: How to create games in a sensible way - early idea validation methods.
           description:
-            - Wiele osób chce zrealizować jakiś określony projekt. Jak to bywa w gamedevie znany jest tylko kierunek a wykonanie przychodzi w formie luźnej adaptacji w celu zrealizowania projektu.
-            - Jak zrobić to optymalnie?
-            - " * Powinno się zrewaulować problem pod względem dostępnych istniejących rozwiązań."
-            - " * Gdy ich nie ma zastanawić się jak to rozwiązać."
+            - Many people are eager to implement their own projects. As it is typical of game development, at first all you know is an overall direction and it is only on the way that important implementation decisions are made.
+            - Is there room for optimization under such conditions?
+            - " * You should for sure validate your concept against existing solutions."
+            - " * And what if there are no such solutions available? Is there anything else you can do?"
             - " * Implementacja."
             - Teraz ważniejsze pytanie czy da się zrobić to jeszcze efektywniej?
-            - Przenosząc wiedzę i doświadczenie z imprez z San Francisco gdzie spędziłem ponad 2 miesiące poprzedniego roku chciałbym zaprezentować co można zrobić by sprawdzić czy dany pomysł ma sens jeszcze w fazie pomysłu.
+            - I would like to share the knowledge and experience I brought from gaming events in San Francisco last year. I would in particular like to explore what can be done to early validate a concept rather than an emerging solution under implementation.
         11-50:
           id: 135
           type: talk
@@ -381,31 +381,31 @@ en:
     open_street_map:
       lead: Pawel_Marynowski
       where: computer
-      title: OpenStreetMap - narysuj swoją okolicę
+      title: OpenStreetMap - put your neighbourhood on the map.
       description:
-        - "Warsztaty edytowania OpenStreetMap, otwartej mapy świata tworzonej przez ludzi z całego świata. W skład warsztatów wchodzi:"
-        - " * krótkie wprowadzenie teoretyczne"
-        - " * podstawy praktyczne"
-        - " * praca samodzielna pod okiem ekspertów ;)"
+        - "A workshop on editing the OpenStreetMap - an open map of the world co-created by people from all over the world. The workshop will cover:"
+        - " * a brief theoretical introduction to the topic "
+        - " * mastering the practical basics "
+        - " * and making your own contribution with the support of an expert ;)"
       logo: open.street.map.wikipedia.org.jpg
     continuous_delivery:
       lead: Mateusz_Juscinski
       where: small
-      title: Problemy ludzi Pierwszego Świata, czyli jak zbudować środowisko Continuous Delivery
+      title: The problems faced by first-world people - how to set up a continuous delivery environment.
       description:
-        - Jeśli w swoim projekcie piszesz testy i wprowadziłeś/łaś Continuous Integration to jeszcze nie jesteś zwycięzcą. Pójdź o krok dalej, zautomatyzuj proces deploymentu kodu (lub go ulepsz) i zostań prawdziwym zwycięzcą!
-        - Na tym spotkaniu chciałbym podzielić się moimi doświadczeniami dotyczącymi tworzenia środowisk CD. Zaczniemy od elementów niezbędnych do złożenia takiego środowiska, przejdziemy przez architekturę aplikacji i skończymy na narzędziach, które mogą się przydać.
-        - Podczas warsztatu nie przewiduję klepania komend w konsoli, jego celem jest prezentacja problemów i dyskusja nad ich rozwiązaniami.
+        - You might have used tests and continuous integration on your projects - it still does not mean you are the winner. Take another step and automate or improve the process of code deployment and thus become the real winner!
+        - I would like to share my experience with setting up CD environments. I will start with some necessary basics, then I will move on to application architecture and - to the extent the time allows - I will also talk about some tools which may come in handy.
+        - We will not be feeding commands into the console, but rather present problems and discuss solutions to them.
       logo: continuous.delivery.pixabay.com.png
     ember_js:
       lead:
         - Tomasz_Bak
         - Wojtek_Ryrych
       where: small
-      title: aplikacje webowe na miarę XXI wieku
+      title: 21st Century Web Applications
       description:
-        - Na podstawie przykładowej aplikacji poznamy jak działa technologia Ember.js - nowoczesny framework MVVC Javascript do, jak to trafnie ujęli jego twórcy, 'budowania ambitnych aplikacji'.
-        - Mając za sobą potężne wsparcie społeczności, Ember.js stał się tym, czym dla programistów back-end stał się Ruby On Rails czy Django. Obficie korzystając z konwencji znanych w Railsach, Ember.js służy po prostu do wykonywania roboty, stając się przedłużeniem ręki programisty, nie jego zmorą.
+        - Making references to a specific app, we will present Ember.js - a modern MVVC Javascript framework meant for “crafting ambitious applications".
+        - With a massive community support, Ember.js has become what back-end developers have found in Ruby on Rails or Django. Based on conventions known in Rails, Ember.js is a solid technology with which to get things done well. Find out more about it!
       logo: ember.js.emberjs.com.png
 
   venue:
@@ -637,14 +637,14 @@ en:
         linkedin: http://pl.linkedin.com/in/dozzie
     Henryk_Konsek:
       name: Henryk Konsek
-      title: Inżynier @ Red Hat
-      description: Zaangażowany w ruch open source rozwijając takie projekty jak Apache Camel oraz Spring Scala. Promuję wypasione technologie open source.
+      title: ENGINEER @ RED HAT
+      description: Henryk is engaged in the open source movement developing such projects as Apache Camel and Spring Scala. An avid advocate for cool open source technologies.
       social:
         twitter: https://twitter.com/hekonsek
     Grzegorz_Nosek:
       name: Grzegorz Nosek
       title: CTO @ MegiTeam
-      description: Współzałożyciel i Chief Tinkering Officer w MegiTeam. Zbyt doświadczony administrator Linuksów i programista systemowy, programista Python/Django.
+      description: Co-founder and Chief Tinkering Officer @ MegiTeam. Linux Admin with too much experience on his hands; system programmer and Python/Django developer.
       social:
         twitter: https://twitter.com/@GrzegorzNosek
     Tomasz_Bak:
