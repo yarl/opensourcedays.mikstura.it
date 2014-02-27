@@ -287,10 +287,10 @@ en:
             - Many people are eager to implement their own projects. As it is typical of game development, at first all you know is an overall direction and it is only on the way that important implementation decisions are made.
             - Is there room for optimization under such conditions?
             - " * You should for sure validate your concept against existing solutions."
-            - " * And what if there are no such solutions available? Is there anything else you can do?"
-            - " * Implementacja."
-            - Teraz ważniejsze pytanie czy da się zrobić to jeszcze efektywniej?
-            - I would like to share the knowledge and experience I brought from gaming events in San Francisco last year. I would in particular like to explore what can be done to early validate a concept rather than an emerging solution under implementation.
+            - " * And what if there are no such solutions available? "
+            - " * Is there anything else you can do? "
+            - I would like to share the knowledge and experience I brought from gaming events in San Francisco last year.
+            - I would in particular like to explore what can be done to early validate a concept rather than an emerging solution under implementation.
         11-50:
           id: 135
           type: talk
