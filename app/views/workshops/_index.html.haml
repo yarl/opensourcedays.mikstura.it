@@ -3,7 +3,9 @@
     %h4= t('section.workshops')
 - {'Sobota 29 Marca 11:15 - 12:35' => [:open_source, :your_own_parser],
    'Sobota 29 Marca 14:45 - 16:15' => [:mindstorms, :ember_js],
-   'Sobota 29 Marca 16:15 - 17:45' => [:open_street_map, :continuous_delivery]}.each do |(date, workshops)|
+   'Sobota 29 Marca 16:15 - 17:45' => [:open_street_map, :continuous_delivery],
+   'Niedziela 30 Marca 11:15 - 12:45' => [:unity3d, :firefoxos],
+   'Niedziela 30 Marca 13:15 - 14:45' => [:ux]}.each do |(date, workshops)|
   %ul.event-items
     - workshops.each do |workshop|
       = render :partial => '/workshops/workshop', locals: { workshop: Workshop.new(workshop, date)}

@@ -231,7 +231,7 @@ pl:
           id: 125
           type: talk
           speaker: Bartosz_Piec
-          title: Firefox OS
+          title:  Firefox OS ‒ czym to się je?
           description: TBA
         17-30:
           id: 126
@@ -407,6 +407,36 @@ pl:
         - Na podstawie przykładowej aplikacji poznamy jak działa technologia Ember.js - nowoczesny framework MVVC Javascript do, jak to trafnie ujęli jego twórcy, 'budowania ambitnych aplikacji'.
         - Mając za sobą potężne wsparcie społeczności, Ember.js stał się tym, czym dla programistów back-end stał się Ruby On Rails czy Django. Obficie korzystając z konwencji znanych w Railsach, Ember.js służy po prostu do wykonywania roboty, stając się przedłużeniem ręki programisty, nie jego zmorą.
       logo: ember.js.emberjs.com.png
+    ux:
+      lead: Mikolaj_Pastuszko
+      where: small
+      title:  Projektowanie interakcji
+      description:
+        - Narysować interfejs potrafi każdy pingwin. Jednak nie każdy leming potrafi z takiego interfejsu skorzystać.
+        - Zaprojektowanie przejrzystego i zrozumiałego dla użytkownika interfejsu może się wydawać zadaniem łatwym. Jednakże konfrontacja oczekiwań z zachowaniem prawdziwych użytkowników niejednokrotnie przynosi rozczarowanie. A przecież to właśnie dla nich tworzymy.
+        - "Podczas warsztatów nauczymy się:"
+        - " => Budować prototyp interfejsu użytkownika"
+        - " => Oceniać interfejs metodą ewaluacji heurystycznej"
+        - " => Testować używalność interfejsu z udziałem użytkowników"
+        - Prototypować będziemy na papierze. Komputery nie będą potrzebne.
+      logo: ux.de.wikipedia.org.png
+    unity3d:
+      lead:
+        - Arkadiusz_Kwasny
+        - Sebastian_Ewak
+      where: computer
+      title: Tworzenie gier przy użyciu Unity 3D dla początkujących
+      description:
+        - Podczas tego warsztatu uczestnicy będą mieli okazje poznać środowisko tworzenia gier Unity 3D oraz stworzyć bardzo proste gry oparte o mechanizmy, które zostaną przedstawione.
+        - Nacisk zostanie położony na wykorzystanie gotowych narzędzi, z których większość nie wymaga żadnego programowania.
+        - Jest szansa, że podczas warsztatów zostanie również udostępnione demo wirtualnej rzeczywistości w oparciu o wykorzystanie Unity 3D oraz Oculus Rift.
+      logo: unity3d.en.wikipedia.org.png
+    firefoxos:
+      lead: Bartosz_Piec
+      where: small
+      title: Firefox OS dla deweloperów
+      description: " "
+      logo: firefox.os.mozilla.org.png
 
   venue:
     take_place: Konferencja odbędzie się na uczelni
@@ -659,7 +689,14 @@ pl:
       description:
       social:
         twitter: https://twitter.com/wryrych
-
+    Sebastian_Ewak:
+      name: Sebastian Ewak
+      title: Unity 3D Developer
+      description:
+      social:
+        twitter: https://twitter.com/SebastianEwak
+        linkedin: http://pl.linkedin.com/pub/sebastian-ewak/31/6aa/624
+        google: https://plus.google.com/u/0/116461850930426670270/posts
 
   footer:
     is_organised_by: Konferencja Dni Wolnego Oprogramowania 2014 jest organizowana przez
