@@ -348,9 +348,16 @@ en:
         15-40:
           id: 144
           type: talk
-          speaker:
-          title: TBA
-          description: TBA
+          speaker: Halil_Karaca
+          title: The Dark Matter Programmer's Guide to the Open Source Galaxy
+          description:
+            - The aim of this speech is to encourage developers to contribute to open-source projects, increase awareness of the open-source universe and the importance of giving back to the community, for those who don’t have any online presence and community experience yet; a.k.a the ‘dark matter programmers’.
+            - Who are the Dark Matter Programmers?
+            - Why One Should Contribute to Open Source Projects?
+            - How to find an open source project to contribute to?
+            - You find an interesting project and get on the boat, how about your first commit?
+            - Case Study - My very first open-source experience.
+            - "Bonus: How to win developers for your own open-source project."
         16-00:
           id: 145
           type: bye
@@ -389,7 +396,7 @@ en:
         - " * a brief theoretical introduction to the topic "
         - " * mastering the practical basics "
         - " * and making your own contribution with the support of an expert ;)"
-      logo: open.street.map.wikipedia.org.jpg
+      logo: open.street.map.wikipedia.org.png
     continuous_delivery:
       lead: Mateusz_Juscinski
       where: small
@@ -705,6 +712,14 @@ en:
       description:
       social:
         world: http://www.meetup.com/Krakow-Unity-3D-Meetup-Group/member/121393042/
+    Halil_Karaca:
+      name: Halil Karaca
+      title: Software Engineer
+      description: A 'traveler' Software Engineer and a bass player. 4 jobs in 4 different countries and rigorous in building rock-solid back-end architecture.
+      social:
+        facebook: https://www.facebook.com/ibo549
+        linkedin: http://www.linkedin.com/in/iiboo
+        world: https://www.codeplex.com/site/users/view/halilk
 
   footer:
     is_organised_by: The Open Source Days 2014 conference is organized by
