@@ -392,10 +392,8 @@ pl:
       where: computer
       title: OpenStreetMap - narysuj swoją okolicę
       description:
-        - "Warsztaty edytowania OpenStreetMap, otwartej mapy świata tworzonej przez ludzi z całego świata. W skład warsztatów wchodzi:"
-        - " * krótkie wprowadzenie teoretyczne"
-        - " * podstawy praktyczne"
-        - " * praca samodzielna pod okiem ekspertów ;)"
+        - OpenStreetMap to globalny projekt mający na celu stworzenie darmowej oraz swobodnie dostępnej mapy świata. Wszelkie dane zawarte w projekcie udostępniane są na otwartej licencji, co umożliwia dalsze ich wykorzystywanie, między innymi w systemach nawigacji GPS oraz wszelkiego rodzaju planach oraz mapach.
+        - Podczas warsztatów będziecie mieli możliwość zapoznania się z filozofią oraz podstawami teoretycznymi projektu. Teorię uzupełni kurs edytowania OpenStreetMap przy pomocy aplikacji JOSM. Warsztaty przeznaczone są zarówno dla osób początkujących jak i chętnych do zapoznania się z projektem. Na pewno dowiesz się jak zgłosić błędy na mapie, w jaki sposób samodzielnie dodać nowe informacje oraz poprawić istniejące.
       logo: open.street.map.wikipedia.org.png
     continuous_delivery:
       lead: Mateusz_Juscinski
